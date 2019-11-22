@@ -1,0 +1,45 @@
+{% extends 'base.html' %}
+
+{% block content %}
+  <h2>{{ movie.title }}</h2><hr>
+  <p>누적 관객 수 : {{ movie.audience }} 명</p>
+  <p>장르 : {% for genre in movie.genres.all %}<span>{{ genre.name }}</span>{% endfor %}</p>
+  <img src="{{ movie.poster_url }}" width="300" height="450"><br>
+  <br>
+  <p>{{ movie.description }}</p>
+  <br>
+  <a href="{% url 'movies:like' movie.pk %}">
+    {% if user in movie.liked_users.all %}
+      <i class="fas fa-heart fa-lg" style="color: red"></i>
+    {% else %}
+      <i class="far fa-heart fa-lg" style="color: black"></i>
+    {% endif %}
+  </a>
+  <p>{{ movie.liked_users.all | length }}명이 이 영화를 좋아합니다.</p>
+  <hr>
+
+  <h3>평가</h3>
+  <ul>
+    {% for review in reviews %}
+      <li>
+        <span>★{{ review.score }} | {{ review.comment }}</span>
+        {% if request.user == review.user %}
+          <form action="{% url 'movies:review_delete' movie.pk review.pk %}" method="post">
+            {% csrf_token %}
+            <button type="submit">삭제하기</button>
+          </form>
+        {% endif %}
+      </li>
+    {% endfor %}
+  </ul>
+
+  {% if user.is_authenticated %}
+    <form action="{% url 'movies:review_create' movie.pk %}" method="post">
+      {% csrf_token %}
+      {{ review_form.as_table }}
+      <button type="submit">작성하기</button>
+    </form>
+  {% endif %}
+  <hr>
+  <a href="{% url 'movies:index' %}">Back</a>
+{% endblock %}
