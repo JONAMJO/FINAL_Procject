@@ -1,4 +1,4 @@
-"""project_final URL Configuration
+"""Final URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/2.2/topics/http/urls/
@@ -17,7 +17,7 @@ from django.contrib import admin
 from django.urls import path, include
 
 urlpatterns = [
-    path('/accounts', include('accounts.urls')),
-    path('/moveis', include('movies.urls')),
+    path('/users', include('users.urls')),
+    path('/movies', include('movies.urls')),
     path('admin/', admin.site.urls),
 ]
