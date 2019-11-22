@@ -4,6 +4,3 @@
 
 JONAMJO
 
-
-
-aass
