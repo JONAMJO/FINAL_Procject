@@ -21,9 +21,7 @@
 
 </div>
 
-<h3 class="text-center">{{ person.username }}이 작성한 리뷰</h3>
-<br>
-
+<h3 class="text-center">{{ person }}이 작성한 리뷰</h3>
 <div class="row">
   {% with reviews=person.review_set.all  %}
   {% for review in reviews %}
@@ -48,12 +46,21 @@
   <p>내 친구가 좋아하는 영화</p>
   <hr>
   {% if people == user %}
+<<<<<<< HEAD
+  {% for user_follow in people.followings.all %}
+  <p>{{ user_follow.review_set.first.movie.title }}
+    {{ user_follow.review_set.first.score }}</p>
+  {% endfor %}
+  {% else %}
+    <p>본인만 볼 수 있습니다.</p>
+=======
     {% for user_follow in people.followings.all %}
     <p>{{ user_follow.review_set.first.movie.title }}
       {{ user_follow.review_set.first.score }}</p>
     {% endfor %}
     {% else %}
     본인만 볼 수 있습니다.
+>>>>>>> 3191585ee8f39c7b60cb4aa5ff0a352f6ac8c2b4
   {% endif %}
   <hr>
 </div>

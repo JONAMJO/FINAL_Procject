@@ -45,7 +45,7 @@ class Review(models.Model):
     movie = models.ForeignKey(Movie, on_delete=models.CASCADE)
     user = models.ForeignKey(get_user_model(), on_delete=models.CASCADE)
     review = models.CharField(max_length=150)
-    score = models.IntegerField(validators=[MinValueValidator(0), MaxValueValidator(5)])
+    score = models.IntegerField(validators=[MinValueValidator(0), MaxValueValidator(10)])
 
     class Meta:
         ordering = ('-pk',)
