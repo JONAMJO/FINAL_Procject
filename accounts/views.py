@@ -5,6 +5,7 @@ from django.contrib.auth import login as auth_login
 from django.contrib.auth import logout as auth_logout
 from django.contrib.auth import update_session_auth_hash
 from django.shortcuts import render, redirect, get_object_or_404
+from django.http import JsonResponse, HttpResponseBadRequest
 from django.contrib.auth import get_user_model
 from django.contrib.auth.forms import AuthenticationForm, PasswordChangeForm
 from . forms import CustomUserChangeForm, CustomUserCreationForm
@@ -98,12 +99,18 @@ def profile(request, user_pk):
 
 @login_required
 def follow(request, user_pk):
-    users = get_object_or_404(get_user_model(), pk=user_pk)
-    if request.user in users.followers.all():
-        users.followers.remove(request.user)
+    if request.is_ajax():
+        users = get_object_or_404(get_user_model(), pk=user_pk)
+        if request.user in users.followers.all():
+            users.followers.remove(request.user)
+            followed = False
+        else:
+            users.followers.add(request.user)
+            followed = True
+        context = {'followed': followed,}
+        return JsonResponse(context)
     else:
-        users.followers.add(request.user)
-    return redirect('accounts:profile', user_pk)
+        return HttpResponseBadRequest()
     
 
 @login_required
