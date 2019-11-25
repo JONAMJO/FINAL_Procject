@@ -9,10 +9,10 @@
 <h6>{{ movie.subtitle }}</h6>
 <img src="{{ movie.image }}" alt="img"> <br>
 <br>
-
-<p>감독 : {{ movie.director }}</p>
 <p>장르 : {{ movie.genre }}</p>
 <p>개봉년도 : {{ movie.pubDate }}</p>
+<p>감독 : {{ movie.director }}</p>
+<p>배우 : {{ movie.actor }}</p>
 <p>평점 : {{ movie.userRating }}</p>
 <p>영화링크 : <a href="{{ movie.link }}">{{ movie.link }}</a></p>
 <p>
@@ -30,7 +30,7 @@
 <h5>리뷰</h5>
 {% for review in reviews %}
 <div>
-  <li> 평점은? {{ review.score }}점 | 내용은? {{ review.review }}</li>
+  <li><i class="fas fa-star" style="color: #FFD700;"></i>{{ review.score }} | 내용: {{ review.review }}</li>
   {% if request.user == review.user %}
   <form action="{% url 'movies:reviews_update' movie.pk review.pk %}" method="POST" style="display: inline;">
     {% csrf_token %}

@@ -71,9 +71,9 @@
     {% elif genre.id == 2 %}
       <p>2: {{ movie.title }}</p>
     {% elif genre.id == 7 %}
-      <p>3: {{ movie.title }}</p>
+      <p>7: {{ movie.title }}</p>
     {% elif genre.id == 8 %}
-      <p>4: {{ movie.title }}</p>
+      <p>8: {{ movie.title }}</p>
     {% endif %}
   {% endfor %}
 
@@ -87,5 +87,4 @@
     <movie-list-item v-for="movie in filterMovies" :key="movie.id" :movie="movie"></movie-list-item>
   </div>
 </div>
-
 {% endblock %}
