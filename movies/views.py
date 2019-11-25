@@ -60,14 +60,6 @@ def reviews_update(request, movie_pk, review_pk):
 
 @login_required
 def like(request, movie_pk):
-<<<<<<< HEAD
-    movie = get_object_or_404(Movie, pk=movie_pk)
-    if movie.like_users.filter(pk=request.user.pk).exists():
-        movie.like_users.remove(request.user)
-    else:
-        movie.like_users.add(request.user)
-    return redirect('movies:index')
-=======
     if request.is_ajax():
         movie = get_object_or_404(Movie, pk=movie_pk)
         if movie.like_users.filter(pk=request.user.pk).exists():
@@ -80,4 +72,4 @@ def like(request, movie_pk):
         return JsonResponse(context)
     else:
         return HttpResponseBadRequest()
->>>>>>> 3191585ee8f39c7b60cb4aa5ff0a352f6ac8c2b4
+
