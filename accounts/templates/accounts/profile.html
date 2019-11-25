@@ -9,15 +9,16 @@
 <div>
   <h4> <strong>{{ people }}</strong> </h4>
   
-  <p>팔로우: <a href="{% url 'accounts:followings' people.pk %}">{{ people.followings.all.count }}</a></p>
-  <p>팔로워: <a href="{% url 'accounts:followers' people.pk %}">{{ people.followers.all.count }}</a></p>
   {% if people != user %}
     {% if people in user.followings.all %}
-      <a href="{% url 'accounts:follow' people.pk %}">언팔로우</a>
+      <i class="fas fa-heart follow-button" style="color: red;" data-id="{{ people.pk }}"></i>
     {% else %}
-      <a href="{% url 'accounts:follow' people.pk %}">팔로우</a>
+      <i class="fas fa-heart follow-button" style="color: black;" data-id="{{ people.pk }}"></i>
     {% endif %}
   {% endif %}
+  <p>팔로우 목록: <a href="{% url 'accounts:followings' people.pk %}">{{ people.followings.all.count }}</a></p>
+  <p>팔로워 목록: <a href="{% url 'accounts:followers' people.pk %}">{{ people.followers.all.count }}</a></p>
+
 </div>
 
 <h3 class="text-center">{{ person }}이 작성한 리뷰</h3>
@@ -45,14 +46,45 @@
   <p>내 친구가 좋아하는 영화</p>
   <hr>
   {% if people == user %}
+<<<<<<< HEAD
   {% for user_follow in people.followings.all %}
   <p>{{ user_follow.review_set.first.movie.title }}
     {{ user_follow.review_set.first.score }}</p>
   {% endfor %}
   {% else %}
     <p>본인만 볼 수 있습니다.</p>
+=======
+    {% for user_follow in people.followings.all %}
+    <p>{{ user_follow.review_set.first.movie.title }}
+      {{ user_follow.review_set.first.score }}</p>
+    {% endfor %}
+    {% else %}
+    본인만 볼 수 있습니다.
+>>>>>>> 3191585ee8f39c7b60cb4aa5ff0a352f6ac8c2b4
   {% endif %}
   <hr>
 </div>
 
-{% endblock content %}
+
+<script>
+  const likebuttons = document.querySelectorAll('.follow-button')
+  likebuttons.forEach(button => {
+    button.addEventListener('click', function (event) {
+      const peopleId = event.target.dataset.id
+      axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest'
+      axios.defaults.xsrfCookieName = 'csrftoken'
+      axios.defaults.xsrfHeaderName = 'X-CSRFToken'
+      axios.post(`/accounts/${peopleId}/follow/`)
+        .then(response => {
+          if (response.data.followed) {
+            event.target.style.color = 'red'
+          } else {
+            event.target.style.color = 'black'
+          }
+        })
+    })
+  })
+</script>
+
+
+{% endblock %}

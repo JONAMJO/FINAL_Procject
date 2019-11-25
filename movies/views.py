@@ -2,7 +2,7 @@ from IPython import embed
 from django.contrib.auth import get_user_model
 from django.contrib.auth.decorators import login_required
 from django.shortcuts import render, redirect, get_object_or_404
-from django.http import Http404, HttpResponse
+from django.http import Http404, HttpResponse, JsonResponse, HttpResponseBadRequest
 from django.views.decorators.http import require_POST
 from .models import Movie, Review
 from .forms import ReviewForm
@@ -60,9 +60,24 @@ def reviews_update(request, movie_pk, review_pk):
 
 @login_required
 def like(request, movie_pk):
+<<<<<<< HEAD
     movie = get_object_or_404(Movie, pk=movie_pk)
     if movie.like_users.filter(pk=request.user.pk).exists():
         movie.like_users.remove(request.user)
     else:
         movie.like_users.add(request.user)
     return redirect('movies:index')
+=======
+    if request.is_ajax():
+        movie = get_object_or_404(Movie, pk=movie_pk)
+        if movie.like_users.filter(pk=request.user.pk).exists():
+            movie.like_users.remove(request.user)
+            liked = False
+        else:
+            movie.like_users.add(request.user)
+            liked = True
+        context = {'liked': liked, 'count': movie.like_users.count(),}
+        return JsonResponse(context)
+    else:
+        return HttpResponseBadRequest()
+>>>>>>> 3191585ee8f39c7b60cb4aa5ff0a352f6ac8c2b4

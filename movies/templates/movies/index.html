@@ -44,6 +44,7 @@
       <div class="card-body">
         <h5 class="card-title">{{ movie.title }}</h5>
         <img src="{{ movie.image }}" alt="img">
+<<<<<<< HEAD
         <p class="card-text">
           <a href="{% url 'movies:like' movie.pk %}">
             {% if user in movie.like_users.all %}
@@ -54,6 +55,18 @@
           </a>
           <b>추천: {{ movie.like_users.all|length }}</b>
         </p>
+=======
+        <br>
+        {% if user in movie.like_users.all %}
+          <i class="fas fa-heart like-button" style="color: crimson;" data-id="{{ movie.pk }}">좋아요!</i>
+          {% else %}
+          <i class="fas fa-heart like-button" style="color: black;" data-id="{{ movie.pk }}">좋아요?</i>
+        {% endif %}
+        <br>
+        <span id="like-count-{{ movie.pk }}">{{ movie.like_users.count }}</span> 명이 좋아요.
+    <br>
+    <br>
+>>>>>>> 3191585ee8f39c7b60cb4aa5ff0a352f6ac8c2b4
         <a href="{{ movie.get_absolute_url }}" class="btn btn-primary">DETAIL</a>
       </div>
     </div>
@@ -61,6 +74,7 @@
   </div>
 </div>
 
+<<<<<<< HEAD
 
 <hr>
 <div>
@@ -88,3 +102,28 @@
   </div>
 </div>
 {% endblock %}
+=======
+<script>
+  const likebuttons = document.querySelectorAll('.like-button')
+  likebuttons.forEach(button => {
+    button.addEventListener('click', function (event) {
+
+      const movieId = event.target.dataset.id
+      axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest'
+      axios.defaults.xsrfCookieName = 'csrftoken'
+      axios.defaults.xsrfHeaderName = 'X-CSRFToken'
+      axios.post(`/movies/${movieId}/like/`)
+        .then(response => {
+          document.querySelector(`#like-count-${movieId}`).innerText = response.data.count
+          if (response.data.liked) {
+            event.target.style.color = 'crimson'
+          } else {
+            event.target.style.color = 'black'
+          }
+        })
+
+    })
+  })
+</script>
+{% endblock %}
+>>>>>>> 3191585ee8f39c7b60cb4aa5ff0a352f6ac8c2b4
