@@ -1,0 +1,14 @@
+{% extends 'movies/base.html' %}
+
+{% block content %}
+  <h2>User List</h2>
+  <br>
+  <hr>
+  {{ request.username }}
+  {% for user in users %}
+    <div>
+      <h4><a href="{% url 'accounts:profile' user.pk %}">{{ user.username }}</a></h4>
+      <hr>
+    </div>  
+  {% endfor %}
+{% endblock %}

@@ -1,0 +1,17 @@
+<div class="card text-center" style="width: 25rem;">
+  <div class="card-body">
+    <h5 class="card-title">{{ movie.title }}</h5>
+    <img src="{{ movie.image }} " alt="img">
+    <p class="card-text">
+      <a href="{% url 'movies:like' movie.pk %}">
+        {% if user in movie.like_users.all %}
+        <i class="fas fa-fire-alt" style="color: orange;"></i><br>
+        {% else %}
+        <i class="fas fa-fire-alt" style="color: gray;"></i><br>
+        {% endif %}
+      </a>
+      <b>{{ movie.like_users.all|length }}명</b>이 이 글을 좋아하네요;;
+    </p>
+    <a href="{{ movie.get_absolute_url }}" class="btn btn-primary">DETAIL</a>
+  </div>
+</div>

@@ -1,0 +1,31 @@
+{% load bootstrap4 %}
+{% load gravatar %}
+
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="https://kit.fontawesome.com/4ddf7507f2.js" crossorigin="anonymous"></script>
+  {% bootstrap_css %}
+  <title>Document</title>
+  <style>
+  body {
+    background-color: #0000ff;
+  }
+  </style>
+
+<body>
+  
+
+  {% include 'movies/_nav.html' %}
+  <div class="container">
+    {% block content %}
+    {% endblock%}
+    {% bootstrap_javascript jquery='full' %}
+  </div>
+</body>
+
+</html>

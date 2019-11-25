@@ -1,0 +1,60 @@
+{% extends 'movies/base.html' %}
+{% load bootstrap4 %}
+{% block content %}
+
+<h1 class="text-center">{{ people }}의 공간</h1>
+<hr>
+<br>
+
+<div>
+  <h4> <strong>{{ people }}</strong> </h4>
+  
+  <p>팔로우: <a href="{% url 'accounts:followings' people.pk %}">{{ people.followings.all.count }}</a></p>
+  <p>팔로워: <a href="{% url 'accounts:followers' people.pk %}">{{ people.followers.all.count }}</a></p>
+  {% if people != user %}
+    {% if people in user.followings.all %}
+      <a href="{% url 'accounts:follow' people.pk %}">언팔로우</a>
+    {% else %}
+      <a href="{% url 'accounts:follow' people.pk %}">팔로우</a>
+    {% endif %}
+  {% endif %}
+</div>
+
+<h3 class="text-center">{{ person.username }}이 작성한 리뷰</h3>
+<br>
+
+<div class="row">
+  {% with reviews=person.review_set.all  %}
+  {% for review in reviews %}
+  <div class="col-4 my-2">
+    <div class="card">
+      <div class="card-body">
+        <blockquote class="blockquote mb-0">
+          <h4> {{ review.movie }} </h4> <br>
+          <span> 평점: {{ review.score }}</span><br>
+          <span> 내용: {{ review.review }}</span>
+        </blockquote>
+      </div>
+    </div>
+  </div>
+  {% endfor %}
+  {% endwith %}
+</div>
+
+<div>
+  <hr>
+  <br>
+  <p>내 친구가 좋아하는 영화</p>
+  <hr>
+  {% if people == user %}
+  {% for user_follow in people.followings.all %}
+  <p>{{ user_follow.review_set.first.movie.title }}
+    {{ user_follow.review_set.first.score }}</p>
+  {% endfor %}
+  {% else %}
+  본인만 볼 수 있습니다.
+  {% endif %}
+  <hr>
+</div>
+
+{% endblock content %}

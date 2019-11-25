@@ -1,0 +1,28 @@
+{% extends 'movies/base.html' %}
+
+{% block content %}
+
+<div class="container">
+  <div class="row justify-content-center">
+    {% for movie in movies %}
+    <div class="card text-center m-1 col-3" style="width: 25rem;">
+      <div class="card-body">
+        <h5 class="card-title">{{ movie.title }}</h5>
+        <img src="{{ movie.image }}" alt="img">
+        <p class="card-text">
+          <a href="{% url 'movies:like' movie.pk %}">
+            {% if user in movie.like_users.all %}
+            <i class="fas fa-heart" style="color: red;"></i><br>
+            {% else %}
+            <i class="fas fa-heart" style="color: gray;"></i><br>
+            {% endif %}
+          </a>
+          <b>추천: {{ movie.like_users.all|length }}</b>
+        </p>
+        <a href="{{ movie.get_absolute_url }}" class="btn btn-primary">DETAIL</a>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</div>
+{% endblock %}

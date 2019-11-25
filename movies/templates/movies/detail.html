@@ -1,0 +1,51 @@
+{% extends 'movies/base.html' %}
+{% load make_link %}
+
+{% block content %}
+
+<h1>영화 자세히 보기</h1>
+<hr>
+<h4>{{ movie.title }} / {{ movie.subtitle }}</h4>
+<img src="{{ movie.image }}" alt="img"> <br>
+<br>
+<p> 영화링크: <a href="{{ movie.link }}">{{ movie.link }}</a> </p>
+
+<p>영화 감독: {{ movie.director }}</p>
+<p>영화 배우: {{ movie.genre }}</p>
+<p>영화 개봉년도: {{ movie.pubDate }}</p>
+<p>영화 평점: {{ movie.userRating }}</p>
+
+<hr>
+
+<h5>리뷰</h5>
+{% for review in reviews %}
+<div>
+  <li> 평점은? {{ review.score }}점 | 내용은? {{ review.review }}</li>
+  {% if request.user == review.user %}
+  <form action="{% url 'movies:reviews_delete' movie.pk review.pk %}" method="POST" style="display: inline;">
+    {% csrf_token %}
+    <input type="submit" value="삭제"" class="btn btn-light">
+  </form>
+  {% else %}
+  <li> 평점 {{ review.score }}점 | 내용 {{ review.review }}</li>
+  {% endif %}
+</div>
+{% empty %}
+<p><b>댓글이 없네요;; 작성좀...ㅎ</b></p>
+{% endfor %}
+<hr>
+
+{% if user.is_authenticated %}
+<form action="{% url 'movies:reviews_create' movie.pk %}" method="POST">
+  {% csrf_token %}
+  {{ review_form.review.label_tag }} &nbsp; 평점: {{ review_form.score }} | 내용: {{ review_form.review }} 
+  <input type="submit" value="작성" class="btn btn-primary">
+</form>
+{% else %}
+<a href="{% url 'accounts:login' %}">로그인!</a>
+{% endif %}
+<hr>
+<a href="{% url 'movies:index' %}" class="btn btn-danger">BACK</a>
+
+
+{% endblock%}
