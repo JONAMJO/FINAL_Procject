@@ -40,7 +40,7 @@
 <div class="container">
   <div class="row justify-content-center">
     {% for movie in movies %}
-    <div class="card text-center col-3" style="width: 25rem;">
+    <div class="card text-center col-3 my-1" style="width: 25rem;">
       <div class="card-body px-0 ">
         <a href="{{ movie.get_absolute_url }}"><img src="{{ movie.image }}" alt="img" style="width:210px"></a>
         <h6 class="card-title"><span class="badge badge-pill badge-info">{{ movie.title }}</span></h6>
