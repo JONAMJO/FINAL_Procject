@@ -7,8 +7,7 @@
 <br>
 
 <div>
-  <h4> <strong>{{ people }}</strong> </h4>
-  
+  <h4><strong>{{ people }}</strong></h4>
   {% if people != user %}
     {% if people in user.followings.all %}
       <i class="fas fa-heart follow-button" style="color: red;" data-id="{{ people.pk }}"></i>
@@ -42,19 +41,22 @@
 <div>
   <hr>
   <br>
-  <p>내 친구가 좋아하는 영화</p>
+  <h3 class="text-center">내 친구가 좋아하는 영화</h3>
   <hr>
   {% if people == user %}
-    {% for user_follow in people.followings.all %}
-    <p>{{ user_follow.review_set.first.movie.title }}
-      {{ user_follow.review_set.first.score }}</p>
-    {% endfor %}
+    {% if people.followings.all %}
+      {% for user_follow in people.followings.all %}
+        <p>{{ user_follow.review_set.first.movie.title }}
+          {{ user_follow.review_set.first.score }}</p>
+      {% endfor %}
+    {% else %}
+        <p>팔로우하는 사람이 없습니다.</p>
+    {% endif %}
   {% else %}
     <p>본인만 볼 수 있습니다.</p>
   {% endif %}
   <hr>
 </div>
-
 
 <script>
   const likebuttons = document.querySelectorAll('.follow-button')
