@@ -6,7 +6,7 @@
   <hr>
   <h4>{{ movie.title }}</h4>
   <h6>{{ movie.subtitle }}</h6>
-  <img src="{{ movie.image }}" alt="img"> <br>
+  <img src="{{ movie.image }}" alt="img" style="width:210px"> <br>
   <br>
   <p>장르 : {{ movie.genre }}</p>
   <p>개봉년도 : {{ movie.pubDate }}</p>
@@ -15,14 +15,13 @@
   <p>평점 : {{ movie.userRating }}</p>
   <p>영화링크 : <a href="{{ movie.link }}">{{ movie.link }}</a></p>
   <p>
-    <a href="{% url 'movies:like' movie.pk %}">
-      {% if user in movie.like_users.all %}
-        <i class="fas fa-heart" style="color: crimson;"></i>
-      {% else %}
-        <i class="fas fa-heart" style="color: black;"></i>
-      {% endif %}
-      {{ movie.like_users.all|length }}
-    </a>
+    {% if user in movie.like_users.all %}
+      <i class="fas fa-heart like-button" style="color: crimson;" data-id="{{ movie.pk }}">
+        <span id="like-count-{{ movie.pk }}">{{ movie.like_users.count }}</span></i>
+    {% else %}
+      <i class="fas fa-heart like-button" style="color: black;" data-id="{{ movie.pk }}">
+        <span id="like-count-{{ movie.pk }}">{{ movie.like_users.count }}</span></i>
+    {% endif %}
   <p>
   <hr>
 
