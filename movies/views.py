@@ -6,6 +6,7 @@ from django.http import Http404, HttpResponse, JsonResponse, HttpResponseBadRequ
 from django.views.decorators.http import require_POST
 from .models import Movie, Review
 from .forms import ReviewForm
+from django.contrib.auth.forms import AuthenticationForm
 
 
 def index(request):
@@ -23,38 +24,41 @@ def detail(request, movie_pk):
     return render(request, 'movies/detail.html', context)
 
 
-@login_required
 @require_POST
 def reviews_create(request, movie_pk):
-    review_form = ReviewForm(request.POST)
-    if review_form.is_valid():
-        review = review_form.save(commit=False)
-        review.movie_id = movie_pk
-        review.user_id = request.user.pk
-        review.save()
+    if request.user.is_authenticated:
+        review_form = ReviewForm(request.POST)
+        if review_form.is_valid():
+            review = review_form.save(commit=False)
+            review.movie_id = movie_pk
+            review.user_id = request.user.pk
+            review.save()
+            return redirect('movies:detail', movie_pk)
     return redirect('movies:detail', movie_pk)
 
 
-@login_required
 @require_POST
 def reviews_delete(request, movie_pk, review_pk):
-    review = get_object_or_404(Review, pk=review_pk)
-    if request.user == review.user:
-        review.delete()
-        return redirect('movies:detail', movie_pk)
-    else:
-        return redirect('movies:detail', movie_pk)
+    if request.user.is_authenticated:
+        review = get_object_or_404(Review, pk=review_pk)
+        if request.user == review.user:
+            review.delete()
+            return redirect('movies:detail', movie_pk)
+    return HttpResponse('You are Unauthorized', status=401)
 
 
-@login_required
 @require_POST
 def reviews_update(request, movie_pk, review_pk):
-    review_form = ReviewForm(request.POST)
-    if review_form.is_valid():
-        review = review_form.save(commit=False)
-        review.movie_id = movie_pk
-        review.user_id = request.user.pk
-        review.save()
+    if request.user.is_authenticated:
+        review = get_object_or_404(Review, pk=review_pk)
+        review_form = ReviewForm(request.POST)
+        if request.user == review.user:
+            if review_form.is_valid():
+                review = review_form.save(commit=False)
+                review.movie_id = movie_pk
+                review.user_id = request.user.pk
+                review.save()
+                return redirect('movies:detail', movie_pk)
     return redirect('movies:detail', movie_pk)
 
 

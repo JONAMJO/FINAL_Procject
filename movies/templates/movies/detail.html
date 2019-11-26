@@ -39,6 +39,7 @@
           {% csrf_token %}
           <input type="submit" value="삭제" class="btn btn-light">
         </form>
+        <br>
       {% endif %}
     </li>
   </div>
@@ -58,7 +59,8 @@
   {% endif %}
   <hr>
   <a href="{% url 'movies:index' %}" class="btn btn-danger">BACK</a>
-
+  <br>
+  <br>
 
 <script>
   const likeButtons = document.querySelectorAll('.like-button')
