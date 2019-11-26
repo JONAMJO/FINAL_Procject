@@ -72,4 +72,3 @@ def like(request, movie_pk):
         return JsonResponse(context)
     else:
         return HttpResponseBadRequest()
-

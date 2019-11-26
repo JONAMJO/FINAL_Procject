@@ -47,12 +47,12 @@
 
         <br>
         {% if user in movie.like_users.all %}
-          <i class="fas fa-heart like-button" style="color: crimson;" data-id="{{ movie.pk }}">좋아요!</i>
-          {% else %}
-          <i class="fas fa-heart like-button" style="color: black;" data-id="{{ movie.pk }}">좋아요?</i>
+          <i class="fas fa-heart like-button" style="color: crimson;" data-id="{{ movie.pk }}"> 좋아요!</i>
+        {% else %}
+          <i class="fas fa-heart like-button" style="color: black;" data-id="{{ movie.pk }}"> 좋아요?</i>
         {% endif %}
         <br>
-        <span id="like-count-{{ movie.pk }}">{{ movie.like_users.count }}</span> 명이 좋아요.
+        <span id="like-count-{{ movie.pk }}">{{ movie.like_users.count }}</span> 명이 좋아해요
     <br>
     <br>
         <a href="{{ movie.get_absolute_url }}" class="btn btn-primary">DETAIL</a>

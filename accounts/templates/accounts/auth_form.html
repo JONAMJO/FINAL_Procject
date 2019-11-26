@@ -2,25 +2,23 @@
 {% load bootstrap4 %}
 
 {% block content %}
+  {% if request.resolver_match.url_name == 'signup' %}
+    <h1>회원가입</h1>
+    <hr>
+  {% comment %} {% elif request.resolver_match.url_name == 'login' %}
+  <h1>로그인</h1>
+  <hr> {% endcomment %}
+  {% elif request.resolver_match.url_name == 'update' %}
+    <h1>회원정보 수정</h1>
+    <hr>
+  {% else %}
+    <h1>비밀번호 변경</h1>
+    <hr>
+  {% endif %}
 
-{% if request.resolver_match.url_name == 'signup' %}
-<h1>회원가입</h1>
-<hr>
-{% elif request.resolver_match.url_name == 'login' %}
-<h1>로그인</h1>
-<hr>
-{% elif request.resolver_match.url_name == 'update' %}
-<h1>회원정보 수정</h1>
-<hr>
-{% else %}
-<h1>비밀번호 변경</h1>
-<hr>
-{% endif %}
-
-
-<form action="" method="POST">
-  {% csrf_token %}
-  {% bootstrap_form form %}
-  {% buttons submit='submit' reset='Cancel' %}{% endbuttons %}
-</form>
+  <form action="" method="POST">
+    {% csrf_token %}
+    {% bootstrap_form form %}
+    {% buttons submit='Submit' reset='Cancel' %}{% endbuttons %}
+  </form>
 {% endblock content %}
