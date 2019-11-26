@@ -13,6 +13,13 @@ from movies.models import Movie
 from .models import User
 
 
+@login_required    
+def index(request):
+    users = User.objects.all()
+    context = {'users': users}
+    return render(request, 'accounts/index.html', context)
+
+
 @require_http_methods(["GET", "POST"])
 def signup(request):
     if request.user.is_authenticated:
@@ -84,12 +91,6 @@ def change_password(request):
     return render(request, 'accounts/auth_form.html', context)
 
 
-@login_required    
-def index(request):
-    users = User.objects.all()
-    context = {'users': users}
-    return render(request, 'accounts/index.html', context)
-
 @login_required
 def profile(request, user_pk):
     people = get_object_or_404(get_user_model(), pk=user_pk)
@@ -119,6 +120,7 @@ def followings(request, user_pk):
     context = {'people': people}
     return render(request, 'accounts/follow.html', context)
     
+
 @login_required
 def followers(request, user_pk):
     people = get_object_or_404(get_user_model(), pk=user_pk)

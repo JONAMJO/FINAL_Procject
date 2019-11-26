@@ -255,21 +255,6 @@
   },
   {
     "fields": {
-      "actor": "히다카 노리코, 사카모토 치카, 타카기 히토시",
-      "director": "미야자키 하야오",
-      "genre_id": 12,
-      "image": "https://ssl.pstatic.net/imgmovie/mdi/mit110/0187/18781_P40_110031.jpg",
-      "link": "https://movie.naver.com/movie/bi/mi/basic.nhn?code=18781",
-      "title": "이웃집 토토로",
-      "pubDate": 1988,
-      "subtitle": "My Neighbor Totoro",
-      "userRating": 9.26
-    },
-    "model": "movies.Movie",
-    "pk": 18
-  },
-  {
-    "fields": {
       "actor": "니콜 키드먼, 브라이언 크랜스톤, 케빈 하트",
       "director": "닐 버거",
       "genre_id": 11,
@@ -612,21 +597,6 @@
     },
     "model": "movies.Movie",
     "pk": 42
-  },
-  {
-    "fields": {
-      "actor": "다니아르 알쉬노프, 아셀 사드바카소바",
-      "director": "아딜칸 에르자노프",
-      "genre_id": 3,
-      "image": "https://ssl.pstatic.net/imgmovie/mdi/mit110/1904/190433_P01_173504.jpg",
-      "link": "https://movie.naver.com/movie/bi/mi/basic.nhn?code=190433",
-      "title": "바이스",
-      "pubDate": 2019,
-      "subtitle": "Atbai's Fight",
-      "userRating": 0.0
-    },
-    "model": "movies.Movie",
-    "pk": 43
   },
   {
     "fields": {
