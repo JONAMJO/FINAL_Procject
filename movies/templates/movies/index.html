@@ -40,10 +40,10 @@
 <div class="container">
   <div class="row justify-content-center">
     {% for movie in movies %}
-    <div class="card text-center m-1 col-3" style="width: 25rem;">
-      <div class="card-body">
+    <div class="card text-center col-3" style="width: 25rem;">
+      <div class="card-body px-0">
         <a href="{{ movie.get_absolute_url }}"><img src="{{ movie.image }}" alt="img" style="width:210px"></a>
-        <h6 class="card-title">{{ movie.title }}</h6>
+        <h6 class="card-title"><span class="badge badge-pill badge-info">{{ movie.title }}</span></h6>
         {% if user in movie.like_users.all %}
           <i class="fas fa-heart like-button" style="color: crimson;" data-id="{{ movie.pk }}">
             <span id="like-count-{{ movie.pk }}">{{ movie.like_users.count }}</span> 좋아요</i>
