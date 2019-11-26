@@ -112,7 +112,7 @@ def follow(request, user_pk):
         return JsonResponse(context)
     else:
         return HttpResponseBadRequest()
-    
+
 
 @login_required
 def followings(request, user_pk):

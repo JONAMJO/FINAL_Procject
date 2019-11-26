@@ -42,20 +42,16 @@
     {% for movie in movies %}
     <div class="card text-center m-1 col-3" style="width: 25rem;">
       <div class="card-body">
+        <a href="{{ movie.get_absolute_url }}"><img src="{{ movie.image }}" alt="img"></a>
         <h5 class="card-title">{{ movie.title }}</h5>
-        <img src="{{ movie.image }}" alt="img">
-
-        <br>
         {% if user in movie.like_users.all %}
-          <i class="fas fa-heart like-button" style="color: crimson;" data-id="{{ movie.pk }}"> 좋아요!</i>
+          <i class="fas fa-heart like-button" style="color: crimson;" data-id="{{ movie.pk }}">
+            <span id="like-count-{{ movie.pk }}">{{ movie.like_users.count }}</span> 좋아요</i>
         {% else %}
-          <i class="fas fa-heart like-button" style="color: black;" data-id="{{ movie.pk }}"> 좋아요?</i>
+          <i class="fas fa-heart like-button" style="color: black;" data-id="{{ movie.pk }}">
+            <span id="like-count-{{ movie.pk }}">{{ movie.like_users.count }}</span> 좋아요</i>
         {% endif %}
         <br>
-        <span id="like-count-{{ movie.pk }}">{{ movie.like_users.count }}</span> 명이 좋아해요
-    <br>
-    <br>
-        <a href="{{ movie.get_absolute_url }}" class="btn btn-primary">DETAIL</a>
       </div>
     </div>
     {% endfor %}
@@ -66,17 +62,31 @@
 <hr>
 <div>
   <h4>장르 선택</h4>
-  {% for movie in movies %}
-    {% if genre.id == 1 %}
-      <p>1: {{ movie.title }}</p>
-    {% elif genre.id == 2 %}
-      <p>2: {{ movie.title }}</p>
-    {% elif genre.id == 7 %}
-      <p>7: {{ movie.title }}</p>
-    {% elif genre.id == 8 %}
-      <p>8: {{ movie.title }}</p>
-    {% endif %}
-  {% endfor %}
+  <input type="submit" value="가족" class="btn btn-info">
+    {% for movie in movies %}
+      {% if movie.genre.id == 1 %}
+        <p>{{ movie.title }}</p>
+      {% endif %}
+    {% endfor %}
+  <input type="submit" value="드라마" class="btn btn-info">
+    {% for movie in movies %}
+      {% if movie.genre.id == 2 %}
+        <p>{{ movie.title }}</p>
+      {% endif %}
+    {% endfor %}
+  <input type="submit" value="스릴러" class="btn btn-info">
+    {% for movie in movies %}
+      {% if movie.genre.id == 7 %}
+        <p>{{ movie.title }}</p>
+      {% endif %}
+    {% endfor %}
+  <input type="submit" value="액션" class="btn btn-info">
+    {% for movie in movies %}
+      {% if movie.genre.id == 8 %}
+        <p>{{ movie.title }}</p>
+      {% endif %}
+    {% endfor %}
+
 
   <select v-model="selectedGenreId" class="form-control">
     <option v-for="genre in genres" :key="genre.id" :value="genre.id">{{ genre.name }}</option>
@@ -88,7 +98,6 @@
     <movie-list-item v-for="movie in filterMovies" :key="movie.id" :movie="movie"></movie-list-item>
   </div>
 </div>
-
 
 
 <script>
@@ -114,4 +123,3 @@
   })
 </script>
 {% endblock %}
-
