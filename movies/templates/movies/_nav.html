@@ -19,7 +19,7 @@
       <li class="nav-item">
         <a class="nav-link" href="{% url 'accounts:index' %}">전체 유저 활동</a>
       </li>
-      <li class="nav-item">
+      {% comment %} <li class="nav-item">
         <a class="nav-link" href="{% url 'accounts:profile' user.pk %}">내 활동</a>
       </li>
       <li class="nav-item">
@@ -30,6 +30,20 @@
       </li>
       <li class="nav-item">
         <a class="nav-link" href="{% url 'accounts:logout' %}">로그아웃</a>
+      </li> {% endcomment %}
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          My Menu
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="{% url 'accounts:profile' user.pk %}">내 활동</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="{% url 'accounts:update' %}">회원정보 수정</a>
+          <a class="dropdown-item" href="{% url 'accounts:change_password' %}">비밀번호 변경</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="{% url 'accounts:logout' %}">로그아웃</a>
+          </a>
+        </div>
       </li>
       <li>
         <form action="{% url 'accounts:delete' %}" class="nav-item nav-link" method="POST">
@@ -37,18 +51,6 @@
           <input type="submit" value="회원탈퇴" class="btn btn-danger" onclick="return confirm('정말 회원탈퇴 하시겠습니까?')">
         </form>
       </li>
-
-      {% comment %} <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Dropdown
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">Action</a>
-          <a class="dropdown-item" href="#">Another action</a>
-          <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">Something else here</a>
-        </div>
-      </li> {% endcomment %}
     </ul>
   </div>
   {% else %}

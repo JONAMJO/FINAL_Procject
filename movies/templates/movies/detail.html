@@ -50,7 +50,7 @@
   {% if user.is_authenticated %}
   <form action="{% url 'movies:reviews_create' movie.pk %}" method="POST" data-id="{{ review.pk }}">
     {% csrf_token %}
-    {{ review_form.review.label_tag }} &nbsp; 평점: {{ review_form.score }} | 내용: {{ review_form.review }} 
+    {{ review_form.review.label_tag }} &nbsp; 평점: {{ review_form.score }} 내용: {{ review_form.review }} 
     <input type="submit" value="작성" class="btn btn-primary">
   </form>
   {% else %}
@@ -58,7 +58,6 @@
   {% endif %}
   <hr>
   <a href="{% url 'movies:index' %}" class="btn btn-danger">BACK</a>
-{% endblock%}
 
 
 <script>
@@ -102,5 +101,5 @@
 
     })
   })
-
 </script>
+{% endblock%}
