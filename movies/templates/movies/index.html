@@ -42,8 +42,8 @@
     {% for movie in movies %}
     <div class="card text-center m-1 col-3" style="width: 25rem;">
       <div class="card-body">
-        <a href="{{ movie.get_absolute_url }}"><img src="{{ movie.image }}" alt="img"></a>
-        <h5 class="card-title">{{ movie.title }}</h5>
+        <a href="{{ movie.get_absolute_url }}"><img src="{{ movie.image }}" alt="img" style="width:210px"></a>
+        <h6 class="card-title">{{ movie.title }}</h6>
         {% if user in movie.like_users.all %}
           <i class="fas fa-heart like-button" style="color: crimson;" data-id="{{ movie.pk }}">
             <span id="like-count-{{ movie.pk }}">{{ movie.like_users.count }}</span> 좋아요</i>
@@ -104,7 +104,6 @@
   const likebuttons = document.querySelectorAll('.like-button')
   likebuttons.forEach(button => {
     button.addEventListener('click', function (event) {
-
       const movieId = event.target.dataset.id
       axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest'
       axios.defaults.xsrfCookieName = 'csrftoken'
