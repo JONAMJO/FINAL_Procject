@@ -40,10 +40,10 @@
 <div class="container">
   <div class="row justify-content-center">
     {% for movie in movies %}
-    <div class="card text-center m-1 col-3" style="width: 25rem;">
-      <div class="card-body">
+    <div class="card text-center col-3 my-1" style="width: 25rem;">
+      <div class="card-body px-0 ">
         <a href="{{ movie.get_absolute_url }}"><img src="{{ movie.image }}" alt="img" style="width:210px"></a>
-        <h6 class="card-title">{{ movie.title }}</h6>
+        <h6 class="card-title"><span class="badge badge-pill badge-info">{{ movie.title }}</span></h6>
         {% if user in movie.like_users.all %}
           <i class="fas fa-heart like-button" style="color: crimson;" data-id="{{ movie.pk }}">
             <span id="like-count-{{ movie.pk }}">{{ movie.like_users.count }}</span> 좋아요</i>
@@ -68,9 +68,33 @@
         <p>{{ movie.title }}</p>
       {% endif %}
     {% endfor %}
-  <input type="submit" value="드라마" class="btn btn-info">
+  <input type="submit" value="공포(호러)" class="btn btn-info">
     {% for movie in movies %}
       {% if movie.genre.id == 2 %}
+        <p>{{ movie.title }}</p>
+      {% endif %}
+    {% endfor %}
+  <input type="submit" value="드라마" class="btn btn-info">
+    {% for movie in movies %}
+      {% if movie.genre.id == 3 %}
+        <p>{{ movie.title }}</p>
+      {% endif %}
+    {% endfor %}
+  <input type="submit" value="멜로/로맨스" class="btn btn-info">
+    {% for movie in movies %}
+      {% if movie.genre.id == 4 %}
+        <p>{{ movie.title }}</p>
+      {% endif %}
+    {% endfor %}
+  <input type="submit" value="미스터리" class="btn btn-info">
+    {% for movie in movies %}
+      {% if movie.genre.id == 5 %}
+        <p>{{ movie.title }}</p>
+      {% endif %}
+    {% endfor %}
+  <input type="submit" value="사극" class="btn btn-info">
+    {% for movie in movies %}
+      {% if movie.genre.id == 6 %}
         <p>{{ movie.title }}</p>
       {% endif %}
     {% endfor %}
@@ -86,7 +110,36 @@
         <p>{{ movie.title }}</p>
       {% endif %}
     {% endfor %}
-
+  <input type="submit" value="어드벤처" class="btn btn-info">
+    {% for movie in movies %}
+      {% if movie.genre.id == 9 %}
+        <p>{{ movie.title }}</p>
+      {% endif %}
+    {% endfor %}
+  <input type="submit" value="판타지" class="btn btn-info">
+    {% for movie in movies %}
+      {% if movie.genre.id == 10 %}
+        <p>{{ movie.title }}</p>
+      {% endif %}
+    {% endfor %}
+  <input type="submit" value="코미디" class="btn btn-info">
+    {% for movie in movies %}
+      {% if movie.genre.id == 11 %}
+        <p>{{ movie.title }}</p>
+      {% endif %}
+    {% endfor %}
+  <input type="submit" value="애니메이션" class="btn btn-info">
+    {% for movie in movies %}
+      {% if movie.genre.id == 12 %}
+        <p>{{ movie.title }}</p>
+      {% endif %}
+    {% endfor %}
+  <input type="submit" value="다큐멘터리" class="btn btn-info">
+    {% for movie in movies %}
+      {% if movie.genre.id == 13 %}
+        <p>{{ movie.title }}</p>
+      {% endif %}
+    {% endfor %}
 
   <select v-model="selectedGenreId" class="form-control">
     <option v-for="genre in genres" :key="genre.id" :value="genre.id">{{ genre.name }}</option>
@@ -117,7 +170,6 @@
             event.target.style.color = 'black'
           }
         })
-
     })
   })
 </script>
