@@ -1,5 +1,6 @@
 {% load bootstrap4 %}
 {% load gravatar %}
+{% load static %}
 
 <!DOCTYPE html>
 <html lang="ko">
@@ -16,16 +17,34 @@
   <title>Document</title>
   <style>
     body {
-      background-color: white;
+      background: url( '/static/img/avengers.jpg' );
+      background-position: top;
+      background-attachment: fixed;
+      height: 100%;
+      width: 100%
     }
+    footer{
+      background:black;
+      text-align:center;
+      clear:both;
+      position:absolute;
+
+}
   </style>
 </head>
+
 <body>
   {% include 'movies/_nav.html' %}
   <div class="container">
-    {% block content %}
-    {% endblock%}
-    {% bootstrap_javascript jquery='full' %}
-  </div>
+  {% block content %}
+  {% endblock%}
+  {% bootstrap_javascript jquery='full' %}
+</div>
+<br>
+<footer class="fixed-bottom">
+    <div class="container" style='display:table-cell;text-align:center;color:yellow'>
+      Copyright &copy; 2019 SSAFY by Jo & NAM
+    </div>
+</footer>
 </body>
 </html>

@@ -127,7 +127,7 @@
       "link": "https://movie.naver.com/movie/bi/mi/basic.nhn?code=181698",
       "title": "존 윅 3: 파라벨룸",
       "pubDate": 2019,
-      "subtitle": "John Wick: Chapter <b>3</b> - Parabellum",
+      "subtitle": "John Wick: Chapter - Parabellum",
       "userRating": 8.04
     },
     "model": "movies.Movie",
@@ -202,7 +202,7 @@
       "link": "https://movie.naver.com/movie/bi/mi/basic.nhn?code=183666",
       "title": "BIFAN2019 판타스틱 단편 걸작선 1",
       "pubDate": 2019,
-      "subtitle": "Fantastic Short Film <b>1</b>",
+      "subtitle": "Fantastic Short Film",
       "userRating": 0.0
     },
     "model": "movies.Movie",
@@ -352,7 +352,7 @@
       "link": "https://movie.naver.com/movie/bi/mi/basic.nhn?code=177371",
       "title": "0.0MHz",
       "pubDate": 2018,
-      "subtitle": "",
+      "subtitle": "0.0MHz",
       "userRating": 5.01
     },
     "model": "movies.Movie",
@@ -375,7 +375,7 @@
   },
   {
     "fields": {
-      "actor": "엘리자베스 뱅크스, 잭슨 A.<b>던</b>, 데이비드 덴맨",
+      "actor": "엘리자베스 뱅크스, 잭슨 A, 데이비드 덴맨",
       "director": "데이비드 야로베스키",
       "genre_id": 2,
       "image": "https://ssl.pstatic.net/imgmovie/mdi/mit110/1817/181701_P09_111143.jpg",
@@ -562,7 +562,7 @@
       "link": "https://movie.naver.com/movie/bi/mi/basic.nhn?code=159845",
       "title": "크게 될 놈",
       "pubDate": 2018,
-      "subtitle": "",
+      "subtitle": "크게 될 놈",
       "userRating": 8.8
     },
     "model": "movies.Movie",
