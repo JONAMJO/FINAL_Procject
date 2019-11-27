@@ -14,7 +14,6 @@
         <input class="form-control mr-sm-2" type="search" placeholder="영화 검색" aria-label="Search" v-model="query" @keydown.enter="searchMovie">
         <button class="btn btn-outline-success my-2 my-sm-0" type="submit"><i class="fas fa-search"></i></button>
       </form>
-      {% if user.is_authenticated %}
       <li class="nav-item">
         <a class="nav-link" href="{% url 'accounts:index' %}">전체 유저 활동</a>
       </li>
@@ -66,18 +65,6 @@
   </div>
 </nav>
 
-
-{% comment %} <script>
-  (function () {
-    var cx = '002661009167463862046:-gtgjwr2yio';
-    var gcse = document.createElement('script');
-    gcse.type = 'text/javascript';
-    gcse.async = true;
-    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
-    var s = document.getElementsByTagName('script')[0];
-    s.parentNode.insertBefore(gcse, s);
-  })();
-</script> {% endcomment %}
 <script>
   const nav = new Vue({
     el: '#nav',
