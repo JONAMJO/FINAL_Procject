@@ -1,6 +1,13 @@
 {% extends 'movies/base.html' %}
 {% load bootstrap4 %}
-
+{% load static %}
+{% block css %}
+  body {
+    background: url('{% static 'accounts/theater.jpg' %}');
+    background-size: 100% 100%;
+    background-attachment: fixed;
+  }
+{% endblock css %}
 {% block content %}
   {% if request.resolver_match.url_name == 'signup' %}
     <h1>회원가입</h1>
