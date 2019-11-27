@@ -1,5 +1,14 @@
 {% extends 'movies/base.html' %}
+{% load bootstrap4 %}
+{% load static %}
 
+{% block css %}
+  body {
+    background: url('{% static 'movies/bg_image.jpg' %}');
+    background-size: 100% 100%;
+    background-attachment: fixed;
+  }
+{% endblock css %}
 {% block content %}
 
 <br>
@@ -28,6 +37,19 @@
       {% endif %}
       {% endif %}
       {% endfor %}
+
+    <h3 style="font-family: 'Jua', sans-serif;">추천 영화</h3>
+{% for movie in movie.user_rating.all %}
+  {% if movie.user_rating >= 8 %}
+    {{ movie.poster_url }}
+  {% endif %}
+{% endfor %}
+
+<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="{{ movies.image }}" class="d-block w-10" alt="...">
+
     </div>
     <a class="carousel-control-prev" href="#jonamjo" role="button" data-slide="prev">
       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -53,11 +75,19 @@
       </div>
       {% else %}
       <div class="carousel-item">
+
+        
+        
         <img src="{{ movie.image }}" class="d-block w-100" alt="img">
         <div class="carousel-caption d-none d-md-block">
           <h5>{{ movie.title }}</h5>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         </div>
+
+        <img src="{{ movie.poster_url }}" class="d-block" alt="..." style="width:1000px; height:200px;">
+
+      
+      
       </div>
       {% endif %}
       {% endfor %}
@@ -129,6 +159,8 @@
     <div class="card text-center col-3 my-1" style="width: 25rem;">
       <div class="card-body px-0 ">
 
+        
+        
         <a href="{{ movie.get_absolute_url }}">
           <figure class="snip1200">
             <img src="{{ movie.image }}" alt="img" style="width:210px">
@@ -142,7 +174,11 @@
           </figure>
         </a>
 
-        {% if user in movie.like_users.all %}
+        <a href="{{ movie.get_absolute_url }}"><img src="{{ movie.poster_url }}" alt="img" style="width:210px"></a>
+        <h6 class="card-title"><span class="badge badge-pill badge-info">{{ movie.title }}</span></h6>
+
+      
+      {% if user in movie.like_users.all %}
         <i class="fas fa-heart like-button" style="color: crimson;" data-id="{{ movie.pk }}">
           <span id="like-count-{{ movie.pk }}">{{ movie.like_users.count }}</span> 좋아요
         </i>
