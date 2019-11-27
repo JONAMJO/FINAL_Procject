@@ -1,12 +1,11 @@
-from IPython import embed
-from django.contrib.auth import get_user_model
-from django.contrib.auth.decorators import login_required
 from django.shortcuts import render, redirect, get_object_or_404
-from django.http import Http404, HttpResponse, JsonResponse, HttpResponseBadRequest
+from django.contrib.auth.decorators import login_required
 from django.views.decorators.http import require_POST
-from .models import Movie, Review
+from django.http import Http404, HttpResponse, JsonResponse, HttpResponseBadRequest
+from .models import Genre, Movie, Review
 from .forms import ReviewForm
 from django.contrib.auth.forms import AuthenticationForm
+from django.contrib.auth import get_user_model
 
 
 def index(request):
@@ -47,17 +46,15 @@ def reviews_delete(request, movie_pk, review_pk):
     return HttpResponse('You are Unauthorized', status=401)
 
 
-@require_POST
+@login_required
 def reviews_update(request, movie_pk, review_pk):
-    if request.user.is_authenticated:
-        review = get_object_or_404(Review, pk=review_pk)
-        review_form = ReviewForm(request.POST)
-        if request.user == review.user:
+    movie = get_object_or_404(Movie, pk=movie_pk)
+    review = get_object_or_404(Review, pk=review_pk)
+    if request.user == review.user:
+        if request.method == 'POST':
+            review_form = ReviewForm(request.POST, instance=review)
             if review_form.is_valid():
-                review = review_form.save(commit=False)
-                review.movie_id = movie_pk
-                review.user_id = request.user.pk
-                review.save()
+                review = review_form.save()
                 return redirect('movies:detail', movie_pk)
     return redirect('movies:detail', movie_pk)
 
