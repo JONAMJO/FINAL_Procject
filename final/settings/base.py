@@ -1,13 +1,8 @@
 import os
 
-BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 
-SECRET_KEY = 'xr&56j+#iyp(ipoja(4w)(3(p=z$l*(ounjf7(g_920wtvhs@p'
-
-DEBUG = True
-
-ALLOWED_HOSTS = []
 
 
 INSTALLED_APPS = [
