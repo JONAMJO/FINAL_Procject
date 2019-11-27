@@ -1,9 +1,7 @@
 from django.db import models
-from django.urls import reverse
 from django.conf import settings
-from django.contrib.auth import get_user_model
-from datetime import datetime
 from django.core.validators import MinValueValidator, MaxValueValidator
+from django.urls import reverse
 
 
 
@@ -23,16 +21,20 @@ class Genre(models.Model):
 
 class Movie(models.Model):
     title = models.CharField(max_length=150)
-    subtitle = models.CharField(max_length=150, default="", blank=True)
-    image = models.URLField(max_length=200, default="", blank=True)
-    pubDate = models.IntegerField(blank=True)
-    userRating = models.FloatField(default=0)
-    link = models.URLField(max_length=200, default="", blank=True)
+    title_en = models.CharField(max_length=150, default="", blank=True)
+    poster_url = models.CharField(max_length=150, default="", blank=True)
+    open_date = models.CharField(max_length=50, default="", blank=True)
+    audience = models.IntegerField(default=0, blank=True)
+    show_time = models.IntegerField(default=0, blank=True)
+    user_rating = models.FloatField(default=0, blank=True)
+    nation = models.CharField(max_length=30, default="", blank=True)
+    watch_grade = models.CharField(max_length=30, default="", blank=True)
+    description = models.TextField()
     like_users = models.ManyToManyField(settings.AUTH_USER_MODEL, related_name='like_movies', blank=True)
-    hashtags = models.ManyToManyField(Hashtag, blank=True)
-    genre = models.ForeignKey(Genre, on_delete = models.CASCADE)
+    genre = models.ManyToManyField(Genre, related_name='movie_genres', blank=True)
     director = models.CharField(max_length=150, default="", blank=True)
     actor = models.CharField(max_length=150, default="", blank=True)
+    hashtags = models.ManyToManyField(Hashtag, blank=True)
 
     def __str__(self):
         return self.title
@@ -46,7 +48,7 @@ class Review(models.Model):
     movie = models.ForeignKey(Movie, on_delete=models.CASCADE)
     score = models.IntegerField(validators=[MinValueValidator(0), MaxValueValidator(10)])
     review = models.CharField(max_length=150)
-    user = models.ForeignKey(get_user_model(), on_delete=models.CASCADE)
+    user = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE)
 
     class Meta:
         ordering = ('-pk',)

@@ -1,19 +1,30 @@
 {% extends 'movies/base.html' %}
+{% load bootstrap4 %}
 {% load make_link %}
 
 {% block content %}
   <h2 style="font-family: 'Do Hyeon', sans-serif;">영화 자세히 보기</h2>
   <hr>
-  <h4>{{ movie.title }}</h4>
-  <h6>{{ movie.subtitle }}</h6>
-  <img src="{{ movie.image }}" alt="img" style="width:210px"> <br>
+  <h3><b>{{ movie.title }}</b></h3>
+  <h6>{{ movie.title_en }}</h6>
+  <img src="{{ movie.poster_url }}" alt="img" style="width:450px"> <br>
   <br>
-  <p>장르 : {{ movie.genre }}</p>
-  <p>개봉년도 : {{ movie.pubDate }}</p>
-  <p>감독 : {{ movie.director }}</p>
-  <p>배우 : {{ movie.actor }}</p>
-  <p>평점 : {{ movie.userRating }}</p>
-  <p>영화링크 : <a href="{{ movie.link }}">{{ movie.link }}</a></p>
+  <p><h5 class="d-inline">{% for genre in movie.genre.all %}
+      <span class="badge badge-primary">{{ genre }}</span>
+    {% endfor %}</h5></p>
+  <p>{{ movie.open_date }} 개봉 | {{ movie.nation }} | {{ movie.show_time}}분</p>
+  <p>시청연령 : {{ movie.watch_grade }}</p>
+  <p>관객수 : {{ movie.audience }}명</p>
+  <p>평점 : {{ movie.user_rating }}</p>
+  <p>설명 <br> {{ movie.description }}</p>
+  <p>감독 : 
+    {% for director in movie.director %}
+      {{ director.peopleNm }}
+    {% endfor %}</p>
+  <p>배우
+    {% for actor in movie.actor %}
+      {{ actor.img_url }}
+    {% endfor %}</p>
   <p>
     {% if user in movie.like_users.all %}
       <i class="fas fa-heart like-button" style="color: crimson;" data-id="{{ movie.pk }}">
@@ -25,19 +36,41 @@
   <p>
   <hr>
 
-  <h5 style="font-family: 'Jua', sans-serif;">리뷰</h5>
+  <h5 style="font-family: 'Jua', sans-serif;">리뷰 ({{ reviews.count }})</h5>
   {% for review in reviews %}
   <div>
-    <li>
-      <i class="fas fa-star" style="color: #FFD700;"></i>{{ review.score }} | 내용: {{ review.review }}
+    <li>{{ review.user }} | 
+      {% if review.score == 10 %}
+      평점 : ⭐⭐⭐⭐⭐</h5>
+      {% elif review.score == 9 %}
+      평점 : ⭐⭐⭐⭐★</h5>
+      {% elif review.score == 8 %}
+      평점 : ⭐⭐⭐⭐☆</h5>
+      {% elif review.score == 7 %}
+      평점 : ⭐⭐⭐★☆</h5>
+      {% elif review.score == 6 %}
+      평점 : ⭐⭐⭐☆☆</h5>
+      {% elif review.score == 5 %}
+      평점 : ⭐⭐★☆☆</h5>
+      {% elif review.score == 4 %}
+      평점 : ⭐⭐☆☆☆</h5>
+      {% elif review.score == 3 %}
+      평점 : ⭐★☆☆☆</h5>
+      {% elif review.score == 2 %}
+      평점 : ⭐☆☆☆☆</h5>
+      {% elif review.score == 1 %}
+      평점 : ★☆☆☆☆</h5>
+      {% endif %}
+       내용 : {{ review.review }}
       {% if request.user == review.user %}
         <form action="{% url 'movies:reviews_update' movie.pk review.pk %}" method="POST" style="display: inline;">
           {% csrf_token %}
-          <input type="submit" value="수정" class="btn btn-light">
+          {{ review_update_form }}
+          <input type="submit" value="수정" class="btn btn-light p-1">
         </form>
         <form action="{% url 'movies:reviews_delete' movie.pk review.pk %}" method="POST" style="display: inline;">
           {% csrf_token %}
-          <input type="submit" value="삭제" class="btn btn-light">
+          <input type="submit" value="삭제" class="btn btn-light p-1">
         </form>
         <br>
       {% endif %}
@@ -49,13 +82,13 @@
   <hr>
 
   {% if user.is_authenticated %}
-  <form action="{% url 'movies:reviews_create' movie.pk %}" method="POST" data-id="{{ review.pk }}">
+  <form action="{% url 'movies:reviews_create' movie.pk %}" method="POST">
     {% csrf_token %}
-    {{ review_form.review.label_tag }} &nbsp; 평점: {{ review_form.score }} 내용: {{ review_form.review }} 
+    평점: {{ review_form.score }} 내용: {{ review_form.review }} 
     <input type="submit" value="작성" class="btn btn-primary">
   </form>
   {% else %}
-    <a href="{% url 'accounts:login' %}">로그인!</a>
+    <a href="{% url 'accounts:login' %}">로그인</a>
   {% endif %}
   <hr>
   <a href="{% url 'movies:index' %}" class="btn btn-danger">BACK</a>
@@ -86,22 +119,5 @@
       {% endif %}
     })
   })
-
-  {% comment %} const reviewupdates = document.querySelectorAll('.review-update')
-  reviewupdates.forEach(list => {
-    list.addEventListener('click', function (event) {
-
-      const movieId = event.target dataset id
-      const reviewId = event.target dataset id
-      axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest'
-      axios.defaults.xsrfCookieName = 'csrftoken'
-      axios.defaults.xsrfHeaderName = 'X-CSRFToken'
-      axios.post(`/movies/${movieId}/reviews/`)
-        .then(response => {
-          document.querySelector
-        })
-
-    })
-  }) {% endcomment %}
 </script>
 {% endblock%}

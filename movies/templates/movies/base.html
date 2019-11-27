@@ -1,5 +1,6 @@
 {% load bootstrap4 %}
 {% load gravatar %}
+{% load static %}
 
 <!DOCTYPE html>
 <html lang="ko">
@@ -8,14 +9,20 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <script src="https://kit.fontawesome.com/4ddf7507f2.js" crossorigin="anonymous"></script>
-  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
   {% bootstrap_css %}
+  <script src="https://kit.fontawesome.com/4ddf7507f2.js" crossorigin="anonymous"></script>
   <link href="https://fonts.googleapis.com/css?family=Do+Hyeon&display=swap&subset=korean" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Jua&display=swap&subset=korean" rel="stylesheet">
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
   <title>Document</title>
   <style>
+<<<<<<< HEAD
 
+=======
+    {% comment %} body {
+      background-color: white;
+    } {% endcomment %}
+>>>>>>> 859f9df1c0505d147e51ffa84e52c0b25c095367
   </style>
 </head>
 <body>
@@ -23,7 +30,8 @@
   <div class="container">
     {% block content %}
     {% endblock%}
-    {% bootstrap_javascript jquery='full' %}
+  </div>
+  {% bootstrap_javascript jquery='full' %}
   </div>
 </body>
 </html>
