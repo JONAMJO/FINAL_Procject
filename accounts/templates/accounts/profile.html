@@ -2,7 +2,7 @@
 {% load bootstrap4 %}
 {% block content %}
 
-<h1 class="text-center">{{ people }}의 공간</h1>
+<h1 class="text-center" style="font-family: 'Do Hyeon', sans-serif;">{{ people }}의 공간</h1>
 <hr>
 <br>
 
@@ -19,7 +19,7 @@
     팔로워: <a href="{% url 'accounts:followers' people.pk %}">{{ people.followers.all.count }}</a></p>
 </div>
 
-<h3 class="text-center">{{ people }}이 작성한 리뷰</h3>
+<h3 class="text-center" style="font-family: 'Jua', sans-serif;">{{ people }}이 작성한 리뷰</h3>
 <div class="row">
   {% with reviews=people.review_set.all  %}
   {% for review in reviews %}
@@ -41,7 +41,7 @@
 <div>
   <hr>
   <br>
-  <h3 class="text-center">내 친구가 좋아하는 영화</h3>
+  <h3 class="text-center" style="font-family: 'Jua', sans-serif;">내 친구가 좋아하는 영화</h3>
   <hr>
   {% if people == user %}
     {% if people.followings.all %}
