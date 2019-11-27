@@ -1,13 +1,13 @@
 {% extends 'movies/base.html' %}
 {% load bootstrap4 %}
+{% load static %}
 
 {% block content %}
+
+<div id="divPosition" style="color:yellow; background: url( '/static/img/batman.jpg' );">
   {% if request.resolver_match.url_name == 'signup' %}
     <h1>회원가입</h1>
     <hr>
-  {% comment %} {% elif request.resolver_match.url_name == 'login' %}
-  <h1>로그인</h1>
-  <hr> {% endcomment %}
   {% elif request.resolver_match.url_name == 'update' %}
     <h1>회원정보 수정</h1>
     <hr>
@@ -21,4 +21,19 @@
     {% bootstrap_form form %}
     {% buttons submit='Submit' reset='Cancel' %}{% endbuttons %}
   </form>
+</div>
+  <style>
+#divPosition {  
+
+     background-color: #00D8FF;
+     border: 1px solid #5D5D5D;
+     position:absolute;
+     height:610px;
+     width:1000px;
+     margin:-75px 0px 0px -100px;
+     top: 25%;
+     left: 30%;
+     padding: 5px;
+   }
+</style>
 {% endblock content %}

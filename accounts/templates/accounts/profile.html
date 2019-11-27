@@ -15,8 +15,8 @@
       <i class="fas fa-heart follow-button" style="color: black;" data-id="{{ people.pk }}"></i>
     {% endif %}
   {% endif %}
-  <p>팔로우: <a href="{% url 'accounts:followings' people.pk %}">{{ people.followings.all.count }}</a> / 
-    팔로워: <a href="{% url 'accounts:followers' people.pk %}">{{ people.followers.all.count }}</a></p>
+  <p>팔로우 목록: <a href="{% url 'accounts:followings' people.pk %}">{{ people.followings.all.count }}</a> / 
+    팔로워 목록: <a href="{% url 'accounts:followers' people.pk %}">{{ people.followers.all.count }}</a></p>
 </div>
 
 <h3 class="text-center" style="font-family: 'Jua', sans-serif;">{{ people }}이 작성한 리뷰</h3>
