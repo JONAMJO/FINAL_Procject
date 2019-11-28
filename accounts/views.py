@@ -18,15 +18,15 @@ def index(request):
     return render(request, 'accounts/index.html', context)
 
 
+@require_http_methods(["GET", "POST"])
 def signup(request):
     if request.user.is_authenticated:
         return redirect('movies:index')
-
     if request.method == 'POST':
         form = CustomUserCreationForm(request.POST)
         if form.is_valid():
             user = form.save()
-            auth_login(request, user)
+            auth_login(request, user, backend='django.contrib.auth.backends.ModelBackend')
             return redirect('movies:index')
     else:
         form = CustomUserCreationForm()
@@ -37,7 +37,6 @@ def signup(request):
 def login(request):
     if request.user.is_authenticated:
         return redirect('movies:index')
-
     if request.method == 'POST':
         form = AuthenticationForm(request, request.POST)
         if form.is_valid():
