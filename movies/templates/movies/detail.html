@@ -3,8 +3,7 @@
 {% load make_link %}
 
 {% block content %}
-<div style="background-color: white;">
-
+<div class="px-3" style="background-color: white;">
   <h2 style="font-family: 'Do Hyeon', sans-serif;">영화 자세히 보기</h2>
   <hr>
   <h3><b>{{ movie.title }}</b></h3>
@@ -68,11 +67,11 @@
         <form action="{% url 'movies:reviews_update' movie.pk review.pk %}" method="POST" style="display: inline;">
           {% csrf_token %}
           {{ review_update_form }}
-          <input type="submit" value="수정" class="btn btn-light p-1">
+          <input type="submit" value="수정" class="btn btn-outlint-light p-1">
         </form>
         <form action="{% url 'movies:reviews_delete' movie.pk review.pk %}" method="POST" style="display: inline;">
           {% csrf_token %}
-          <input type="submit" value="삭제" class="btn btn-light p-1">
+          <input type="submit" value="삭제" class="btn btn-outlint-light p-1">
         </form>
         <br>
       {% endif %}
@@ -96,7 +95,7 @@
   <a href="{% url 'movies:index' %}" class="btn btn-danger">BACK</a>
   <br>
   <br>
-  </div>
+</div>
 
 <script>
   const likeButtons = document.querySelectorAll('.like-button')

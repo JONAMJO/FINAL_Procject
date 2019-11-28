@@ -6,8 +6,7 @@
 {% block content %}
 
 <br>
-
-<h3 style="font-family: 'Jua', sans-serif;">추천 영화</h3>
+<h3 style="font-family: 'Jua', sans-serif; color:white;">추천 영화</h3>
 
 <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" style="width: 50%; margin:0 auto; ">
   <div class="carousel-inner">
@@ -24,19 +23,17 @@
           </div>
         </figcaption>
       </figure>
-      
     </div>
 
     {% for movie in movies %}
     {% if movie.user_rating >= 8 %}
-
     <div class="carousel-item">
     <a href="{{ movie.get_absolute_url }}">
     <figure class="snip1132">
       <img src="{{ movie.poster_url }}" class="d-block w-100" alt="img">
       <figcaption>
           <div class="heading">
-            <h3><{{ movie.user_rating }}점> <span>{{ movie.title }} </span></h3>
+            <h3>({{ movie.user_rating }}점) <span>{{ movie.title }} </span></h3>
           </div>
           <div class="caption">
             <p>I'm killing time while I wait</p>
@@ -45,7 +42,6 @@
       </figure>
       </a>
     </div>
-
     {% endif %}
     {% endfor %}
   </div>
@@ -88,7 +84,6 @@
           </figure>
         </a>
 
-
         {% if user in movie.like_users.all %}
         <i class="fas fa-heart like-button" style="color: crimson;" data-id="{{ movie.pk }}">
           <span id="like-count-{{ movie.pk }}">{{ movie.like_users.count }}</span> 좋아요
@@ -104,10 +99,6 @@
     {% endfor %}
   </div>
 </div>
-
-
-
-
 
 <script>
   const likebuttons = document.querySelectorAll('.like-button')
@@ -134,9 +125,7 @@
       }
     );
 </script>
-
 {% endblock  %}
-
 
 {% block extra-style %}
 <style>
@@ -404,6 +393,4 @@
     transform: scale(1.15);
   }
 </style>
-
-
 {% endblock %}
