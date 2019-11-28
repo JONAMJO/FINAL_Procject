@@ -4,38 +4,31 @@
 {% load static %}
 
 {% block content %}
-
-<div id="divPosition" style="color:yellow; background: url( '/static/img/batman.jpg' );">
-
-  <h1>로그인</h1><hr>
-  <form action="" method=" POST">
-  {% csrf_token %}
-  {% bootstrap_form form %}
-  {% buttons submit='로그인' reset='Cancel' %}{% endbuttons %}
-  </form>
-  <a class="btn btn-warning" href="{% provider_login_url "kakao" %}">KAKAO</a>
-  <a class="btn btn-info" href="">Google</a>
-  <a class="btn btn-dark" href="">Github</a>
-
-</div>
-
+  <div id="divPosition" style="color:yellow; background: url( '/static/img/batman.jpg' );">
+    <h1>로그인</h1><hr>
+    <form action="" method=" POST">
+      {% csrf_token %}
+      {% bootstrap_form form %}
+      {% buttons submit='로그인' reset='Cancel' %}{% endbuttons %}
+    </form>
+    <a class="btn btn-warning" href="{% provider_login_url "kakao" %}">KAKAO</a>
+    <a class="btn btn-info" href="">Google</a>
+    <a class="btn btn-dark" href="">Github</a>
+  </div>
 {% endblock content %}
-
 
 {% block extra-style %}
 <style>
-#divPosition {  
-
-     background-color: #00D8FF;
-     border: 1px solid #5D5D5D;
-     position:absolute;
-     height:370px;
-     width:1000px;
-     margin:-75px 0px 0px -100px;
-     top: 25%;
-     left: 30%;
-     padding: 5px;
-   }
+  #divPosition {  
+    background-color: #00D8FF;
+    border: 1px solid #5D5D5D;
+    position:absolute;
+    height:370px;
+    width:1000px;
+    margin:-75px 0px 0px -100px;
+    top: 25%;
+    left: 30%;
+    padding: 5px;
+  }
 </style>
-
 {% endblock extra-style %}
