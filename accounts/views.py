@@ -1,4 +1,3 @@
-from IPython import embed
 from django.contrib.auth.decorators import login_required
 from django.views.decorators.http import require_POST, require_http_methods
 from django.contrib.auth import login as auth_login
@@ -10,17 +9,15 @@ from django.contrib.auth import get_user_model
 from django.contrib.auth.forms import AuthenticationForm, PasswordChangeForm
 from . forms import CustomUserChangeForm, CustomUserCreationForm
 from movies.models import Movie
-from .models import User
 
 
 @login_required    
 def index(request):
-    users = User.objects.all()
+    users = get_user_model().objects.all()
     context = {'users': users}
     return render(request, 'accounts/index.html', context)
 
 
-@require_http_methods(["GET", "POST"])
 def signup(request):
     if request.user.is_authenticated:
         return redirect('movies:index')
