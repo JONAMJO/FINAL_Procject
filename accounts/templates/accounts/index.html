@@ -2,6 +2,7 @@
 {% load bootstrap4 %}
 
 {% block content %}
+<div id="divPosition">
   <h2>User List</h2>
   <br>
   <hr>
@@ -12,4 +13,19 @@
       <hr>
     </div>  
   {% endfor %}
+</div>
+
+<style>
+  #divPosition {  
+    background-color: white;
+    border: 1px solid #5D5D5D;
+    position:absolute;
+    height:1000px;
+    width:1000px;
+    margin:-75px 0px 0px -100px;
+    top: 15%;
+    left: 30%;
+    padding: 5px;
+  }
+</style>
 {% endblock %}
