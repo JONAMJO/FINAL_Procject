@@ -4,14 +4,6 @@ from django.core.validators import MinValueValidator, MaxValueValidator
 from django.urls import reverse
 
 
-
-class Hashtag(models.Model):
-    content = models.TextField(unique=True)
-
-    def __str__(self):
-        return self.content
-    
-
 class Genre(models.Model):
     name = models.CharField(max_length=150)
 
