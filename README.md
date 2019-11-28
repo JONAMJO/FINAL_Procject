@@ -14,15 +14,7 @@
 >
 >- HTML/CSS, Django, Database, Javascript(Vue.js) 등을 활용한 실제 서비스 설계
 >- Git을 통한 소스코드 버전 관리 및 협업
-<<<<<<< HEAD
-<<<<<<< HEAD
->- 서비스 배포..
-=======
 >- 서비스 배포
->>>>>>> 160fc13516f38804f57a0017a9daaa619f22d027
-=======
->- 서비스 배포..
->>>>>>> ec3f82667dd0e41cd3a4c6904254dffd4049bdee
 
 
 
@@ -169,8 +161,18 @@ img_url - 배우 사진
 
 ------
 
-* 영화 별 트레일러
+구현
 
+- 좋아요 기능, 비동기화
+- 팔로우 기능, 비동기화
+- 평점이 높은 영화 추천
+- 팔로우한 사람들이 좋아요 누른 영화 표시
+
+구현 못함
+
+- 해시태그 기능
+
+* 영화 별 트레일러
 * 감독, 배우 상세 페이지
 
 
@@ -178,7 +180,69 @@ img_url - 배우 사진
 
 
 
-### 6. 느낀점
+### 6. 결과 화면
+
+----
+
+메인 페이지
+
+![캡처1](https://user-images.githubusercontent.com/52685280/69832693-1e78e580-1273-11ea-8ca2-9ad804f9b902.PNG)
+
+회원가입
+
+![캡처2](https://user-images.githubusercontent.com/52685280/69832695-23d63000-1273-11ea-8fdc-6113368c73ab.PNG)
+
+로그인
+
+![캡처3](https://user-images.githubusercontent.com/52685280/69832696-259ff380-1273-11ea-950e-742fc3f37f92.PNG)
+
+회원정보 수정
+
+![캡처4](https://user-images.githubusercontent.com/52685280/69832698-28024d80-1273-11ea-8bc4-3e8ff601d9c2.PNG)
+
+비밀번호 변경
+
+![캡처5](https://user-images.githubusercontent.com/52685280/69832704-2c2e6b00-1273-11ea-9990-2d39927f9da0.PNG)
+
+추천 영화
+
+![캡처6](https://user-images.githubusercontent.com/52685280/69832722-30f31f00-1273-11ea-896a-431a1c6b78d5.PNG)
+
+영화 목록
+
+![캡처7](https://user-images.githubusercontent.com/52685280/69832724-32bce280-1273-11ea-9366-e16aea350b0d.PNG)
+
+영화 상세 페이지
+
+![캡처8](https://user-images.githubusercontent.com/52685280/69832730-35b7d300-1273-11ea-91d3-87f2a4c9390d.PNG)
+
+리뷰 작성 전
+
+![캡처9](https://user-images.githubusercontent.com/52685280/69832750-4700df80-1273-11ea-9094-af188cb047f8.PNG)
+
+리뷰 작성 후
+
+![캡처10](https://user-images.githubusercontent.com/52685280/69832752-49633980-1273-11ea-90d7-28cb32e7525e.PNG)
+
+사용자 프로필 페이지
+
+![캡처11](https://user-images.githubusercontent.com/52685280/69832738-3ea8a480-1273-11ea-9354-5f8f3ce6c881.PNG)
+
+영화 검색 결과
+
+![캡처12](https://user-images.githubusercontent.com/52685280/69832741-41a39500-1273-11ea-9285-552c7b170ed5.PNG)
+
+
+
+### 7. 배포 사이트
+
+----
+
+http://ssafy-jomajo.ymy57v3p2g.ap-northeast-2.elasticbeanstalk.com/
+
+
+
+### 8. 느낀점
 
 ------
 
