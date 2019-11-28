@@ -2,7 +2,7 @@
 <link href="https://fonts.googleapis.com/css?family=Black+Han+Sans&display=swap&subset=korean" rel="stylesheet">
 
 <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #ccccff;">
-  <a class="navbar-brand" href="{% url 'movies:index' %}" style="font-family: 'Black Han Sans', sans-serif;">JO & NAM's LUXURY CINEMA</a>
+  <a class="navbar-brand" href="{% url 'movies:index' %}" style="font-family: 'Black Han Sans', sans-serif;">J & N LUXURY CINEMA</a>
 
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -17,17 +17,26 @@
       <li class="nav-item">
         <a class="nav-link" href="{% url 'accounts:index' %}">전체 유저 활동</a>
       </li>
+      <li class="nav-item">
+        <a class="nav-link" href="{% url 'accounts:profile' user.pk %}">Profile</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="{% url 'accounts:update' %}">회원정보 수정</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="{% url 'accounts:change_password' %}">비밀번호 변경</a>
+      </li>
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Hi! {{ user.username }}
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="{% url 'accounts:profile' user.pk %}">내 활동</a>
+          {% comment %} <a class="dropdown-item" href="{% url 'accounts:profile' user.pk %}">내 활동</a>
           <div class="dropdown-divider"></div>
           <a class="dropdown-item" href="{% url 'accounts:update' %}">회원정보 수정</a>
           <a class="dropdown-item" href="{% url 'accounts:change_password' %}">비밀번호 변경</a>
           <div class="dropdown-divider"></div>
-          </a>
+          </a> {% endcomment %}
           <form action="{% url 'accounts:delete' %}" class="dropdown-item" method="POST">
             {% csrf_token %}
             <input type="submit" value="회원탈퇴" class="btn btn-danger" onclick="return confirm('정말 회원탈퇴 하시겠습니까?')">
@@ -48,7 +57,6 @@
     </ul>
   </div>
 </nav>
-
 
 <script>
   const nav = new Vue({
@@ -76,7 +84,7 @@
     methods: {
       detailUrl: function (movie) {
         return `/movies/${movie.id}`
-      },
-    },
+      }
+    }
   })
 </script>
