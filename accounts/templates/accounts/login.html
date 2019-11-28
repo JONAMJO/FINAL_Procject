@@ -7,7 +7,7 @@
 <div id="divPosition" style="color:yellow; background: url( '/static/img/batman.jpg' );">
   <h1>로그인</h1>
   <hr>
-  <form action="" method=" POST">
+  <form action="" method="POST">
     {% csrf_token %}
     {% bootstrap_form form %}
     {% buttons submit='로그인' reset='Cancel' %}{% endbuttons %}
@@ -33,5 +33,4 @@
     padding: 5px;
   }
 </style>
-
 {% endblock  %}
