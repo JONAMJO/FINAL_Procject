@@ -8,10 +8,10 @@
 <br>
 
 <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" style="width: 50%; margin:0 auto; ">
-<h3 style="font-family: 'Jua', sans-serif; color:white;">추천 영화</h3>
+  <h3 style="font-family: 'Jua', sans-serif; color:white;">추천 영화</h3>
   <div class="carousel-inner">
     <div class="carousel-item active">
-    
+
       <figure class="snip1132">
         <img src="{% static 'img/choice.jpg' %}" class="d-block w-100" alt="img">
         <figcaption>
@@ -28,18 +28,18 @@
     {% for movie in movies %}
     {% if movie.user_rating >= 8 %}
     <div class="carousel-item">
-    <a href="{{ movie.get_absolute_url }}">
-    <figure class="snip1132">
-      <img src="{{ movie.poster_url }}" class="d-block w-100" alt="img">
-      <figcaption>
-          <div class="heading">
-            <h3>({{ movie.user_rating }}점) <span>{{ movie.title }} </span></h3>
-          </div>
-          <div class="caption">
-            <p>I'm killing time while I wait</p>
-          </div>
-        </figcaption>
-      </figure>
+      <a href="{{ movie.get_absolute_url }}">
+        <figure class="snip1132">
+          <img src="{{ movie.poster_url }}" class="d-block w-100" alt="img">
+          <figcaption>
+            <div class="heading">
+              <h3>({{ movie.user_rating }}점) <span>{{ movie.title }} </span></h3>
+            </div>
+            <div class="caption">
+              <p>I'm killing time while I wait</p>
+            </div>
+          </figcaption>
+        </figure>
       </a>
     </div>
     {% endif %}
@@ -56,8 +56,18 @@
 </div>
 
 <br>
+
+<div class="text-center">
+  <div class="spinner-border text-success" role="status">
+    <span class="sr-only">Loading...</span>
+  </div>
+<h3 style="color: yellow"> <strong> 1323개의 영화 </strong> 중 60여개의 영화를 추천 중입니다...</h3>
+<h5 style="color: #f0e68c">약 15분 후에 갱신됩니다...</h5>
+</div>
+
 <br>
 <div class="container">
+  
   <div class="row justify-content-center">
     {% for movie in movies %}
 

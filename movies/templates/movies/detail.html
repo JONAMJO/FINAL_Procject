@@ -3,122 +3,135 @@
 {% load make_link %}
 
 {% block content %}
-<div class="px-3" style="background-color: white;">
-  <h2 style="font-family: 'Do Hyeon', sans-serif;">영화 자세히 보기</h2>
+
+<div class="px-3" style="background-color: white; m-2">
+  <h2 style="font-family: 'Do Hyeon', sans-serif; text-align: center;">영화 자세히 보기</h2>
   <hr>
   <h3><b>{{ movie.title }}</b></h3>
   <h6>{{ movie.title_en }}</h6>
-  <img src="{{ movie.poster_url }}" alt="img" style="width:450px"> <br>
+  <p style="float: left;"> <img src="{{ movie.poster_url }}" alt="img" style="width:450px; margin-right:50px"> <br></p>
   <br>
-  <p><h5 class="d-inline">{% for genre in movie.genre.all %}
+  <h3><strong>설명</strong> <br></h3>
+  <p>{{ movie.description }}</p>
+
+
+  <p>
+    <h5 class="d-inline">{% for genre in movie.genre.all %}
       <span class="badge badge-primary">{{ genre }}</span>
-    {% endfor %}</h5></p>
-  <p>{{ movie.open_date }} 개봉 | {{ movie.nation }} | {{ movie.show_time}}분</p>
-  <p>시청연령 : {{ movie.watch_grade }}</p>
-  <p>관객수 : {{ movie.audience }}명</p>
-  <p>평점 : {{ movie.user_rating }}</p>
-  <p>설명 <br> {{ movie.description }}</p>
-  <p>감독 : 
+      {% endfor %}</h5>
+  </p>
+  <br>
+  <hr>
+  <p><strong>개봉</strong> : {{ movie.open_date }} | {{ movie.nation }} | {{ movie.show_time}}분</p>
+  <p><strong>시청연령</strong> : {{ movie.watch_grade }}</p>
+  <p><strong>관객수</strong> : {{ movie.audience }}명</p>
+  <p><strong>평점</strong> : {{ movie.user_rating }}</p>
+  <p><strong>감독</strong> :
     {% for director in movie.director %}
-      {{ director }}
+    {{ director.peopleNm }}
     {% endfor %}</p>
-  <p>배우:
+  <p><strong>배우</strong>:
     {% for actor in movie.actor %}
-      {{ actor }}
+    {{ actor.peopleNm }}
     {% endfor %}</p>
   <p>
     {% if user in movie.like_users.all %}
-      <i class="fas fa-heart like-button" style="color: crimson;" data-id="{{ movie.pk }}">
-        <span id="like-count-{{ movie.pk }}">{{ movie.like_users.count }}</span></i>
+    <i class="fas fa-heart like-button" style="color: crimson;" data-id="{{ movie.pk }}">
+      <span id="like-count-{{ movie.pk }}">{{ movie.like_users.count }}</span></i>
     {% else %}
-      <i class="fas fa-heart like-button" style="color: black;" data-id="{{ movie.pk }}">
-        <span id="like-count-{{ movie.pk }}">{{ movie.like_users.count }}</span></i>
+    <i class="fas fa-heart like-button" style="color: black;" data-id="{{ movie.pk }}">
+      <span id="like-count-{{ movie.pk }}">{{ movie.like_users.count }}</span></i>
     {% endif %}
-  <p>
-  <hr>
+    <p>
+      <hr>
 
-  <h5 style="font-family: 'Jua', sans-serif;">리뷰 ({{ reviews.count }})</h5>
-  {% for review in reviews %}
-  <div>
-    <li>{{ review.user }} | 
-      {% if review.score == 10 %}
-      평점 : ⭐⭐⭐⭐⭐</h5>
-      {% elif review.score == 9 %}
-      평점 : ⭐⭐⭐⭐★</h5>
-      {% elif review.score == 8 %}
-      평점 : ⭐⭐⭐⭐☆</h5>
-      {% elif review.score == 7 %}
-      평점 : ⭐⭐⭐★☆</h5>
-      {% elif review.score == 6 %}
-      평점 : ⭐⭐⭐☆☆</h5>
-      {% elif review.score == 5 %}
-      평점 : ⭐⭐★☆☆</h5>
-      {% elif review.score == 4 %}
-      평점 : ⭐⭐☆☆☆</h5>
-      {% elif review.score == 3 %}
-      평점 : ⭐★☆☆☆</h5>
-      {% elif review.score == 2 %}
-      평점 : ⭐☆☆☆☆</h5>
-      {% elif review.score == 1 %}
-      평점 : ★☆☆☆☆</h5>
-      {% endif %}
-       내용 : {{ review.review }}
-      {% if request.user == review.user %}
-        <form action="{% url 'movies:reviews_update' movie.pk review.pk %}" method="POST" style="display: inline;">
-          {% csrf_token %}
-          {{ review_update_form }}
-          <input type="submit" value="수정" class="btn btn-outlint-light p-1">
-        </form>
-        <form action="{% url 'movies:reviews_delete' movie.pk review.pk %}" method="POST" style="display: inline;">
-          {% csrf_token %}
-          <input type="submit" value="삭제" class="btn btn-outlint-light p-1">
-        </form>
-        <br>
-      {% endif %}
-    </li>
-  </div>
-  {% empty %}
-    <p><b>리뷰를 작성해 주세요</b></p>
-  {% endfor %}
-  <hr>
+      <h5 style="font-family: 'Jua', sans-serif; clear:both">리뷰 ({{ reviews.count }})</h5>
+      {% for review in reviews %}
+      <div>
+        <li>{{ review.user }} |
+          {% if review.score == 10 %}
+          평점 : ⭐⭐⭐⭐⭐</h5>
+          {% elif review.score == 9 %}
+          평점 : ⭐⭐⭐⭐★</h5>
+          {% elif review.score == 8 %}
+          평점 : ⭐⭐⭐⭐☆</h5>
+          {% elif review.score == 7 %}
+          평점 : ⭐⭐⭐★☆</h5>
+          {% elif review.score == 6 %}
+          평점 : ⭐⭐⭐☆☆</h5>
+          {% elif review.score == 5 %}
+          평점 : ⭐⭐★☆☆</h5>
+          {% elif review.score == 4 %}
+          평점 : ⭐⭐☆☆☆</h5>
+          {% elif review.score == 3 %}
+          평점 : ⭐★☆☆☆</h5>
+          {% elif review.score == 2 %}
+          평점 : ⭐☆☆☆☆</h5>
+          {% elif review.score == 1 %}
+          평점 : ★☆☆☆☆</h5>
+          {% endif %}
+          내용 : {{ review.review }}
+          {% if request.user == review.user %}
+          <form action="{% url 'movies:reviews_update' movie.pk review.pk %}" method="POST" style="display: inline;">
+            {% csrf_token %}
+            {{ review_update_form }}
+            <input type="submit" value="수정" class="btn btn-outlint-light p-1">
+          </form>
+          <form action="{% url 'movies:reviews_delete' movie.pk review.pk %}" method="POST" style="display: inline;">
+            {% csrf_token %}
+            <input type="submit" value="삭제" class="btn btn-outlint-light p-1">
+          </form>
+          <br>
+          {% endif %}
+        </li>
+      </div>
+      {% empty %}
+      <p><b>리뷰를 작성해 주세요</b></p>
+      {% endfor %}
+      <hr>
 
-  {% if user.is_authenticated %}
-  <form action="{% url 'movies:reviews_create' movie.pk %}" method="POST">
-    {% csrf_token %}
-    평점: {{ review_form.score }} 내용: {{ review_form.review }} 
-    <input type="submit" value="작성" class="btn btn-primary">
-  </form>
-  {% else %}
-    <a href="{% url 'accounts:login' %}">로그인</a>
-  {% endif %}
-  <hr>
-  <a href="{% url 'movies:index' %}" class="btn btn-danger">BACK</a>
-  <br>
-  <br>
+      {% if user.is_authenticated %}
+      <form action="{% url 'movies:reviews_create' movie.pk %}" method="POST">
+        {% csrf_token %}
+        평점: {{ review_form.score }} 내용: {{ review_form.review }}
+        <input type="submit" value="작성" class="btn btn-primary">
+      </form>
+      {% else %}
+      <a href="{% url 'accounts:login' %}">로그인</a>
+      {% endif %}
+      <hr>
+      <a href="{% url 'movies:index' %}" class="btn btn-danger">BACK</a>
+      <br>
+      <br>
 </div>
 
 <script>
   const likeButtons = document.querySelectorAll('.like-button')
   likeButtons.forEach(button => {
-    button.addEventListener('click', function(event) {
+    button.addEventListener('click', function (event) {
       const movieId = event.target.dataset.id
       axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest'
       axios.defaults.xsrfCookieName = 'csrftoken'
-      axios.defaults.xsrfHeaderName = 'X-CSRFToken'
-      {% if user.is_authenticated %}
-        axios.post(`/movies/${movieId}/like/`)
-          .then(response => {
-            document.querySelector(`#like-count-${movieId}`).innerText = response.data.count
-            if (response.data.liked) {
-              event.target.style.color = 'crimson'
-            } else {
-              event.target.style.color = 'black'
-            }
-          })
-          .catch(error => console.log(error))
-      {% else %}
-        alert('좋아요 기능을 사용하려면 로그인을 해주세요.')
-      {% endif %}
+      axios.defaults.xsrfHeaderName = 'X-CSRFToken' {
+        %
+        if user.is_authenticated %
+      }
+      axios.post(`/movies/${movieId}/like/`)
+        .then(response => {
+          document.querySelector(`#like-count-${movieId}`).innerText = response.data.count
+          if (response.data.liked) {
+            event.target.style.color = 'crimson'
+          } else {
+            event.target.style.color = 'black'
+          }
+        })
+        .catch(error => console.log(error)) {
+          %
+          else %
+        }
+      alert('좋아요 기능을 사용하려면 로그인을 해주세요.') {
+        % endif %
+      }
     })
   })
 </script>
