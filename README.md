@@ -15,10 +15,14 @@
 >- HTML/CSS, Django, Database, Javascript(Vue.js) 등을 활용한 실제 서비스 설계
 >- Git을 통한 소스코드 버전 관리 및 협업
 <<<<<<< HEAD
+<<<<<<< HEAD
 >- 서비스 배포....
 =======
 >- 서비스 배포
 >>>>>>> 160fc13516f38804f57a0017a9daaa619f22d027
+=======
+>- 서비스 배포..
+>>>>>>> ec3f82667dd0e41cd3a4c6904254dffd4049bdee
 
 
 
