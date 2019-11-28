@@ -14,7 +14,7 @@
 >
 >- HTML/CSS, Django, Database, Javascript(Vue.js) 등을 활용한 실제 서비스 설계
 >- Git을 통한 소스코드 버전 관리 및 협업
->- 서비스 배포..
+>- 서비스 배포....
 
 
 
