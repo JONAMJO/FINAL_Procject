@@ -20,11 +20,11 @@
   <p>설명 <br> {{ movie.description }}</p>
   <p>감독 : 
     {% for director in movie.director %}
-      {{ director.peopleNm }}
+      {{ director }}
     {% endfor %}</p>
-  <p>배우
+  <p>배우:
     {% for actor in movie.actor %}
-      {{ actor.img_url }}
+      {{ actor }}
     {% endfor %}</p>
   <p>
     {% if user in movie.like_users.all %}
