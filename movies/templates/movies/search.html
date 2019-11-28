@@ -1,0 +1,34 @@
+{% extends 'movies/base.html' %}
+
+{% block content %}
+
+    <div id="divPosition">
+
+    {% for movie in movies %}
+
+    <h3> <a href="{{ movie.get_absolute_url }}">영화 제목::: {{movie.title}}</a> </h3> <br>
+    <h4>영화 개봉일:: {{movie.open_date}} </h4>
+    <h4>영화 관객수:: {{movie.audience}} </h4> 
+    <h4>영화 평점:: {{movie.user_rating}} </h4> 
+    <hr>
+    <hr>
+    {% endfor %}
+    </div>
+{% endblock content %}
+
+{% block extra-style %}
+    <style>
+  #divPosition {  
+    background-color: white;
+    border: 1px solid #5D5D5D;
+    position:absolute;
+    height:1000px;
+    width:1000px;
+    margin:-75px 0px 0px -100px;
+    top: 25%;
+    left: 30%;
+    padding: 5px;
+  }
+</style>
+
+{% endblock %}

@@ -73,3 +73,12 @@ def like(request, movie_pk):
         return JsonResponse(context)
     else:
         return HttpResponseBadRequest()
+
+
+def search(request):
+    movies = Movie.objects.all()
+    check = request.GET.get('b','')
+    if check:
+        movies = movies.filter(title__icontains=check)
+    context = { 'movies':movies , 'check':check}
+    return render(request, 'movies/search.html', context)
