@@ -20,8 +20,7 @@ def detail(request, movie_pk):
     reviews = movie.review_set.all()
     casts = movie.cast_set.all()
     review_form = ReviewForm()
-    print(type(movie))
-    context = {'movie': movie, 'review_form': review_form, 'reviews': reviews,}
+    context = {'movie': movie, 'review_form': review_form, 'reviews': reviews, 'casts': casts,}
     return render(request, 'movies/detail.html', context)
 
 

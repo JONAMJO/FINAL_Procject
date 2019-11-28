@@ -889,7 +889,7 @@
       "castEn": "",
       "img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2F49%2F200802131144125281.jpg&type=u111_139&quality=95"
     }
-  }
+  },
   {
     "pk": 82,
     "model": "movies.cast",

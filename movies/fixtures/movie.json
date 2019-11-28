@@ -16,16 +16,7 @@
 			"genre": [
 				12
 			],
-			"director": [
-				{
-					"peopleNm": "크리스 벅",
-					"peopleNmEn": "Chris Buck"
-				},
-				{
-					"peopleNm": "제니퍼 리",
-					"peopleNmEn": "Jennifer Lee"
-				}
-			],
+			"director": "크리스 벅",
 			"actor": [
 				1,
 				2,
@@ -52,12 +43,7 @@
 				7,
 				4
 			],
-			"director": [
-				{
-					"peopleNm": "정지영",
-					"peopleNmEn": "CHUNG Ji-young"
-				}
-			],
+			"director": "정지영",
 			"actor": [
 				5,
 				6,
@@ -85,12 +71,7 @@
 				7,
 				10
 			],
-			"director": [
-				{
-					"peopleNm": "리건",
-					"peopleNmEn": "LEE Khan"
-				}
-			],
+			"director": "리건",
 			"actor": [
 				10,
 				11,
@@ -117,12 +98,7 @@
 			"genre": [
 				4
 			],
-			"director": [
-				{
-					"peopleNm": "김도영",
-					"peopleNmEn": "KIM Do-young"
-				}
-			],
+			"director": "김도영",
 			"actor": [
 				15,
 				16,
@@ -151,12 +127,7 @@
 				11,
 				15
 			],
-			"director": [
-				{
-					"peopleNm": "팀 밀러",
-					"peopleNmEn": "Tim Miller"
-				}
-			],
+			"director": "팀 밀러",
 			"actor": [
 				20,
 				21,
@@ -183,12 +154,7 @@
 			"genre": [
 				5
 			],
-			"director": [
-				{
-					"peopleNm": "임대형",
-					"peopleNmEn": "LIM Dae-hyung"
-				}
-			],
+			"director": "임대형",
 			"actor": [
 				25,
 				26,
@@ -216,12 +182,7 @@
 				4,
 				9
 			],
-			"director": [
-				{
-					"peopleNm": "마틴 스코세이지",
-					"peopleNmEn": "Martin Scorsese"
-				}
-			],
+			"director": "마틴 스코세이지",
 			"actor": [
 				29,
 				30,
@@ -247,12 +208,7 @@
 				10,
 				4
 			],
-			"director": [
-				{
-					"peopleNm": "송창용",
-					"peopleNmEn": "SONG Chang-yong"
-				}
-			],
+			"director": "송창용",
 			"actor": [
 				32,
 				33,
@@ -281,12 +237,7 @@
 				14,
 				5
 			],
-			"director": [
-				{
-					"peopleNm": "신카이 마코토",
-					"peopleNmEn": "Makoto Shinkai"
-				}
-			],
+			"director": "신카이 마코토",
 			"actor": [
 				37,
 				38,
@@ -312,12 +263,7 @@
 				10,
 				9
 			],
-			"director": [
-				{
-					"peopleNm": "릭 로먼 워",
-					"peopleNmEn": "Ric Roman Waugh"
-				}
-			],
+			"director": "릭 로먼 워",
 			"actor": [
 				40,
 				41,
@@ -346,16 +292,7 @@
 				13,
 				1
 			],
-			"director": [
-				{
-					"peopleNm": "그렉 티어넌",
-					"peopleNmEn": "Greg Tiernan"
-				},
-				{
-					"peopleNm": "콘래드 베논",
-					"peopleNmEn": "Conrad Vernon"
-				}
-			],
+			"director": "그렉 티어넌",
 			"actor": [
 				45,
 				46,
@@ -383,12 +320,7 @@
 				13,
 				2
 			],
-			"director": [
-				{
-					"peopleNm": "루벤 플레셔",
-					"peopleNmEn": "Ruben Fleischer"
-				}
-			],
+			"director": "루벤 플레셔",
 			"actor": [
 				49,
 				50,
@@ -414,12 +346,7 @@
 			"genre": [
 				9
 			],
-			"director": [
-				{
-					"peopleNm": "마이크 플래너건",
-					"peopleNmEn": "Mike Flanagan"
-				}
-			],
+			"director": "마이크 플래너건",
 			"actor": [
 				53,
 				54,
@@ -446,12 +373,7 @@
 				1,
 				14
 			],
-			"director": [
-				{
-					"peopleNm": "요아킴 뢰닝",
-					"peopleNmEn": "Joachim Ronning"
-				}
-			],
+			"director": "요아킴 뢰닝",
 			"actor": [
 				56,
 				57
@@ -477,12 +399,7 @@
 				4,
 				9
 			],
-			"director": [
-				{
-					"peopleNm": "토드 필립스",
-					"peopleNmEn": "Todd Phillips"
-				}
-			],
+			"director": "토드 필립스",
 			"actor": [
 				58,
 				59,
@@ -509,12 +426,7 @@
 				5,
 				13
 			],
-			"director": [
-				{
-					"peopleNm": "김한결",
-					"peopleNmEn": "KIM Han-gyeol"
-				}
-			],
+			"director": "김한결",
 			"actor": [
 				62,
 				63,
@@ -543,12 +455,7 @@
 				4,
 				15
 			],
-			"director": [
-				{
-					"peopleNm": "이안",
-					"peopleNmEn": "Ang Lee"
-				}
-			],
+			"director": "이안",
 			"actor": [
 				67,
 				68,
@@ -574,12 +481,7 @@
 				12,
 				11
 			],
-			"director": [
-				{
-					"peopleNm": "크리스 버틀러",
-					"peopleNmEn": "Chris Butler"
-				}
-			],
+			"director": "크리스 버틀러",
 			"actor": [
 				70,
 				71,
@@ -605,12 +507,7 @@
 				4,
 				13
 			],
-			"director": [
-				{
-					"peopleNm": "쿠엔틴 타란티노",
-					"peopleNmEn": "Quentin Tarantino"
-				}
-			],
+			"director": "쿠엔틴 타란티노",
 			"actor": [
 				73,
 				74,
@@ -637,12 +534,7 @@
 			"genre": [
 				7
 			],
-			"director": [
-				{
-					"peopleNm": "이성태",
-					"peopleNmEn": "LEE Seong-tae"
-				}
-			],
+			"director": "이성태",
 			"actor": [
 				78,
 				79,
@@ -670,12 +562,7 @@
 				7,
 				10
 			],
-			"director": [
-				{
-					"peopleNm": "손용호",
-					"peopleNmEn": "SON Yong-ho"
-				}
-			],
+			"director": "손용호",
 			"actor": [
 				83,
 				84,
@@ -702,12 +589,7 @@
 				2,
 				9
 			],
-			"director": [
-				{
-					"peopleNm": "요하네스 로버츠",
-					"peopleNmEn": "Johannes Roberts"
-				}
-			],
+			"director": "요하네스 로버츠",
 			"actor": [
 				87,
 				88,
@@ -734,12 +616,7 @@
 				7,
 				4
 			],
-			"director": [
-				{
-					"peopleNm": "권오광",
-					"peopleNmEn": "KWON Oh-kwang"
-				}
-			],
+			"director": "권오광",
 			"actor": [
 				91,
 				92,
@@ -766,16 +643,7 @@
 			"genre": [
 				12
 			],
-			"director": [
-				{
-					"peopleNm": "최신규",
-					"peopleNmEn": "CHOI Shin-gyu"
-				},
-				{
-					"peopleNm": "김진철",
-					"peopleNmEn": "KIM Jin-cheol"
-				}
-			],
+			"director": "최신규",
 			"actor": [
 				96,
 				97,
@@ -803,12 +671,7 @@
 				13,
 				10
 			],
-			"director": [
-				{
-					"peopleNm": "이상근",
-					"peopleNmEn": "LEE Sang-geun"
-				}
-			],
+			"director": "이상근",
 			"actor": [
 				101,
 				102,
@@ -835,12 +698,7 @@
 			"genre": [
 				9
 			],
-			"director": [
-				{
-					"peopleNm": "안드레스 무시에티",
-					"peopleNmEn": "Andres Muschietti"
-				}
-			],
+			"director": "안드레스 무시에티",
 			"actor": [
 				106,
 				107,
@@ -866,12 +724,7 @@
 			"genre": [
 				12
 			],
-			"director": [
-				{
-					"peopleNm": "한승우",
-					"peopleNmEn": ""
-				}
-			],
+			"director": "한승우",
 			"actor": [
 				110,
 				111,
@@ -898,12 +751,7 @@
 				5,
 				4
 			],
-			"director": [
-				{
-					"peopleNm": "정지우",
-					"peopleNmEn": "JUNG Ji-woo"
-				}
-			],
+			"director": "정지우",
 			"actor": [
 				114,
 				115,
@@ -929,12 +777,7 @@
 			"genre": [
 				4
 			],
-			"director": [
-				{
-					"peopleNm": "대니 보일",
-					"peopleNmEn": "Danny Boyle"
-				}
-			],
+			"director": "대니 보일",
 			"actor": [
 				118,
 				119,
@@ -960,12 +803,7 @@
 			"genre": [
 				10
 			],
-			"director": [
-				{
-					"peopleNm": "데이빗 레이치",
-					"peopleNmEn": "David Leitch"
-				}
-			],
+			"director": "데이빗 레이치",
 			"actor": [
 				122,
 				123,
@@ -991,12 +829,7 @@
 			"genre": [
 				1
 			],
-			"director": [
-				{
-					"peopleNm": "게일 맨쿠소",
-					"peopleNmEn": "Gail Mancuso"
-				}
-			],
+			"director": "게일 맨쿠소",
 			"actor": [
 				126,
 				127,
@@ -1024,12 +857,7 @@
 				10,
 				4
 			],
-			"director": [
-				{
-					"peopleNm": "원신연",
-					"peopleNmEn": "WON Shin-yun"
-				}
-			],
+			"director": "원신연",
 			"actor": [
 				130,
 				131,
@@ -1057,12 +885,7 @@
 				11,
 				13
 			],
-			"director": [
-				{
-					"peopleNm": "크리스 리노드",
-					"peopleNmEn": "Chris Renaud"
-				}
-			],
+			"director": "크리스 리노드",
 			"actor": [
 				134,
 				135,
@@ -1090,12 +913,7 @@
 				1,
 				14
 			],
-			"director": [
-				{
-					"peopleNm": "가이 리치",
-					"peopleNmEn": "Guy Ritchie"
-				}
-			],
+			"director": "가이 리치",
 			"actor": [
 				138,
 				139,
@@ -1121,12 +939,7 @@
 				12,
 				10
 			],
-			"director": [
-				{
-					"peopleNm": "서럽 밴 오먼",
-					"peopleNmEn": "Thurop Van Orman"
-				}
-			],
+			"director": "서럽 밴 오먼",
 			"actor": [
 				141,
 				142,
@@ -1154,12 +967,7 @@
 				4,
 				1
 			],
-			"director": [
-				{
-					"peopleNm": "존 파브로",
-					"peopleNmEn": "Jon Favreau"
-				}
-			],
+			"director": "존 파브로",
 			"actor": [
 				145,
 				146,
@@ -1189,12 +997,7 @@
 				11,
 				5
 			],
-			"director": [
-				{
-					"peopleNm": "홍성호",
-					"peopleNmEn": "HONG Sung-ho"
-				}
-			],
+			"director": "홍성호",
 			"actor": [
 				149,
 				150,
@@ -1220,12 +1023,7 @@
 			"genre": [
 				3
 			],
-			"director": [
-				{
-					"peopleNm": "송원근",
-					"peopleNmEn": "SONG Won-geun"
-				}
-			],
+			"director": "송원근",
 			"actor": [
 				153,
 				154
@@ -1252,12 +1050,7 @@
 				13,
 				15
 			],
-			"director": [
-				{
-					"peopleNm": "존 왓츠",
-					"peopleNmEn": "Jon Watts"
-				}
-			],
+			"director": "존 왓츠",
 			"actor": [
 				155,
 				156,
@@ -1283,12 +1076,7 @@
 			"genre": [
 				8
 			],
-			"director": [
-				{
-					"peopleNm": "조철현",
-					"peopleNmEn": "CHO Chul-hyun"
-				}
-			],
+			"director": "조철현",
 			"actor": [
 				159,
 				160,
@@ -1314,12 +1102,7 @@
 			"genre": [
 				4
 			],
-			"director": [
-				{
-					"peopleNm": "봉준호",
-					"peopleNmEn": "BONG Joon-ho"
-				}
-			],
+			"director": "봉준호",
 			"actor": [
 				163,
 				164,
@@ -1345,12 +1128,7 @@
 			"genre": [
 				12
 			],
-			"director": [
-				{
-					"peopleNm": "나가오카 치카",
-					"peopleNmEn": "Chika Nagaoka"
-				}
-			],
+			"director": "나가오카 치카",
 			"actor": [
 				167,
 				168,
@@ -1378,12 +1156,7 @@
 				11,
 				13
 			],
-			"director": [
-				{
-					"peopleNm": "조시 쿨리",
-					"peopleNmEn": "Josh Cooley"
-				}
-			],
+			"director": "조시 쿨리",
 			"actor": [
 				171,
 				172,
@@ -1409,12 +1182,7 @@
 				13,
 				8
 			],
-			"director": [
-				{
-					"peopleNm": "남대중",
-					"peopleNmEn": "NAM Dae-joong"
-				}
-			],
+			"director": "남대중",
 			"actor": [
 				174,
 				175,
@@ -1440,12 +1208,7 @@
 			"genre": [
 				12
 			],
-			"director": [
-				{
-					"peopleNm": "히라야마 미호",
-					"peopleNmEn": "Miho Hirayama"
-				}
-			],
+			"director": "히라야마 미호",
 			"actor": [
 				178,
 				179,
@@ -1471,12 +1234,7 @@
 			"genre": [
 				2
 			],
-			"director": [
-				{
-					"peopleNm": "아리 애스터",
-					"peopleNmEn": "Ari Aster"
-				}
-			],
+			"director": "아리 애스터",
 			"actor": [
 				182,
 				183,
@@ -1504,12 +1262,7 @@
 				6,
 				9
 			],
-			"director": [
-				{
-					"peopleNm": "게리 도버먼",
-					"peopleNmEn": "Gary Dauberman"
-				}
-			],
+			"director": "게리 도버먼",
 			"actor": [
 				186,
 				187,
@@ -1537,12 +1290,7 @@
 				7,
 				9
 			],
-			"director": [
-				{
-					"peopleNm": "채드 스타헬스키",
-					"peopleNmEn": "Chad Stahelski"
-				}
-			],
+			"director": "채드 스타헬스키",
 			"actor": [
 				190,
 				191,
@@ -1568,12 +1316,7 @@
 				10,
 				4
 			],
-			"director": [
-				{
-					"peopleNm": "강윤성",
-					"peopleNmEn": "KANG Yun-sung"
-				}
-			],
+			"director": "강윤성",
 			"actor": [
 				193,
 				194,
@@ -1600,12 +1343,7 @@
 				12,
 				14
 			],
-			"director": [
-				{
-					"peopleNm": "원종식",
-					"peopleNmEn": "WON Jong-shik"
-				}
-			],
+			"director": "원종식",
 			"actor": [
 				197,
 				198,
@@ -1633,12 +1371,7 @@
 				11,
 				15
 			],
-			"director": [
-				{
-					"peopleNm": "사이먼 킨버그",
-					"peopleNmEn": "Simon Kinberg"
-				}
-			],
+			"director": "사이먼 킨버그",
 			"actor": [
 				201,
 				202,
@@ -1665,12 +1398,7 @@
 				4,
 				14
 			],
-			"director": [
-				{
-					"peopleNm": "덱스터 플레처",
-					"peopleNmEn": "Dexter Fletcher"
-				}
-			],
+			"director": "덱스터 플레처",
 			"actor": [
 				205,
 				206,
@@ -1696,12 +1424,7 @@
 				7,
 				10
 			],
-			"director": [
-				{
-					"peopleNm": "이원태",
-					"peopleNmEn": "LEE Won-tae"
-				}
-			],
+			"director": "이원태",
 			"actor": [
 				208,
 				209,
@@ -1728,12 +1451,7 @@
 				11,
 				15
 			],
-			"director": [
-				{
-					"peopleNm": "마이클 도허티",
-					"peopleNmEn": "Michael Dougherty"
-				}
-			],
+			"director": "마이클 도허티",
 			"actor": [
 				211,
 				212,
@@ -1760,16 +1478,7 @@
 				10,
 				15
 			],
-			"director": [
-				{
-					"peopleNm": "안소니 루소",
-					"peopleNmEn": "Anthony Russo"
-				},
-				{
-					"peopleNm": "조 루소",
-					"peopleNmEn": "Joe Russo"
-				}
-			],
+			"director": "안소니 루소",
 			"actor": [
 				215,
 				216,
@@ -1795,12 +1504,7 @@
 			"genre": [
 				3
 			],
-			"director": [
-				{
-					"peopleNm": "이호경",
-					"peopleNmEn": ""
-				}
-			],
+			"director": "이호경",
 			"actor": [
 				219,
 				220,
@@ -1826,12 +1530,7 @@
 				4,
 				1
 			],
-			"director": [
-				{
-					"peopleNm": "장규성",
-					"peopleNmEn": "JANG Kyu-sung"
-				}
-			],
+			"director": "장규성",
 			"actor": [
 				222,
 				223,
@@ -1859,12 +1558,7 @@
 				11,
 				13
 			],
-			"director": [
-				{
-					"peopleNm": "롭 레터맨",
-					"peopleNmEn": "Rob Letterman"
-				}
-			],
+			"director": "롭 레터맨",
 			"actor": [
 				226,
 				227,
@@ -1891,16 +1585,7 @@
 				12,
 				1
 			],
-			"director": [
-				{
-					"peopleNm": "김현호",
-					"peopleNmEn": "KIM Hyun-ho"
-				},
-				{
-					"peopleNm": "윤창섭",
-					"peopleNmEn": "Chang Sub Yoon"
-				}
-			],
+			"director": "김현호",
 			"actor": [
 				230,
 				231,
