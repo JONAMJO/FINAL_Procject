@@ -11,17 +11,11 @@
   <h6>{{ movie.title_en }}</h6>
   <p style="float: left;"> <img src="{{ movie.poster_url }}" alt="img" style="width:450px; margin-right:50px"> <br></p>
   <br>
-  <h3><strong>설명</strong> <br></h3>
-  <p>{{ movie.description }}</p>
-
-
   <p>
     <h5 class="d-inline">{% for genre in movie.genre.all %}
       <span class="badge badge-primary">{{ genre }}</span>
       {% endfor %}</h5>
   </p>
-  <br>
-  <hr>
   <p><strong>개봉</strong> : {{ movie.open_date }} | {{ movie.nation }} | {{ movie.show_time}}분</p>
   <p><strong>시청연령</strong> : {{ movie.watch_grade }}</p>
   <p><strong>관객수</strong> : {{ movie.audience }}명</p>
@@ -31,8 +25,11 @@
     {% for cast in casts %}
     {{ cast }}
     {% endfor %}</p>
+  <hr>
+  <h3><strong>설명</strong><br></h3>
+  <p>{{ movie.description }}</p>
 
-  <p>
+  {% comment %} <p>
     {% if user in movie.like_users.all %}
     <i class="fas fa-heart like-button" style="color: crimson;" data-id="{{ movie.pk }}">
       <span id="like-count-{{ movie.pk }}">{{ movie.like_users.count }}</span></i>
@@ -40,11 +37,9 @@
     <i class="fas fa-heart like-button" style="color: black;" data-id="{{ movie.pk }}">
       <span id="like-count-{{ movie.pk }}">{{ movie.like_users.count }}</span></i>
     {% endif %}
-  </p>
-
+  </p> {% endcomment %}
   <hr>
   <br>
-
 
   <br>
   <div class="row" style="clear:both;">
@@ -61,8 +56,6 @@
     {% endfor %}
   </div>
   <br>
-
-
   <hr>
 
   <h5 style="font-family: 'Jua', sans-serif; clear:both">리뷰 ({{ reviews.count }})</h5>
@@ -95,11 +88,11 @@
       <form action="{% url 'movies:reviews_update' movie.pk review.pk %}" method="POST" style="display: inline;">
         {% csrf_token %}
         {{ review_update_form }}
-        <input type="submit" value="수정" class="btn btn-outlint-light p-1">
+        <input type="submit" value="수정" class="btn btn-outlint-info p-1">
       </form>
       <form action="{% url 'movies:reviews_delete' movie.pk review.pk %}" method="POST" style="display: inline;">
         {% csrf_token %}
-        <input type="submit" value="삭제" class="btn btn-outlint-light p-1">
+        <input type="submit" value="삭제" class="btn btn-outlint-info p-1">
       </form>
       <br>
       {% endif %}

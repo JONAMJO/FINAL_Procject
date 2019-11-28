@@ -35,7 +35,6 @@ class Movie(models.Model):
         return reverse("movies:detail", kwargs={"movie_pk": self.pk})
 
 
-
 class Review(models.Model):
     movie = models.ForeignKey(Movie, on_delete=models.CASCADE)
     score = models.IntegerField(validators=[MinValueValidator(0), MaxValueValidator(10)])
@@ -61,4 +60,3 @@ class Cast(models.Model):
 
     def __str__(self):
         return self.peopleNm
-
