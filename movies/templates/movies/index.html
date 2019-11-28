@@ -2,16 +2,13 @@
 {% load bootstrap4 %}
 {% load static %}
 
-
 {% block content %}
-
 <br>
 
-<div id="carouselExampleControls" class="carousel slide" data-ride="carousel" style="width: 50%; margin:0 auto; ">
+<div id="carouselExampleControls" class="carousel slide" data-ride="carousel" style="width: 50%; margin:0 auto;">
   <h3 style="font-family: 'Jua', sans-serif; color:white;">추천 영화</h3>
   <div class="carousel-inner">
     <div class="carousel-item active">
-
       <figure class="snip1132">
         <img src="{% static 'img/choice.jpg' %}" class="d-block w-100" alt="img">
         <figcaption>
@@ -19,30 +16,30 @@
             <h3><span> SWIPE!!!</span></h3>
           </div>
           <div class="caption">
-            <p>I'm killing time while I wait</p>
+            <p>Best Movies</p>
           </div>
         </figcaption>
       </figure>
     </div>
 
     {% for movie in movies %}
-    {% if movie.user_rating >= 8 %}
-    <div class="carousel-item">
-      <a href="{{ movie.get_absolute_url }}">
-        <figure class="snip1132">
-          <img src="{{ movie.poster_url }}" class="d-block w-100" alt="img">
-          <figcaption>
-            <div class="heading">
-              <h3>({{ movie.user_rating }}점) <span>{{ movie.title }} </span></h3>
-            </div>
-            <div class="caption">
-              <p>I'm killing time while I wait</p>
-            </div>
-          </figcaption>
-        </figure>
-      </a>
-    </div>
-    {% endif %}
+      {% if movie.user_rating >= 9 %}
+        <div class="carousel-item">
+          <a href="{{ movie.get_absolute_url }}">
+            <figure class="snip1132">
+              <img src="{{ movie.poster_url }}" class="d-block w-100" alt="img">
+              <figcaption>
+                <div class="heading">
+                  <h3>({{ movie.user_rating }}점) <span>{{ movie.title }} </span></h3>
+                </div>
+                <div class="caption">
+                  <p>Best Movies</p>
+                </div>
+              </figcaption>
+            </figure>
+          </a>
+        </div>
+      {% endif %}
     {% endfor %}
   </div>
   <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -54,20 +51,18 @@
     <span class="sr-only">Next</span>
   </a>
 </div>
-
 <br>
 
 <div class="text-center">
   <div class="spinner-border text-success" role="status">
     <span class="sr-only">Loading...</span>
   </div>
-<h3 style="color: yellow"> <strong> 323개의 영화 </strong> 중 10개의 영화를 추천 중입니다...</h3>
-<h5 style="color: #f0e68c">약 15분 후에 갱신됩니다...</h5>
+  <br>
+  <br>
 </div>
 
 <br>
 <div class="container">
-  
   <div class="row justify-content-center">
     {% for movie in movies %}
 
@@ -95,13 +90,13 @@
         </a>
 
         {% if user in movie.like_users.all %}
-        <i class="fas fa-heart like-button" style="color: crimson;" data-id="{{ movie.pk }}">
-          <span id="like-count-{{ movie.pk }}">{{ movie.like_users.count }}</span> 좋아요
-        </i>
+          <i class="fas fa-heart like-button" style="color: crimson;" data-id="{{ movie.pk }}">
+            <span id="like-count-{{ movie.pk }}">{{ movie.like_users.count }}</span> 좋아요
+          </i>
         {% else %}
-        <i class="fas fa-heart like-button" style="color: black;" data-id="{{ movie.pk }}">
-          <span id="like-count-{{ movie.pk }}">{{ movie.like_users.count }}</span> 좋아요
-        </i>
+          <i class="fas fa-heart like-button" style="color: black;" data-id="{{ movie.pk }}">
+            <span id="like-count-{{ movie.pk }}">{{ movie.like_users.count }}</span> 좋아요
+          </i>
         {% endif %}
         <br>
       </div>

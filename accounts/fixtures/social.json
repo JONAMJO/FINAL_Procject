@@ -1,0 +1,16 @@
+[
+{
+    "model": "socialaccount.socialapp",
+    "pk": 1,
+    "fields": {
+        "provider": "kakao",
+        "name": "kakao",
+        "client_id": "b1c81f50f4e795e3b4c80e6cd386009b",
+        "secret": "Cuhu2kLs8VbsiQPlLHliRA0zTqPFr3KB",
+        "key": "",
+        "sites": [
+            1
+        ]
+    }
+}
+]
