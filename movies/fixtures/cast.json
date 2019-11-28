@@ -3,6 +3,7 @@
     "pk": 1,
     "model": "movies.cast",
     "fields": {
+      "movie": "20197803",
       "peopleNm": "크리스틴 벨",
       "peopleNmEn": "Kristen Bell",
       "cast": "",
@@ -14,6 +15,7 @@
     "pk": 2,
     "model": "movies.cast",
     "fields": {
+      "movie": "20197803",
       "peopleNm": "이디나 멘젤",
       "peopleNmEn": "Idina Menzel",
       "cast": "",
@@ -25,6 +27,7 @@
     "pk": 3,
     "model": "movies.cast",
     "fields": {
+      "movie": "20197803",
       "peopleNm": "조시 게드",
       "peopleNmEn": "Josh Gad",
       "cast": "",
@@ -36,6 +39,7 @@
     "pk": 4,
     "model": "movies.cast",
     "fields": {
+      "movie": "20197803",
       "peopleNm": "조나단 그로프",
       "peopleNmEn": "Jonathan Groff",
       "cast": "",
@@ -47,6 +51,7 @@
     "pk": 5,
     "model": "movies.cast",
     "fields": {
+      "movie": "20195002",
       "peopleNm": "조진웅",
       "peopleNmEn": "CHO Jin-woong",
       "cast": "양민혁",
@@ -58,6 +63,7 @@
     "pk": 6,
     "model": "movies.cast",
     "fields": {
+      "movie": "20195002",
       "peopleNm": "이하늬",
       "peopleNmEn": "LEE Ha-nee",
       "cast": "김나리",
@@ -69,6 +75,7 @@
     "pk": 7,
     "model": "movies.cast",
     "fields": {
+      "movie": "20195002",
       "peopleNm": "이경영",
       "peopleNmEn": "LEE Gyoung-young",
       "cast": "이광주",
@@ -80,6 +87,7 @@
     "pk": 8,
     "model": "movies.cast",
     "fields": {
+      "movie": "20195002",
       "peopleNm": "강신일",
       "peopleNmEn": "KANG Sin-Il",
       "cast": "장 수사관",
@@ -91,6 +99,7 @@
     "pk": 9,
     "model": "movies.cast",
     "fields": {
+      "movie": "20195002",
       "peopleNm": "최덕문",
       "peopleNmEn": "CHOI Duk-mun",
       "cast": "서권영",
@@ -102,6 +111,7 @@
     "pk": 10,
     "model": "movies.cast",
     "fields": {
+      "movie": "20181434",
       "peopleNm": "권상우",
       "peopleNmEn": "KWON Sang-woo",
       "cast": "귀수",
@@ -113,6 +123,7 @@
     "pk": 11,
     "model": "movies.cast",
     "fields": {
+      "movie": "20181434",
       "peopleNm": "김희원",
       "peopleNmEn": "KIM Hee-won",
       "cast": "똥선생",
@@ -124,6 +135,7 @@
     "pk": 12,
     "model": "movies.cast",
     "fields": {
+      "movie": "20181434",
       "peopleNm": "김성균",
       "peopleNmEn": "KIM Sung-kyun",
       "cast": "허일도",
@@ -135,6 +147,7 @@
     "pk": 13,
     "model": "movies.cast",
     "fields": {
+      "movie": "20181434",
       "peopleNm": "허성태",
       "peopleNmEn": "HEO Sung-tae",
       "cast": "부산잡초",
@@ -146,6 +159,7 @@
     "pk": 14,
     "model": "movies.cast",
     "fields": {
+      "movie": "20181434",
       "peopleNm": "우도환",
       "peopleNmEn": "WOO Do-hwan",
       "cast": "외톨이",
@@ -157,6 +171,7 @@
     "pk": 15,
     "model": "movies.cast",
     "fields": {
+      "movie": "20191029",
       "peopleNm": "정유미",
       "peopleNmEn": "JUNG Yu-mi",
       "cast": "김지영",
@@ -168,6 +183,7 @@
     "pk": 16,
     "model": "movies.cast",
     "fields": {
+      "movie": "20191029",
       "peopleNm": "공유",
       "peopleNmEn": "GONG Yoo",
       "cast": "정대현",
@@ -179,6 +195,7 @@
     "pk": 17,
     "model": "movies.cast",
     "fields": {
+      "movie": "20191029",
       "peopleNm": "김미경",
       "peopleNmEn": "KIM Mi-kyeong",
       "cast": "미숙",
@@ -190,6 +207,7 @@
     "pk": 18,
     "model": "movies.cast",
     "fields": {
+      "movie": "20191029",
       "peopleNm": "공민정",
       "peopleNmEn": "GONG Min-jeong",
       "cast": "은영",
@@ -201,6 +219,7 @@
     "pk": 19,
     "model": "movies.cast",
     "fields": {
+      "movie": "20191029",
       "peopleNm": "박성연",
       "peopleNmEn": "PARK Sung-yeon",
       "cast": "김팀장",
@@ -212,6 +231,7 @@
     "pk": 20,
     "model": "movies.cast",
     "fields": {
+      "movie": "20192083",
       "peopleNm": "맥켄지 데이비스",
       "peopleNmEn": "Mackenzie Davis",
       "cast": "",
@@ -223,6 +243,7 @@
     "pk": 21,
     "model": "movies.cast",
     "fields": {
+      "movie": "20192083",
       "peopleNm": "아놀드 슈왈제네거",
       "peopleNmEn": "Arnold Schwarzenegger",
       "cast": "",
@@ -234,6 +255,7 @@
     "pk": 22,
     "model": "movies.cast",
     "fields": {
+      "movie": "20192083",
       "peopleNm": "린다 해밀턴",
       "peopleNmEn": "Linda Hamilton",
       "cast": "",
@@ -245,6 +267,7 @@
     "pk": 23,
     "model": "movies.cast",
     "fields": {
+      "movie": "20192083",
       "peopleNm": "나탈리아 레이즈",
       "peopleNmEn": "Natalia Reyes",
       "cast": "",
@@ -256,6 +279,7 @@
     "pk": 24,
     "model": "movies.cast",
     "fields": {
+      "movie": "20192083",
       "peopleNm": "가브리엘 루나",
       "peopleNmEn": "Gabriel Luna",
       "cast": "",
@@ -267,6 +291,7 @@
     "pk": 25,
     "model": "movies.cast",
     "fields": {
+      "movie": "20196284",
       "peopleNm": "김희애",
       "peopleNmEn": "KIM Hee-ae",
       "cast": "윤희",
@@ -278,6 +303,7 @@
     "pk": 26,
     "model": "movies.cast",
     "fields": {
+      "movie": "20196284",
       "peopleNm": "김소혜",
       "peopleNmEn": "KIM So-hye",
       "cast": "새봄",
@@ -289,6 +315,7 @@
     "pk": 27,
     "model": "movies.cast",
     "fields": {
+      "movie": "20196284",
       "peopleNm": "성유빈",
       "peopleNmEn": "SUNG Yu-bin",
       "cast": "경수",
@@ -300,6 +327,7 @@
     "pk": 28,
     "model": "movies.cast",
     "fields": {
+      "movie": "20196284",
       "peopleNm": "나카무라 유코",
       "peopleNmEn": "Yuko Nakamura",
       "cast": "쥰",
@@ -311,6 +339,7 @@
     "pk": 29,
     "model": "movies.cast",
     "fields": {
+      "movie": "20198942",
       "peopleNm": "로버트 드 니로",
       "peopleNmEn": "Robert DeNiro",
       "cast": "",
@@ -322,6 +351,7 @@
     "pk": 30,
     "model": "movies.cast",
     "fields": {
+      "movie": "20198942",
       "peopleNm": "알 파치노",
       "peopleNmEn": "Al Pacino",
       "cast": "",
@@ -333,6 +363,7 @@
     "pk": 31,
     "model": "movies.cast",
     "fields": {
+      "movie": "20198942",
       "peopleNm": "조 페시",
       "peopleNmEn": "Joe Pesci",
       "cast": "",
@@ -344,6 +375,7 @@
     "pk": 32,
     "model": "movies.cast",
     "fields": {
+      "movie": "20184341",
       "peopleNm": "천정명",
       "peopleNmEn": "CHUN Jeong-myoung",
       "cast": "권상곤",
@@ -355,6 +387,7 @@
     "pk": 33,
     "model": "movies.cast",
     "fields": {
+      "movie": "20184341",
       "peopleNm": "진이한",
       "peopleNmEn": "JIN Yi-han",
       "cast": "구철회",
@@ -366,6 +399,7 @@
     "pk": 34,
     "model": "movies.cast",
     "fields": {
+      "movie": "20184341",
       "peopleNm": "이하율",
       "peopleNmEn": "LEE Ha-yul",
       "cast": "박태규",
@@ -377,6 +411,7 @@
     "pk": 35,
     "model": "movies.cast",
     "fields": {
+      "movie": "20184341",
       "peopleNm": "곽희성",
       "peopleNmEn": "KWAK Hee-sung",
       "cast": "곽상구",
@@ -388,6 +423,7 @@
     "pk": 36,
     "model": "movies.cast",
     "fields": {
+      "movie": "20184341",
       "peopleNm": "이시아",
       "peopleNmEn": "E Xia",
       "cast": "정민정",
@@ -399,6 +435,7 @@
     "pk": 37,
     "model": "movies.cast",
     "fields": {
+      "movie": "20190280",
       "peopleNm": "다이고 코타로",
       "peopleNmEn": "Kotaro Daigo",
       "cast": "",
@@ -410,6 +447,7 @@
     "pk": 38,
     "model": "movies.cast",
     "fields": {
+      "movie": "20190280",
       "peopleNm": "모리 나나",
       "peopleNmEn": "Nana Mori",
       "cast": "",
@@ -421,6 +459,7 @@
     "pk": 39,
     "model": "movies.cast",
     "fields": {
+      "movie": "20190280",
       "peopleNm": "오구리 슌",
       "peopleNmEn": "Shun Oguri",
       "cast": "",
@@ -432,6 +471,7 @@
     "pk": 40,
     "model": "movies.cast",
     "fields": {
+      "movie": "20197721",
       "peopleNm": "제라드 버틀러",
       "peopleNmEn": "Gerard Butler",
       "cast": "",
@@ -443,6 +483,7 @@
     "pk": 41,
     "model": "movies.cast",
     "fields": {
+      "movie": "20197721",
       "peopleNm": "모건 프리먼",
       "peopleNmEn": "Morgan Freeman",
       "cast": "",
@@ -454,6 +495,7 @@
     "pk": 42,
     "model": "movies.cast",
     "fields": {
+      "movie": "20197721",
       "peopleNm": "대니 휴스턴",
       "peopleNmEn": "Danny Huston",
       "cast": "",
@@ -465,6 +507,7 @@
     "pk": 43,
     "model": "movies.cast",
     "fields": {
+      "movie": "20197721",
       "peopleNm": "프레드릭 슈미트",
       "peopleNmEn": "Frederick Schmidt",
       "cast": "",
@@ -476,6 +519,7 @@
     "pk": 44,
     "model": "movies.cast",
     "fields": {
+      "movie": "20197721",
       "peopleNm": "로시 윌리엄스",
       "peopleNmEn": "Rocci Williams",
       "cast": "",
@@ -487,6 +531,7 @@
     "pk": 45,
     "model": "movies.cast",
     "fields": {
+      "movie": "20197279",
       "peopleNm": "샤를리즈 테론",
       "peopleNmEn": "Charlize Theron",
       "cast": "모티시아",
@@ -498,6 +543,7 @@
     "pk": 46,
     "model": "movies.cast",
     "fields": {
+      "movie": "20197279",
       "peopleNm": "클로이 모레츠",
       "peopleNmEn": "Chloe Moretz",
       "cast": "웬즈데이",
@@ -509,6 +555,7 @@
     "pk": 47,
     "model": "movies.cast",
     "fields": {
+      "movie": "20197279",
       "peopleNm": "오스카 아이삭",
       "peopleNmEn": "Oscar Isaac",
       "cast": "고메즈",
@@ -520,6 +567,7 @@
     "pk": 48,
     "model": "movies.cast",
     "fields": {
+      "movie": "20197279",
       "peopleNm": "핀 울프하드",
       "peopleNmEn": "Finn Wolfhard",
       "cast": "퍽슬리",
@@ -531,6 +579,7 @@
     "pk": 49,
     "model": "movies.cast",
     "fields": {
+      "movie": "20198421",
       "peopleNm": "우디 해럴슨",
       "peopleNmEn": "Woody Harrelson",
       "cast": "",
@@ -542,6 +591,7 @@
     "pk": 50,
     "model": "movies.cast",
     "fields": {
+      "movie": "20198421",
       "peopleNm": "제시 아이젠버그",
       "peopleNmEn": "Jesse Eisenberg",
       "cast": "",
@@ -553,6 +603,7 @@
     "pk": 51,
     "model": "movies.cast",
     "fields": {
+      "movie": "20198421",
       "peopleNm": "아비게일 브레스린",
       "peopleNmEn": "Abigail Breslin",
       "cast": "",
@@ -564,6 +615,7 @@
     "pk": 52,
     "model": "movies.cast",
     "fields": {
+      "movie": "20198421",
       "peopleNm": "엠마 스톤",
       "peopleNmEn": "Emma Stone",
       "cast": "",
@@ -575,6 +627,7 @@
     "pk": 53,
     "model": "movies.cast",
     "fields": {
+      "movie": "20193801",
       "peopleNm": "이완 맥그리거",
       "peopleNmEn": "Ewan McGregor",
       "cast": "",
@@ -586,6 +639,7 @@
     "pk": 54,
     "model": "movies.cast",
     "fields": {
+      "movie": "20193801",
       "peopleNm": "레베카 퍼거슨",
       "peopleNmEn": "Rebecca Ferguson",
       "cast": "",
@@ -597,6 +651,7 @@
     "pk": 55,
     "model": "movies.cast",
     "fields": {
+      "movie": "20193801",
       "peopleNm": "카일리 커란",
       "peopleNmEn": "Kyliegh Curran",
       "cast": "",
@@ -608,6 +663,7 @@
     "pk": 56,
     "model": "movies.cast",
     "fields": {
+      "movie": "20191589",
       "peopleNm": "안젤리나 졸리",
       "peopleNmEn": "Angelina Jolie",
       "cast": "",
@@ -619,6 +675,7 @@
     "pk": 57,
     "model": "movies.cast",
     "fields": {
+      "movie": "20191589",
       "peopleNm": "엘르 패닝",
       "peopleNmEn": "Elle Fanning",
       "cast": "",
@@ -630,6 +687,7 @@
     "pk": 58,
     "model": "movies.cast",
     "fields": {
+      "movie": "20199950",
       "peopleNm": "호아킨 피닉스",
       "peopleNmEn": "Joaquin Phoenix",
       "cast": "",
@@ -641,6 +699,7 @@
     "pk": 59,
     "model": "movies.cast",
     "fields": {
+      "movie": "20199950",
       "peopleNm": "재지 비츠",
       "peopleNmEn": "Zazie Beetz",
       "cast": "",
@@ -652,6 +711,7 @@
     "pk": 60,
     "model": "movies.cast",
     "fields": {
+      "movie": "20199950",
       "peopleNm": "로버트 드 니로",
       "peopleNmEn": "Robert DeNiro",
       "cast": "",
@@ -663,6 +723,7 @@
     "pk": 61,
     "model": "movies.cast",
     "fields": {
+      "movie": "20199950",
       "peopleNm": "프란시스 콘로이",
       "peopleNmEn": "Frances Conroy",
       "cast": "",
@@ -674,6 +735,7 @@
     "pk": 62,
     "model": "movies.cast",
     "fields": {
+      "movie": "20195920",
       "peopleNm": "김래원",
       "peopleNmEn": "KIM Rae-won",
       "cast": "재훈",
@@ -685,6 +747,7 @@
     "pk": 63,
     "model": "movies.cast",
     "fields": {
+      "movie": "20195920",
       "peopleNm": "공효진",
       "peopleNmEn": "KONG Hyo-jin",
       "cast": "선영",
@@ -696,6 +759,7 @@
     "pk": 64,
     "model": "movies.cast",
     "fields": {
+      "movie": "20195920",
       "peopleNm": "강기영",
       "peopleNmEn": "KANG Ki-young",
       "cast": "병철",
@@ -707,6 +771,7 @@
     "pk": 65,
     "model": "movies.cast",
     "fields": {
+      "movie": "20195920",
       "peopleNm": "정웅인",
       "peopleNmEn": "JUNG Woong-in",
       "cast": "관수",
@@ -718,6 +783,7 @@
     "pk": 66,
     "model": "movies.cast",
     "fields": {
+      "movie": "20195920",
       "peopleNm": "장소연",
       "peopleNmEn": "JANG So-yeon",
       "cast": "미영",
@@ -729,6 +795,7 @@
     "pk": 67,
     "model": "movies.cast",
     "fields": {
+      "movie": "20191183",
       "peopleNm": "윌 스미스",
       "peopleNmEn": "Will Smith",
       "cast": "",
@@ -740,6 +807,7 @@
     "pk": 68,
     "model": "movies.cast",
     "fields": {
+      "movie": "20191183",
       "peopleNm": "메리 엘리자베스 윈스티드",
       "peopleNmEn": "Mary Elizabeth Winstead",
       "cast": "",
@@ -751,6 +819,7 @@
     "pk": 69,
     "model": "movies.cast",
     "fields": {
+      "movie": "20191183",
       "peopleNm": "클라이브 오웬",
       "peopleNmEn": "Clive Owen",
       "cast": "",
@@ -762,6 +831,7 @@
     "pk": 70,
     "model": "movies.cast",
     "fields": {
+      "movie": "20197691",
       "peopleNm": "휴 잭맨",
       "peopleNmEn": "Hugh Jackman",
       "cast": "",
@@ -773,6 +843,7 @@
     "pk": 71,
     "model": "movies.cast",
     "fields": {
+      "movie": "20197691",
       "peopleNm": "조 샐다나",
       "peopleNmEn": "Zoe Saldana",
       "cast": "",
@@ -784,6 +855,7 @@
     "pk": 72,
     "model": "movies.cast",
     "fields": {
+      "movie": "20197691",
       "peopleNm": "엠마 톰슨",
       "peopleNmEn": "Emma Thompson",
       "cast": "",
@@ -795,6 +867,7 @@
     "pk": 73,
     "model": "movies.cast",
     "fields": {
+      "movie": "20199446",
       "peopleNm": "레오나르도 디카프리오",
       "peopleNmEn": "Leonardo Dicaprio",
       "cast": "",
@@ -806,6 +879,7 @@
     "pk": 74,
     "model": "movies.cast",
     "fields": {
+      "movie": "20199446",
       "peopleNm": "브래드 피트",
       "peopleNmEn": "Brad Pitt",
       "cast": "",
@@ -817,6 +891,7 @@
     "pk": 75,
     "model": "movies.cast",
     "fields": {
+      "movie": "20199446",
       "peopleNm": "마고 로비",
       "peopleNmEn": "Margot Robbie",
       "cast": "",
@@ -828,6 +903,7 @@
     "pk": 76,
     "model": "movies.cast",
     "fields": {
+      "movie": "20199446",
       "peopleNm": "에밀 허쉬",
       "peopleNmEn": "Emile Hirsch",
       "cast": "",
@@ -839,6 +915,7 @@
     "pk": 77,
     "model": "movies.cast",
     "fields": {
+      "movie": "20199446",
       "peopleNm": "마가렛 퀄리",
       "peopleNmEn": "Margaret Qualley",
       "cast": "",
@@ -850,6 +927,7 @@
     "pk": 78,
     "model": "movies.cast",
     "fields": {
+      "movie": "20194456",
       "peopleNm": "박해수",
       "peopleNmEn": "PARK Hae-soo",
       "cast": "이찬우",
@@ -861,6 +939,7 @@
     "pk": 79,
     "model": "movies.cast",
     "fields": {
+      "movie": "20194456",
       "peopleNm": "서예지",
       "peopleNmEn": "SEO Yea-ji",
       "cast": "성은영",
@@ -872,6 +951,7 @@
     "pk": 80,
     "model": "movies.cast",
     "fields": {
+      "movie": "20194456",
       "peopleNm": "김상호",
       "peopleNmEn": "KIM Sang-ho",
       "cast": "박기헌",
@@ -883,6 +963,7 @@
     "pk": 81,
     "model": "movies.cast",
     "fields": {
+      "movie": "20194456",
       "peopleNm": "김응수",
       "peopleNmEn": "KIM Eung-soo",
       "cast": "정갑택",
@@ -894,6 +975,7 @@
     "pk": 82,
     "model": "movies.cast",
     "fields": {
+      "movie": "20194456",
       "peopleNm": "변희봉",
       "peopleNmEn": "BYUN Hee-bong",
       "cast": "백영감",
@@ -905,6 +987,7 @@
     "pk": 83,
     "model": "movies.cast",
     "fields": {
+      "movie": "20188750",
       "peopleNm": "마동석",
       "peopleNmEn": "Don LEE",
       "cast": "박웅철",
@@ -916,6 +999,7 @@
     "pk": 84,
     "model": "movies.cast",
     "fields": {
+      "movie": "20188750",
       "peopleNm": "김상중",
       "peopleNmEn": "KIM Sang-joong",
       "cast": "오구탁",
@@ -927,6 +1011,7 @@
     "pk": 85,
     "model": "movies.cast",
     "fields": {
+      "movie": "20188750",
       "peopleNm": "김아중",
       "peopleNmEn": "KIM A-joong",
       "cast": "곽노순",
@@ -938,6 +1023,7 @@
     "pk": 86,
     "model": "movies.cast",
     "fields": {
+      "movie": "20188750",
       "peopleNm": "장기용",
       "peopleNmEn": "JANG Ki-yong",
       "cast": "고유성",
@@ -949,6 +1035,7 @@
     "pk": 87,
     "model": "movies.cast",
     "fields": {
+      "movie": "20193665",
       "peopleNm": "소피 넬리스",
       "peopleNmEn": "Sophie Nelisse",
       "cast": "미아",
@@ -960,6 +1047,7 @@
     "pk": 88,
     "model": "movies.cast",
     "fields": {
+      "movie": "20193665",
       "peopleNm": "코린 폭스",
       "peopleNmEn": "Corinne Foxx",
       "cast": "샤샤",
@@ -971,6 +1059,7 @@
     "pk": 89,
     "model": "movies.cast",
     "fields": {
+      "movie": "20193665",
       "peopleNm": "브리안느 쥬",
       "peopleNmEn": "Brianne Tju",
       "cast": "알렉사",
@@ -982,6 +1071,7 @@
     "pk": 90,
     "model": "movies.cast",
     "fields": {
+      "movie": "20193665",
       "peopleNm": "시스틴 로즈 스탤론",
       "peopleNmEn": "Sistine Rose Stallone",
       "cast": "니콜",
@@ -993,6 +1083,7 @@
     "pk": 91,
     "model": "movies.cast",
     "fields": {
+      "movie": "20184572",
       "peopleNm": "박정민",
       "peopleNmEn": "PARK Jung-min",
       "cast": "도일출",
@@ -1004,6 +1095,7 @@
     "pk": 92,
     "model": "movies.cast",
     "fields": {
+      "movie": "20184572",
       "peopleNm": "류승범",
       "peopleNmEn": "RYOO Seung-bum",
       "cast": "애꾸",
@@ -1015,6 +1107,7 @@
     "pk": 93,
     "model": "movies.cast",
     "fields": {
+      "movie": "20184572",
       "peopleNm": "최유화",
       "peopleNmEn": "CHOI Yu-hwa",
       "cast": "마돈나",
@@ -1026,6 +1119,7 @@
     "pk": 94,
     "model": "movies.cast",
     "fields": {
+      "movie": "20184572",
       "peopleNm": "우현",
       "peopleNmEn": "WOO Hyun",
       "cast": "물영감",
@@ -1037,6 +1131,7 @@
     "pk": 95,
     "model": "movies.cast",
     "fields": {
+      "movie": "20184572",
       "peopleNm": "윤제문",
       "peopleNmEn": "YOON Je-moon",
       "cast": "이상무",
@@ -1048,6 +1143,7 @@
     "pk": 96,
     "model": "movies.cast",
     "fields": {
+      "movie": "20193821",
       "peopleNm": "이지현",
       "peopleNmEn": "LEE Ji-hyun",
       "cast": "차탄 / 모나 한국어 목소리",
@@ -1059,6 +1155,7 @@
     "pk": 97,
     "model": "movies.cast",
     "fields": {
+      "movie": "20193821",
       "peopleNm": "김용준",
       "peopleNmEn": "KIM Yong-jun",
       "cast": "아빠 한국어 목소리",
@@ -1070,6 +1167,7 @@
     "pk": 98,
     "model": "movies.cast",
     "fields": {
+      "movie": "20193821",
       "peopleNm": "양정화",
       "peopleNmEn": "YANG Jeong-hwa",
       "cast": "엄마 / 장군 한국어 목소리",
@@ -1081,6 +1179,7 @@
     "pk": 99,
     "model": "movies.cast",
     "fields": {
+      "movie": "20193821",
       "peopleNm": "조경이",
       "peopleNmEn": "",
       "cast": "달려라 바니 / 엉토킹 한국어 목소리",
@@ -1092,6 +1191,7 @@
     "pk": 100,
     "model": "movies.cast",
     "fields": {
+      "movie": "20193821",
       "peopleNm": "사문영",
       "peopleNmEn": "SA Mun-yeong",
       "cast": "수지 한국어 목소리",
@@ -1103,6 +1203,7 @@
     "pk": 101,
     "model": "movies.cast",
     "fields": {
+      "movie": "20184621",
       "peopleNm": "조정석",
       "peopleNmEn": "JO Jung-suk",
       "cast": "",
@@ -1114,6 +1215,7 @@
     "pk": 102,
     "model": "movies.cast",
     "fields": {
+      "movie": "20184621",
       "peopleNm": "윤아",
       "peopleNmEn": "Yoon-a",
       "cast": "",
@@ -1125,6 +1227,7 @@
     "pk": 103,
     "model": "movies.cast",
     "fields": {
+      "movie": "20184621",
       "peopleNm": "고두심",
       "peopleNmEn": "KO Doo-shim",
       "cast": "",
@@ -1136,6 +1239,7 @@
     "pk": 104,
     "model": "movies.cast",
     "fields": {
+      "movie": "20184621",
       "peopleNm": "박인환",
       "peopleNmEn": "PARK In-hwan",
       "cast": "",
@@ -1147,6 +1251,7 @@
     "pk": 105,
     "model": "movies.cast",
     "fields": {
+      "movie": "20184621",
       "peopleNm": "김지영",
       "peopleNmEn": "KIM Ji-young",
       "cast": "정현",
@@ -1158,6 +1263,7 @@
     "pk": 106,
     "model": "movies.cast",
     "fields": {
+      "movie": "20192804",
       "peopleNm": "제임스 맥어보이",
       "peopleNmEn": "James McAvoy",
       "cast": "",
@@ -1169,6 +1275,7 @@
     "pk": 107,
     "model": "movies.cast",
     "fields": {
+      "movie": "20192804",
       "peopleNm": "제시카 차스테인",
       "peopleNmEn": "Jessica Chastain",
       "cast": "",
@@ -1180,6 +1287,7 @@
     "pk": 108,
     "model": "movies.cast",
     "fields": {
+      "movie": "20192804",
       "peopleNm": "빌 헤이더",
       "peopleNmEn": "Bill Hader",
       "cast": "",
@@ -1191,6 +1299,7 @@
     "pk": 109,
     "model": "movies.cast",
     "fields": {
+      "movie": "20192804",
       "peopleNm": "제임스 랜슨",
       "peopleNmEn": "James Ransone",
       "cast": "",
@@ -1202,6 +1311,7 @@
     "pk": 110,
     "model": "movies.cast",
     "fields": {
+      "movie": "20194045",
       "peopleNm": "방연지",
       "peopleNmEn": "",
       "cast": "금반지 목소리",
@@ -1213,6 +1323,7 @@
     "pk": 111,
     "model": "movies.cast",
     "fields": {
+      "movie": "20194045",
       "peopleNm": "김선혜",
       "peopleNmEn": "KIM Sun-hye",
       "cast": "변응심 목소리",
@@ -1224,6 +1335,7 @@
     "pk": 112,
     "model": "movies.cast",
     "fields": {
+      "movie": "20194045",
       "peopleNm": "조경이",
       "peopleNmEn": "",
       "cast": "진냠냠 목소리",
@@ -1235,6 +1347,7 @@
     "pk": 113,
     "model": "movies.cast",
     "fields": {
+      "movie": "20194045",
       "peopleNm": "채민지",
       "peopleNmEn": "",
       "cast": "손호용 목소리",
@@ -1246,6 +1359,7 @@
     "pk": 114,
     "model": "movies.cast",
     "fields": {
+      "movie": "20181416",
       "peopleNm": "김고은",
       "peopleNmEn": "KIM Go-eun",
       "cast": "미수",
@@ -1257,6 +1371,7 @@
     "pk": 115,
     "model": "movies.cast",
     "fields": {
+      "movie": "20181416",
       "peopleNm": "정해인",
       "peopleNmEn": "JUNG Hae-in",
       "cast": "현우",
@@ -1268,6 +1383,7 @@
     "pk": 116,
     "model": "movies.cast",
     "fields": {
+      "movie": "20181416",
       "peopleNm": "박해준",
       "peopleNmEn": "PARK Hae-joon",
       "cast": "종우",
@@ -1279,6 +1395,7 @@
     "pk": 117,
     "model": "movies.cast",
     "fields": {
+      "movie": "20181416",
       "peopleNm": "김국희",
       "peopleNmEn": "KIM Guk-hee",
       "cast": "은자",
@@ -1290,6 +1407,7 @@
     "pk": 118,
     "model": "movies.cast",
     "fields": {
+      "movie": "20193807",
       "peopleNm": "히메쉬 파텔",
       "peopleNmEn": "Himesh Patel",
       "cast": "잭 말릭",
@@ -1301,6 +1419,7 @@
     "pk": 119,
     "model": "movies.cast",
     "fields": {
+      "movie": "20193807",
       "peopleNm": "릴리 제임스",
       "peopleNmEn": "Lily James",
       "cast": "엘리 에플턴",
@@ -1312,6 +1431,7 @@
     "pk": 120,
     "model": "movies.cast",
     "fields": {
+      "movie": "20193807",
       "peopleNm": "케이트 맥키넌",
       "peopleNmEn": "Kate McKinnon",
       "cast": "데브라 해머",
@@ -1323,6 +1443,7 @@
     "pk": 121,
     "model": "movies.cast",
     "fields": {
+      "movie": "20193807",
       "peopleNm": "에드 시런",
       "peopleNmEn": "Ed Sheeran",
       "cast": "에드 시런",
@@ -1334,6 +1455,7 @@
     "pk": 122,
     "model": "movies.cast",
     "fields": {
+      "movie": "20196850",
       "peopleNm": "드웨인 존슨",
       "peopleNmEn": "Dwayne Johnson",
       "cast": "",
@@ -1345,6 +1467,7 @@
     "pk": 123,
     "model": "movies.cast",
     "fields": {
+      "movie": "20196850",
       "peopleNm": "제이슨 스타뎀",
       "peopleNmEn": "Jason Statham",
       "cast": "",
@@ -1356,6 +1479,7 @@
     "pk": 124,
     "model": "movies.cast",
     "fields": {
+      "movie": "20196850",
       "peopleNm": "이드리스 엘바",
       "peopleNmEn": "Idris Elba",
       "cast": "",
@@ -1367,6 +1491,7 @@
     "pk": 125,
     "model": "movies.cast",
     "fields": {
+      "movie": "20196850",
       "peopleNm": "바네사 커비",
       "peopleNmEn": "Vanessa Kirby",
       "cast": "",
@@ -1378,6 +1503,7 @@
     "pk": 126,
     "model": "movies.cast",
     "fields": {
+      "movie": "20194541",
       "peopleNm": "조시 게드",
       "peopleNmEn": "Josh Gad",
       "cast": "",
@@ -1389,6 +1515,7 @@
     "pk": 127,
     "model": "movies.cast",
     "fields": {
+      "movie": "20194541",
       "peopleNm": "데니스 퀘이드",
       "peopleNmEn": "Dennis Quaid",
       "cast": "",
@@ -1400,6 +1527,7 @@
     "pk": 128,
     "model": "movies.cast",
     "fields": {
+      "movie": "20194541",
       "peopleNm": "캐서린 프레스콧",
       "peopleNmEn": "Kathryn Prescott",
       "cast": "",
@@ -1411,6 +1539,7 @@
     "pk": 129,
     "model": "movies.cast",
     "fields": {
+      "movie": "20194541",
       "peopleNm": "헨리",
       "peopleNmEn": "Henry",
       "cast": "",
@@ -1422,6 +1551,7 @@
     "pk": 130,
     "model": "movies.cast",
     "fields": {
+      "movie": "20184462",
       "peopleNm": "유해진",
       "peopleNmEn": "YOO Hae-jin",
       "cast": "황해철",
@@ -1433,6 +1563,7 @@
     "pk": 131,
     "model": "movies.cast",
     "fields": {
+      "movie": "20184462",
       "peopleNm": "류준열",
       "peopleNmEn": "RYU Jun-yeol",
       "cast": "이장하",
@@ -1444,6 +1575,7 @@
     "pk": 132,
     "model": "movies.cast",
     "fields": {
+      "movie": "20184462",
       "peopleNm": "조우진",
       "peopleNmEn": "JO Woo-jin",
       "cast": "마병구",
@@ -1455,6 +1587,7 @@
     "pk": 133,
     "model": "movies.cast",
     "fields": {
+      "movie": "20184462",
       "peopleNm": "키타무라 카즈키",
       "peopleNmEn": "Kazuki Kitamura",
       "cast": "야스카와 지로",
@@ -1466,6 +1599,7 @@
     "pk": 134,
     "model": "movies.cast",
     "fields": {
+      "movie": "20183844",
       "peopleNm": "패튼 오스왈트",
       "peopleNmEn": "Patton Oswalt",
       "cast": "맥스 목소리",
@@ -1477,6 +1611,7 @@
     "pk": 135,
     "model": "movies.cast",
     "fields": {
+      "movie": "20183844",
       "peopleNm": "케빈 하트",
       "peopleNmEn": "Kevin Hart",
       "cast": "스노우볼 목소리",
@@ -1488,6 +1623,7 @@
     "pk": 136,
     "model": "movies.cast",
     "fields": {
+      "movie": "20183844",
       "peopleNm": "에릭 스톤스트릿",
       "peopleNmEn": "Eric Stonestreet",
       "cast": "듀크 목소리",
@@ -1499,6 +1635,7 @@
     "pk": 137,
     "model": "movies.cast",
     "fields": {
+      "movie": "20183844",
       "peopleNm": "제니 슬레이트",
       "peopleNmEn": "Jenny Slate",
       "cast": "기젯 목소리",
@@ -1510,6 +1647,7 @@
     "pk": 138,
     "model": "movies.cast",
     "fields": {
+      "movie": "20183867",
       "peopleNm": "메나 마수드",
       "peopleNmEn": "Mena Massoud",
       "cast": "",
@@ -1521,6 +1659,7 @@
     "pk": 139,
     "model": "movies.cast",
     "fields": {
+      "movie": "20183867",
       "peopleNm": "윌 스미스",
       "peopleNmEn": "Will Smith",
       "cast": "",
@@ -1532,6 +1671,7 @@
     "pk": 140,
     "model": "movies.cast",
     "fields": {
+      "movie": "20183867",
       "peopleNm": "나오미 스콧",
       "peopleNmEn": "Naomi Scott",
       "cast": "",
@@ -1543,6 +1683,7 @@
     "pk": 141,
     "model": "movies.cast",
     "fields": {
+      "movie": "20191741",
       "peopleNm": "제이슨 서디키스",
       "peopleNmEn": "Jason Sudeikis",
       "cast": "",
@@ -1554,6 +1695,7 @@
     "pk": 142,
     "model": "movies.cast",
     "fields": {
+      "movie": "20191741",
       "peopleNm": "조시 게드",
       "peopleNmEn": "Josh Gad",
       "cast": "",
@@ -1565,6 +1707,7 @@
     "pk": 143,
     "model": "movies.cast",
     "fields": {
+      "movie": "20191741",
       "peopleNm": "대니 맥브라이드",
       "peopleNmEn": "Danny McBride",
       "cast": "",
@@ -1576,6 +1719,7 @@
     "pk": 144,
     "model": "movies.cast",
     "fields": {
+      "movie": "20191741",
       "peopleNm": "피터 딘클리지",
       "peopleNmEn": "Peter Dinklage",
       "cast": "",
@@ -1587,6 +1731,7 @@
     "pk": 145,
     "model": "movies.cast",
     "fields": {
+      "movie": "20175771",
       "peopleNm": "도날드 글로버",
       "peopleNmEn": "Donald Glover",
       "cast": "",
@@ -1598,6 +1743,7 @@
     "pk": 146,
     "model": "movies.cast",
     "fields": {
+      "movie": "20175771",
       "peopleNm": "제임스 얼 존스",
       "peopleNmEn": "James Earl Jones",
       "cast": "",
@@ -1609,6 +1755,7 @@
     "pk": 147,
     "model": "movies.cast",
     "fields": {
+      "movie": "20175771",
       "peopleNm": "치웨텔 에지오포",
       "peopleNmEn": "Chiwetel Ejiofor",
       "cast": "",
@@ -1620,6 +1767,7 @@
     "pk": 148,
     "model": "movies.cast",
     "fields": {
+      "movie": "20175771",
       "peopleNm": "세스 로건",
       "peopleNmEn": "Seth Rogen",
       "cast": "",
@@ -1631,6 +1779,7 @@
     "pk": 149,
     "model": "movies.cast",
     "fields": {
+      "movie": "20198323",
       "peopleNm": "클로이 모레츠",
       "peopleNmEn": "Chloe Moretz",
       "cast": "Snow White",
@@ -1642,6 +1791,7 @@
     "pk": 150,
     "model": "movies.cast",
     "fields": {
+      "movie": "20198323",
       "peopleNm": "샘 클라플린",
       "peopleNmEn": "Sam Claflin",
       "cast": "Merlin",
@@ -1653,6 +1803,7 @@
     "pk": 151,
     "model": "movies.cast",
     "fields": {
+      "movie": "20198323",
       "peopleNm": "지나 거손",
       "peopleNmEn": "Gina Gershon",
       "cast": "Regina",
@@ -1664,6 +1815,7 @@
     "pk": 152,
     "model": "movies.cast",
     "fields": {
+      "movie": "20198323",
       "peopleNm": "패트릭 워버튼",
       "peopleNmEn": "Patrick Warburton",
       "cast": "Magic Mirror",
@@ -1675,6 +1827,7 @@
     "pk": 153,
     "model": "movies.cast",
     "fields": {
+      "movie": "20190741",
       "peopleNm": "김복동",
       "peopleNmEn": "KIM Bok-dong",
       "cast": "",
@@ -1686,6 +1839,7 @@
     "pk": 154,
     "model": "movies.cast",
     "fields": {
+      "movie": "20190741",
       "peopleNm": "한지민",
       "peopleNmEn": "HAN Ji-min",
       "cast": "내레이션",
@@ -1697,6 +1851,7 @@
     "pk": 155,
     "model": "movies.cast",
     "fields": {
+      "movie": "20196309",
       "peopleNm": "톰 홀랜드",
       "peopleNmEn": "Tom Holland",
       "cast": "",
@@ -1708,6 +1863,7 @@
     "pk": 156,
     "model": "movies.cast",
     "fields": {
+      "movie": "20196309",
       "peopleNm": "사무엘 L. 잭슨",
       "peopleNmEn": "Samuel L. Jackson",
       "cast": "",
@@ -1719,6 +1875,7 @@
     "pk": 157,
     "model": "movies.cast",
     "fields": {
+      "movie": "20196309",
       "peopleNm": "젠다야 콜맨",
       "peopleNmEn": "Zendaya Coleman",
       "cast": "",
@@ -1730,6 +1887,7 @@
     "pk": 158,
     "model": "movies.cast",
     "fields": {
+      "movie": "20196309",
       "peopleNm": "코비 스멀더스",
       "peopleNmEn": "Cobie Smulders",
       "cast": "",
@@ -1741,6 +1899,7 @@
     "pk": 159,
     "model": "movies.cast",
     "fields": {
+      "movie": "20182490",
       "peopleNm": "송강호",
       "peopleNmEn": "SONG Kang-ho",
       "cast": "세종대왕",
@@ -1752,6 +1911,7 @@
     "pk": 160,
     "model": "movies.cast",
     "fields": {
+      "movie": "20182490",
       "peopleNm": "박해일",
       "peopleNmEn": "PARK Hae-il",
       "cast": "신미 스님",
@@ -1763,6 +1923,7 @@
     "pk": 161,
     "model": "movies.cast",
     "fields": {
+      "movie": "20182490",
       "peopleNm": "전미선",
       "peopleNmEn": "JEON Mi-sun",
       "cast": "소헌왕후",
@@ -1774,6 +1935,7 @@
     "pk": 162,
     "model": "movies.cast",
     "fields": {
+      "movie": "20182490",
       "peopleNm": "김준한",
       "peopleNmEn": "KIM Jun-han",
       "cast": "문종",
@@ -1785,6 +1947,7 @@
     "pk": 163,
     "model": "movies.cast",
     "fields": {
+      "movie": "20183782",
       "peopleNm": "송강호",
       "peopleNmEn": "SONG Kang-ho",
       "cast": "기택",
@@ -1796,6 +1959,7 @@
     "pk": 164,
     "model": "movies.cast",
     "fields": {
+      "movie": "20183782",
       "peopleNm": "이선균",
       "peopleNmEn": "LEE Sun-kyun",
       "cast": "박사장",
@@ -1807,6 +1971,7 @@
     "pk": 165,
     "model": "movies.cast",
     "fields": {
+      "movie": "20183782",
       "peopleNm": "조여정",
       "peopleNmEn": "JO Yeo-jeong",
       "cast": "연교",
@@ -1818,6 +1983,7 @@
     "pk": 166,
     "model": "movies.cast",
     "fields": {
+      "movie": "20183782",
       "peopleNm": "최우식",
       "peopleNmEn": "CHOI Woo-shik",
       "cast": "기우",
@@ -1829,6 +1995,7 @@
     "pk": 167,
     "model": "movies.cast",
     "fields": {
+      "movie": "20192725",
       "peopleNm": "타카야마 미나미",
       "peopleNmEn": "Minami Takayama",
       "cast": "",
@@ -1840,6 +2007,7 @@
     "pk": 168,
     "model": "movies.cast",
     "fields": {
+      "movie": "20192725",
       "peopleNm": "야마자키 와카나",
       "peopleNmEn": "Wakana Yamazaki",
       "cast": "",
@@ -1851,6 +2019,7 @@
     "pk": 169,
     "model": "movies.cast",
     "fields": {
+      "movie": "20192725",
       "peopleNm": "코야마 리키야",
       "peopleNmEn": "Rikiya Koyama",
       "cast": "",
@@ -1862,6 +2031,7 @@
     "pk": 170,
     "model": "movies.cast",
     "fields": {
+      "movie": "20192725",
       "peopleNm": "야마구치 캇페이",
       "peopleNmEn": "Kappei Yamaguchi",
       "cast": "",
@@ -1873,6 +2043,7 @@
     "pk": 171,
     "model": "movies.cast",
     "fields": {
+      "movie": "20184047",
       "peopleNm": "톰 행크스",
       "peopleNmEn": "Tom Hanks",
       "cast": "",
@@ -1884,6 +2055,7 @@
     "pk": 172,
     "model": "movies.cast",
     "fields": {
+      "movie": "20184047",
       "peopleNm": "팀 알렌",
       "peopleNmEn": "Tim Allen",
       "cast": "",
@@ -1895,6 +2067,7 @@
     "pk": 173,
     "model": "movies.cast",
     "fields": {
+      "movie": "20184047",
       "peopleNm": "토니 헤일",
       "peopleNmEn": "Tony Hale",
       "cast": "",
@@ -1906,6 +2079,7 @@
     "pk": 174,
     "model": "movies.cast",
     "fields": {
+      "movie": "20185353",
       "peopleNm": "정소민",
       "peopleNmEn": "JEONG So-min",
       "cast": "",
@@ -1917,6 +2091,7 @@
     "pk": 175,
     "model": "movies.cast",
     "fields": {
+      "movie": "20185353",
       "peopleNm": "최귀화",
       "peopleNmEn": "CHOI Gwi-hwa",
       "cast": "",
@@ -1928,6 +2103,7 @@
     "pk": 176,
     "model": "movies.cast",
     "fields": {
+      "movie": "20185353",
       "peopleNm": "예지원",
       "peopleNmEn": "YEA Ji-won",
       "cast": "",
@@ -1939,6 +2115,7 @@
     "pk": 177,
     "model": "movies.cast",
     "fields": {
+      "movie": "20185353",
       "peopleNm": "공명",
       "peopleNmEn": "GONG Myung",
       "cast": "유상",
@@ -1950,6 +2127,7 @@
     "pk": 178,
     "model": "movies.cast",
     "fields": {
+      "movie": "20191601",
       "peopleNm": "김은아",
       "peopleNmEn": "",
       "cast": "엉덩이탐정 목소리",
@@ -1961,6 +2139,7 @@
     "pk": 179,
     "model": "movies.cast",
     "fields": {
+      "movie": "20191601",
       "peopleNm": "소연",
       "peopleNmEn": "",
       "cast": "브라운 목소리",
@@ -1972,6 +2151,7 @@
     "pk": 180,
     "model": "movies.cast",
     "fields": {
+      "movie": "20191601",
       "peopleNm": "홍진욱",
       "peopleNmEn": "HONG Jin-wook",
       "cast": "말티즈 서장 목소리",
@@ -1983,6 +2163,7 @@
     "pk": 181,
     "model": "movies.cast",
     "fields": {
+      "movie": "20191601",
       "peopleNm": "남도형",
       "peopleNmEn": "NAM Do-hyung",
       "cast": "괴도 유 목소리",
@@ -1994,6 +2175,7 @@
     "pk": 182,
     "model": "movies.cast",
     "fields": {
+      "movie": "20192151",
       "peopleNm": "플로렌스 퓨",
       "peopleNmEn": "Florence Pugh",
       "cast": "",
@@ -2005,6 +2187,7 @@
     "pk": 183,
     "model": "movies.cast",
     "fields": {
+      "movie": "20192151",
       "peopleNm": "잭 레이너",
       "peopleNmEn": "Jack Reynor",
       "cast": "",
@@ -2016,6 +2199,7 @@
     "pk": 184,
     "model": "movies.cast",
     "fields": {
+      "movie": "20192151",
       "peopleNm": "윌 폴터",
       "peopleNmEn": "Will Poulter",
       "cast": "",
@@ -2027,6 +2211,7 @@
     "pk": 185,
     "model": "movies.cast",
     "fields": {
+      "movie": "20192151",
       "peopleNm": "윌리엄 잭슨 하퍼",
       "peopleNmEn": "William Jackson Harper",
       "cast": "",
@@ -2038,6 +2223,7 @@
     "pk": 186,
     "model": "movies.cast",
     "fields": {
+      "movie": "20199951",
       "peopleNm": "패트릭 윌슨",
       "peopleNmEn": "Patrick Wilson",
       "cast": "",
@@ -2049,6 +2235,7 @@
     "pk": 187,
     "model": "movies.cast",
     "fields": {
+      "movie": "20199951",
       "peopleNm": "베라 파미가",
       "peopleNmEn": "Vera Farmiga",
       "cast": "",
@@ -2060,6 +2247,7 @@
     "pk": 188,
     "model": "movies.cast",
     "fields": {
+      "movie": "20199951",
       "peopleNm": "맥케나 그레이스",
       "peopleNmEn": "Mckenna Grace",
       "cast": "",
@@ -2071,6 +2259,7 @@
     "pk": 189,
     "model": "movies.cast",
     "fields": {
+      "movie": "20199951",
       "peopleNm": "매디슨 아이스먼",
       "peopleNmEn": "Madison Iseman",
       "cast": "",
@@ -2082,6 +2271,7 @@
     "pk": 190,
     "model": "movies.cast",
     "fields": {
+      "movie": "20196655",
       "peopleNm": "키아누 리브스",
       "peopleNmEn": "Keanu Reeves",
       "cast": "",
@@ -2093,6 +2283,7 @@
     "pk": 191,
     "model": "movies.cast",
     "fields": {
+      "movie": "20196655",
       "peopleNm": "할리 베리",
       "peopleNmEn": "Halle Berry",
       "cast": "",
@@ -2104,6 +2295,7 @@
     "pk": 192,
     "model": "movies.cast",
     "fields": {
+      "movie": "20196655",
       "peopleNm": "이안 맥쉐인",
       "peopleNmEn": "Ian McShane",
       "cast": "",
@@ -2115,6 +2307,7 @@
     "pk": 193,
     "model": "movies.cast",
     "fields": {
+      "movie": "20198453",
       "peopleNm": "김래원",
       "peopleNmEn": "KIM Rae-won",
       "cast": "장세출",
@@ -2126,6 +2319,7 @@
     "pk": 194,
     "model": "movies.cast",
     "fields": {
+      "movie": "20198453",
       "peopleNm": "원진아",
       "peopleNmEn": "WON Jin-ah",
       "cast": "강소현",
@@ -2137,6 +2331,7 @@
     "pk": 195,
     "model": "movies.cast",
     "fields": {
+      "movie": "20198453",
       "peopleNm": "진선규",
       "peopleNmEn": "JIN Seon-kyu",
       "cast": "조광춘",
@@ -2148,6 +2343,7 @@
     "pk": 196,
     "model": "movies.cast",
     "fields": {
+      "movie": "20198453",
       "peopleNm": "최귀화",
       "peopleNmEn": "CHOI Gwi-hwa",
       "cast": "최만수",
@@ -2159,6 +2355,7 @@
     "pk": 197,
     "model": "movies.cast",
     "fields": {
+      "movie": "20192689",
       "peopleNm": "김연우",
       "peopleNmEn": "",
       "cast": "수하 목소리",
@@ -2170,6 +2367,7 @@
     "pk": 198,
     "model": "movies.cast",
     "fields": {
+      "movie": "20192689",
       "peopleNm": "신용우",
       "peopleNmEn": "SHIN Yong-woo",
       "cast": "플루토 목소리",
@@ -2181,6 +2379,7 @@
     "pk": 199,
     "model": "movies.cast",
     "fields": {
+      "movie": "20192689",
       "peopleNm": "전태열",
       "peopleNmEn": "",
       "cast": "오무 목소리",
@@ -2192,6 +2391,7 @@
     "pk": 200,
     "model": "movies.cast",
     "fields": {
+      "movie": "20192689",
       "peopleNm": "배수빈",
       "peopleNmEn": "BAE Soo-bin",
       "cast": "수하 아빠 목소리",
@@ -2203,6 +2403,7 @@
     "pk": 201,
     "model": "movies.cast",
     "fields": {
+      "movie": "20182387",
       "peopleNm": "제임스 맥어보이",
       "peopleNmEn": "James McAvoy",
       "cast": "",
@@ -2214,6 +2415,7 @@
     "pk": 202,
     "model": "movies.cast",
     "fields": {
+      "movie": "20182387",
       "peopleNm": "마이클 패스벤더",
       "peopleNmEn": "Michael Fassbender",
       "cast": "",
@@ -2225,6 +2427,7 @@
     "pk": 203,
     "model": "movies.cast",
     "fields": {
+      "movie": "20182387",
       "peopleNm": "제니퍼 로렌스",
       "peopleNmEn": "Jennifer Lawrence",
       "cast": "",
@@ -2236,6 +2439,7 @@
     "pk": 204,
     "model": "movies.cast",
     "fields": {
+      "movie": "20182387",
       "peopleNm": "니콜라스 홀트",
       "peopleNmEn": "Nicholas Hoult",
       "cast": "",
@@ -2247,6 +2451,7 @@
     "pk": 205,
     "model": "movies.cast",
     "fields": {
+      "movie": "20198291",
       "peopleNm": "태런 에저튼",
       "peopleNmEn": "Taron Egerton",
       "cast": "",
@@ -2258,6 +2463,7 @@
     "pk": 206,
     "model": "movies.cast",
     "fields": {
+      "movie": "20198291",
       "peopleNm": "브라이스 달라스 하워드",
       "peopleNmEn": "Bryce Dallas Howard",
       "cast": "",
@@ -2269,6 +2475,7 @@
     "pk": 207,
     "model": "movies.cast",
     "fields": {
+      "movie": "20198291",
       "peopleNm": "제이미 벨",
       "peopleNmEn": "Jamie Bell",
       "cast": "",
@@ -2280,6 +2487,7 @@
     "pk": 208,
     "model": "movies.cast",
     "fields": {
+      "movie": "20188941",
       "peopleNm": "마동석",
       "peopleNmEn": "Don LEE",
       "cast": "동수",
@@ -2291,6 +2499,7 @@
     "pk": 209,
     "model": "movies.cast",
     "fields": {
+      "movie": "20188941",
       "peopleNm": "김무열",
       "peopleNmEn": "GIM Mu-yeol",
       "cast": "태석",
@@ -2302,6 +2511,7 @@
     "pk": 210,
     "model": "movies.cast",
     "fields": {
+      "movie": "20188941",
       "peopleNm": "김성규",
       "peopleNmEn": "KIM Sung-kyu",
       "cast": "강경호",
@@ -2313,6 +2523,7 @@
     "pk": 211,
     "model": "movies.cast",
     "fields": {
+      "movie": "20184865",
       "peopleNm": "밀리 바비 브라운",
       "peopleNmEn": "Millie Bobby Brown",
       "cast": "",
@@ -2324,6 +2535,7 @@
     "pk": 212,
     "model": "movies.cast",
     "fields": {
+      "movie": "20184865",
       "peopleNm": "베라 파미가",
       "peopleNmEn": "Vera Farmiga",
       "cast": "",
@@ -2335,6 +2547,7 @@
     "pk": 213,
     "model": "movies.cast",
     "fields": {
+      "movie": "20184865",
       "peopleNm": "카일 챈들러",
       "peopleNmEn": "Kyle Chandler",
       "cast": "",
@@ -2346,6 +2559,7 @@
     "pk": 214,
     "model": "movies.cast",
     "fields": {
+      "movie": "20184865",
       "peopleNm": "샐리 호킨스",
       "peopleNmEn": "Sally Hawkins",
       "cast": "",
@@ -2357,6 +2571,7 @@
     "pk": 215,
     "model": "movies.cast",
     "fields": {
+      "movie": "20184889",
       "peopleNm": "로버트 다우니 주니어",
       "peopleNmEn": "Robert Downey Jr.",
       "cast": "",
@@ -2368,6 +2583,7 @@
     "pk": 216,
     "model": "movies.cast",
     "fields": {
+      "movie": "20184889",
       "peopleNm": "크리스 에반스",
       "peopleNmEn": "Chris Evans",
       "cast": "",
@@ -2379,6 +2595,7 @@
     "pk": 217,
     "model": "movies.cast",
     "fields": {
+      "movie": "20184889",
       "peopleNm": "마크 러팔로",
       "peopleNmEn": "Mark Ruffalo",
       "cast": "",
@@ -2390,6 +2607,7 @@
     "pk": 218,
     "model": "movies.cast",
     "fields": {
+      "movie": "20184889",
       "peopleNm": "스칼렛 요한슨",
       "peopleNmEn": "Scarlett Johansson",
       "cast": "",
@@ -2401,6 +2619,7 @@
     "pk": 219,
     "model": "movies.cast",
     "fields": {
+      "movie": "20198597",
       "peopleNm": "이관희",
       "peopleNmEn": "LEE Kwan-hee",
       "cast": "",
@@ -2412,6 +2631,7 @@
     "pk": 220,
     "model": "movies.cast",
     "fields": {
+      "movie": "20198597",
       "peopleNm": "오은주",
       "peopleNmEn": "",
       "cast": "",
@@ -2423,6 +2643,7 @@
     "pk": 221,
     "model": "movies.cast",
     "fields": {
+      "movie": "20198597",
       "peopleNm": "이소연",
       "peopleNmEn": "",
       "cast": "",
@@ -2434,6 +2655,7 @@
     "pk": 222,
     "model": "movies.cast",
     "fields": {
+      "movie": "20199448",
       "peopleNm": "이동휘",
       "peopleNmEn": "LEE Dong-hwi",
       "cast": "정엽",
@@ -2445,6 +2667,7 @@
     "pk": 223,
     "model": "movies.cast",
     "fields": {
+      "movie": "20199448",
       "peopleNm": "유선",
       "peopleNmEn": "YOO Sun",
       "cast": "지숙",
@@ -2456,6 +2679,7 @@
     "pk": 224,
     "model": "movies.cast",
     "fields": {
+      "movie": "20199448",
       "peopleNm": "최명빈",
       "peopleNmEn": "CHOI Myeong-bin",
       "cast": "다빈",
@@ -2467,6 +2691,7 @@
     "pk": 225,
     "model": "movies.cast",
     "fields": {
+      "movie": "20199448",
       "peopleNm": "고수희",
       "peopleNmEn": "KOH Sui-hee",
       "cast": "미애",
@@ -2478,6 +2703,7 @@
     "pk": 226,
     "model": "movies.cast",
     "fields": {
+      "movie": "20198598",
       "peopleNm": "라이언 레이놀즈",
       "peopleNmEn": "Ryan Reynolds",
       "cast": "",
@@ -2489,6 +2715,7 @@
     "pk": 227,
     "model": "movies.cast",
     "fields": {
+      "movie": "20198598",
       "peopleNm": "저스티스 스미스",
       "peopleNmEn": "Justice Smith",
       "cast": "",
@@ -2500,6 +2727,7 @@
     "pk": 228,
     "model": "movies.cast",
     "fields": {
+      "movie": "20198598",
       "peopleNm": "캐서린 뉴튼",
       "peopleNmEn": "Kathryn Newton",
       "cast": "",
@@ -2511,6 +2739,7 @@
     "pk": 229,
     "model": "movies.cast",
     "fields": {
+      "movie": "20198598",
       "peopleNm": "빌 나이",
       "peopleNmEn": "Bill Nighy",
       "cast": "",
@@ -2522,6 +2751,7 @@
     "pk": 230,
     "model": "movies.cast",
     "fields": {
+      "movie": "20198183",
       "peopleNm": "이선",
       "peopleNmEn": "LEE Sun",
       "cast": "뽀로로 목소리",
@@ -2533,6 +2763,7 @@
     "pk": 231,
     "model": "movies.cast",
     "fields": {
+      "movie": "20198183",
       "peopleNm": "이미자",
       "peopleNmEn": "LEE Mi-ja",
       "cast": "크롱 목소리",
@@ -2544,6 +2775,7 @@
     "pk": 232,
     "model": "movies.cast",
     "fields": {
+      "movie": "20198183",
       "peopleNm": "김현지",
       "peopleNmEn": "KIM Hyun-ji",
       "cast": "에디 목소리",
@@ -2555,6 +2787,7 @@
     "pk": 233,
     "model": "movies.cast",
     "fields": {
+      "movie": "20198183",
       "peopleNm": "홍소영",
       "peopleNmEn": "HONG So-yeong",
       "cast": "루피 목소리",
