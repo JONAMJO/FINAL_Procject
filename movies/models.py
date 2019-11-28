@@ -3,6 +3,13 @@ from django.conf import settings
 from django.core.validators import MinValueValidator, MaxValueValidator
 from django.urls import reverse
 
+class Cast(models.Model):
+    peopleNm = models.CharField(max_length=150)
+    img_url = models.CharField(max_length=150, default="", blank=True)
+
+    def __str__(self):
+        return self.peopleNm
+
 
 class Genre(models.Model):
     name = models.CharField(max_length=150)
@@ -25,7 +32,7 @@ class Movie(models.Model):
     like_users = models.ManyToManyField(settings.AUTH_USER_MODEL, related_name='like_movies', blank=True)
     genre = models.ManyToManyField(Genre, related_name='movie_genres', blank=True)
     director = models.CharField(max_length=150, default="", blank=True)
-    actor = models.CharField(max_length=150, default="", blank=True)
+    actor = models.ForeignKey(Cast, related_name='movie_casts', blank=True)
 
     def __str__(self):
         return self.title

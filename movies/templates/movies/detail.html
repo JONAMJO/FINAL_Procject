@@ -22,9 +22,10 @@
     {% for director in movie.director %}
       {{ director }}
     {% endfor %}</p>
-  <p>배우:
-    {% for actor in movie.actor %}
-      {{ actor }}
+  <p>배우
+    {% for cast in movie.cast.all %}
+      {{ cast.img_url }}
+
     {% endfor %}</p>
   <p>
     {% if user in movie.like_users.all %}
