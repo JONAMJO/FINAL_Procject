@@ -16,45 +16,12 @@
 			"genre": [
 				12
 			],
-			"director": [
-				{
-					"peopleNm": "크리스 벅",
-					"peopleNmEn": "Chris Buck"
-				},
-				{
-					"peopleNm": "제니퍼 리",
-					"peopleNmEn": "Jennifer Lee"
-				}
-			],
+			"director": "크리스 벅",
 			"actor": [
-				{
-					"peopleNm": "크리스틴 벨",
-					"peopleNmEn": "Kristen Bell",
-					"cast": "",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2F199%2F201803141427042791.jpg&type=u111_139&quality=95"
-				},
-				{
-					"peopleNm": "이디나 멘젤",
-					"peopleNmEn": "Idina Menzel",
-					"cast": "",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2F130%2F201412021545271321.jpg&type=u111_139&quality=95"
-				},
-				{
-					"peopleNm": "조시 게드",
-					"peopleNmEn": "Josh Gad",
-					"cast": "",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2F108%2F201712011659103281.jpg&type=u111_139&quality=95"
-				},
-				{
-					"peopleNm": "조나단 그로프",
-					"peopleNmEn": "Jonathan Groff",
-					"cast": "",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2F194%2F201711301702556121.jpg&type=u111_139&quality=95"
-				}
+				1,
+				2,
+				3,
+				4
 			]
 		}
 	},
@@ -76,48 +43,13 @@
 				7,
 				4
 			],
-			"director": [
-				{
-					"peopleNm": "정지영",
-					"peopleNmEn": "CHUNG Ji-young"
-				}
-			],
+			"director": "정지영",
 			"actor": [
-				{
-					"peopleNm": "조진웅",
-					"peopleNmEn": "CHO Jin-woong",
-					"cast": "양민혁",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2Fportrait%2F201708%2F20170821165401677.jpg&type=u111_139&quality=95"
-				},
-				{
-					"peopleNm": "이하늬",
-					"peopleNmEn": "LEE Ha-nee",
-					"cast": "김나리",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2Fportrait%2F201901%2F20190117104025966.jpg&type=u111_139&quality=95"
-				},
-				{
-					"peopleNm": "이경영",
-					"peopleNmEn": "LEE Gyoung-young",
-					"cast": "이광주",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2F156%2F201402061550038851.jpg&type=u111_139&quality=95"
-				},
-				{
-					"peopleNm": "강신일",
-					"peopleNmEn": "KANG Sin-Il",
-					"cast": "장 수사관",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2F9%2F201807161657166751.jpg&type=u111_139&quality=95"
-				},
-				{
-					"peopleNm": "최덕문",
-					"peopleNmEn": "CHOI Duk-mun",
-					"cast": "서권영",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2F98%2F201303271521212981.jpg&type=u111_139&quality=95"
-				}
+				5,
+				6,
+				7,
+				8,
+				9
 			]
 		}
 	},
@@ -139,48 +71,13 @@
 				7,
 				10
 			],
-			"director": [
-				{
-					"peopleNm": "리건",
-					"peopleNmEn": "LEE Khan"
-				}
-			],
+			"director": "리건",
 			"actor": [
-				{
-					"peopleNm": "권상우",
-					"peopleNmEn": "KWON Sang-woo",
-					"cast": "귀수",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2Fportrait%2F201611%2F20161108123345201-3692810.jpg&type=u111_139&quality=95"
-				},
-				{
-					"peopleNm": "김희원",
-					"peopleNmEn": "KIM Hee-won",
-					"cast": "똥선생",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2Fportrait%2F201405%2F20140515132216682-5349227.jpg&type=u111_139&quality=95"
-				},
-				{
-					"peopleNm": "김성균",
-					"peopleNmEn": "KIM Sung-kyun",
-					"cast": "허일도",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2Fportrait%2F201804%2F20180417170435109.jpg&type=u111_139&quality=95"
-				},
-				{
-					"peopleNm": "허성태",
-					"peopleNmEn": "HEO Sung-tae",
-					"cast": "부산잡초",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2Fportrait%2F201805%2F20180531164352807.jpg&type=u111_139&quality=95"
-				},
-				{
-					"peopleNm": "우도환",
-					"peopleNmEn": "WOO Do-hwan",
-					"cast": "외톨이",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2Fportrait%2F201807%2F20180710171417279.jpg&type=u111_139&quality=95"
-				}
+				10,
+				11,
+				12,
+				13,
+				14
 			]
 		}
 	},
@@ -201,48 +98,13 @@
 			"genre": [
 				4
 			],
-			"director": [
-				{
-					"peopleNm": "김도영",
-					"peopleNmEn": "KIM Do-young"
-				}
-			],
+			"director": "김도영",
 			"actor": [
-				{
-					"peopleNm": "정유미",
-					"peopleNmEn": "JUNG Yu-mi",
-					"cast": "김지영",
-					"castEn": "KIM Ji-young",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2F122%2F201703151820454931.jpg&type=u111_139&quality=95"
-				},
-				{
-					"peopleNm": "공유",
-					"peopleNmEn": "GONG Yoo",
-					"cast": "정대현",
-					"castEn": "JUNG Dae-hyeon",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2F76%2F201706081735556361.jpg&type=u111_139&quality=95"
-				},
-				{
-					"peopleNm": "김미경",
-					"peopleNmEn": "KIM Mi-kyeong",
-					"cast": "미숙",
-					"castEn": "OH Mi-sook",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2Fportrait%2F201507%2F20150706173033986-841908.jpg&type=u111_139&quality=95"
-				},
-				{
-					"peopleNm": "공민정",
-					"peopleNmEn": "GONG Min-jeong",
-					"cast": "은영",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2F76%2F201901171458225151.jpg&type=u111_139&quality=95"
-				},
-				{
-					"peopleNm": "박성연",
-					"peopleNmEn": "PARK Sung-yeon",
-					"cast": "김팀장",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2Fportrait%2F201904%2F20190425154953910.png&type=u111_139&quality=95"
-				}
+				15,
+				16,
+				17,
+				18,
+				19
 			]
 		}
 	},
@@ -265,48 +127,13 @@
 				11,
 				15
 			],
-			"director": [
-				{
-					"peopleNm": "팀 밀러",
-					"peopleNmEn": "Tim Miller"
-				}
-			],
+			"director": "팀 밀러",
 			"actor": [
-				{
-					"peopleNm": "맥켄지 데이비스",
-					"peopleNmEn": "Mackenzie Davis",
-					"cast": "",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2F113%2F201611031531384601.png&type=u111_139&quality=95"
-				},
-				{
-					"peopleNm": "아놀드 슈왈제네거",
-					"peopleNmEn": "Arnold Schwarzenegger",
-					"cast": "",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2F117%2F201402071210039231.jpg&type=u111_139&quality=95"
-				},
-				{
-					"peopleNm": "린다 해밀턴",
-					"peopleNmEn": "Linda Hamilton",
-					"cast": "",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2F123%2F201910231037336701.jpg&type=u111_139&quality=95"
-				},
-				{
-					"peopleNm": "나탈리아 레이즈",
-					"peopleNmEn": "Natalia Reyes",
-					"cast": "",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2F113%2F20191022184633671.jpg&type=u111_139&quality=95"
-				},
-				{
-					"peopleNm": "가브리엘 루나",
-					"peopleNmEn": "Gabriel Luna",
-					"cast": "",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2F27%2F201910231022172801.jpg&type=u111_139&quality=95"
-				}
+				20,
+				21,
+				22,
+				23,
+				24
 			]
 		}
 	},
@@ -327,41 +154,12 @@
 			"genre": [
 				5
 			],
-			"director": [
-				{
-					"peopleNm": "임대형",
-					"peopleNmEn": "LIM Dae-hyung"
-				}
-			],
+			"director": "임대형",
 			"actor": [
-				{
-					"peopleNm": "김희애",
-					"peopleNmEn": "KIM Hee-ae",
-					"cast": "윤희",
-					"castEn": "Yoon-hee",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2F47%2F20160704151359361.jpg&type=u111_139&quality=95"
-				},
-				{
-					"peopleNm": "김소혜",
-					"peopleNmEn": "KIM So-hye",
-					"cast": "새봄",
-					"castEn": "Sae-bom",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2Fportrait%2F201907%2F20190717230004472.jpg&type=u111_139&quality=95"
-				},
-				{
-					"peopleNm": "성유빈",
-					"peopleNmEn": "SUNG Yu-bin",
-					"cast": "경수",
-					"castEn": "Kyeong-su",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2F154%2F201904191431211901.jpg&type=u111_139&quality=95"
-				},
-				{
-					"peopleNm": "나카무라 유코",
-					"peopleNmEn": "Yuko Nakamura",
-					"cast": "쥰",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=http%3A%2F%2Fimgmovie.naver.net%2Fmdi%2Fpi%2F000000028%2FPM2836_134833_000.jpg&type=u111_139&quality=95"
-				}
+				25,
+				26,
+				27,
+				28
 			]
 		}
 	},
@@ -384,34 +182,11 @@
 				4,
 				9
 			],
-			"director": [
-				{
-					"peopleNm": "마틴 스코세이지",
-					"peopleNmEn": "Martin Scorsese"
-				}
-			],
+			"director": "마틴 스코세이지",
 			"actor": [
-				{
-					"peopleNm": "로버트 드 니로",
-					"peopleNmEn": "Robert DeNiro",
-					"cast": "",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2F82%2F201909241213414821.jpg&type=u111_139&quality=95"
-				},
-				{
-					"peopleNm": "알 파치노",
-					"peopleNmEn": "Al Pacino",
-					"cast": "",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2F184%2F201409021125085831.jpg&type=u111_139&quality=95"
-				},
-				{
-					"peopleNm": "조 페시",
-					"peopleNmEn": "Joe Pesci",
-					"cast": "",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2F21%2F201805111743512891.jpg&type=u111_139&quality=95"
-				}
+				29,
+				30,
+				31
 			]
 		}
 	},
@@ -433,48 +208,13 @@
 				10,
 				4
 			],
-			"director": [
-				{
-					"peopleNm": "송창용",
-					"peopleNmEn": "SONG Chang-yong"
-				}
-			],
+			"director": "송창용",
 			"actor": [
-				{
-					"peopleNm": "천정명",
-					"peopleNmEn": "CHUN Jeong-myoung",
-					"cast": "권상곤",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2Fportrait%2F201404%2F20140408104805609-1098083.jpg&type=u111_139&quality=95"
-				},
-				{
-					"peopleNm": "진이한",
-					"peopleNmEn": "JIN Yi-han",
-					"cast": "구철회",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2Fportrait%2F201911%2F20191115114105997.jpg&type=u111_139&quality=95"
-				},
-				{
-					"peopleNm": "이하율",
-					"peopleNmEn": "LEE Ha-yul",
-					"cast": "박태규",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2Fportrait%2F201909%2F20190905102850697.jpg&type=u111_139&quality=95"
-				},
-				{
-					"peopleNm": "곽희성",
-					"peopleNmEn": "KWAK Hee-sung",
-					"cast": "곽상구",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2Fportrait%2F201708%2F20170817135712785-9525673.jpg&type=u111_139&quality=95"
-				},
-				{
-					"peopleNm": "이시아",
-					"peopleNmEn": "E Xia",
-					"cast": "정민정",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2Fportrait%2F201606%2F20160629160918398.jpg&type=u111_139&quality=95"
-				}
+				32,
+				33,
+				34,
+				35,
+				36
 			]
 		}
 	},
@@ -497,34 +237,11 @@
 				14,
 				5
 			],
-			"director": [
-				{
-					"peopleNm": "신카이 마코토",
-					"peopleNmEn": "Makoto Shinkai"
-				}
-			],
+			"director": "신카이 마코토",
 			"actor": [
-				{
-					"peopleNm": "다이고 코타로",
-					"peopleNmEn": "Kotaro Daigo",
-					"cast": "",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=http%3A%2F%2Fimgmovie.naver.net%2Fmdi%2Fpi%2F000004297%2FPM429726_162754_000.jpg&type=u111_139&quality=95"
-				},
-				{
-					"peopleNm": "모리 나나",
-					"peopleNmEn": "Nana Mori",
-					"cast": "",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=http%3A%2F%2Fimgmovie.naver.net%2Fmdi%2Fpi%2F000004297%2FPM429725_162825_000.jpg&type=u111_139&quality=95"
-				},
-				{
-					"peopleNm": "오구리 슌",
-					"peopleNmEn": "Shun Oguri",
-					"cast": "",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2F58%2F201609281414148391.jpg&type=u111_139&quality=95"
-				}
+				37,
+				38,
+				39
 			]
 		}
 	},
@@ -546,48 +263,13 @@
 				10,
 				9
 			],
-			"director": [
-				{
-					"peopleNm": "릭 로먼 워",
-					"peopleNmEn": "Ric Roman Waugh"
-				}
-			],
+			"director": "릭 로먼 워",
 			"actor": [
-				{
-					"peopleNm": "제라드 버틀러",
-					"peopleNmEn": "Gerard Butler",
-					"cast": "",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2F189%2F201911111811276411.jpg&type=u111_139&quality=95"
-				},
-				{
-					"peopleNm": "모건 프리먼",
-					"peopleNmEn": "Morgan Freeman",
-					"cast": "",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2F52%2F201805251054475311.jpg&type=u111_139&quality=95"
-				},
-				{
-					"peopleNm": "대니 휴스턴",
-					"peopleNmEn": "Danny Huston",
-					"cast": "",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2F164%2F201911111838393301.jpg&type=u111_139&quality=95"
-				},
-				{
-					"peopleNm": "프레드릭 슈미트",
-					"peopleNmEn": "Frederick Schmidt",
-					"cast": "",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=http%3A%2F%2Fimgmovie.naver.net%2Fmdi%2Fpi%2F000004156%2FPM415665_170431_000.jpg&type=u111_139&quality=95"
-				},
-				{
-					"peopleNm": "로시 윌리엄스",
-					"peopleNmEn": "Rocci Williams",
-					"cast": "",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=http%3A%2F%2Fimgmovie.naver.net%2Fmdi%2Fpi%2F000004325%2FPM432550_170357_000.jpg&type=u111_139&quality=95"
-				}
+				40,
+				41,
+				42,
+				43,
+				44
 			]
 		}
 	},
@@ -610,45 +292,12 @@
 				13,
 				1
 			],
-			"director": [
-				{
-					"peopleNm": "그렉 티어넌",
-					"peopleNmEn": "Greg Tiernan"
-				},
-				{
-					"peopleNm": "콘래드 베논",
-					"peopleNmEn": "Conrad Vernon"
-				}
-			],
+			"director": "그렉 티어넌",
 			"actor": [
-				{
-					"peopleNm": "샤를리즈 테론",
-					"peopleNmEn": "Charlize Theron",
-					"cast": "모티시아",
-					"castEn": "Morticia Addams",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2F89%2F201712181454075261.jpg&type=u111_139&quality=95"
-				},
-				{
-					"peopleNm": "클로이 모레츠",
-					"peopleNmEn": "Chloe Moretz",
-					"cast": "웬즈데이",
-					"castEn": "Wednesday Addams",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2F76%2F201907171517063141.jpg&type=u111_139&quality=95"
-				},
-				{
-					"peopleNm": "오스카 아이삭",
-					"peopleNmEn": "Oscar Isaac",
-					"cast": "고메즈",
-					"castEn": "Gomez Addams",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2F101%2F201910301729305491.png&type=u111_139&quality=95"
-				},
-				{
-					"peopleNm": "핀 울프하드",
-					"peopleNmEn": "Finn Wolfhard",
-					"cast": "퍽슬리",
-					"castEn": "Pugsley Addams",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2F191%2F201910301742099351.png&type=u111_139&quality=95"
-				}
+				45,
+				46,
+				47,
+				48
 			]
 		}
 	},
@@ -671,41 +320,12 @@
 				13,
 				2
 			],
-			"director": [
-				{
-					"peopleNm": "루벤 플레셔",
-					"peopleNmEn": "Ruben Fleischer"
-				}
-			],
+			"director": "루벤 플레셔",
 			"actor": [
-				{
-					"peopleNm": "우디 해럴슨",
-					"peopleNmEn": "Woody Harrelson",
-					"cast": "",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2F39%2F201807091741522641.jpg&type=u111_139&quality=95"
-				},
-				{
-					"peopleNm": "제시 아이젠버그",
-					"peopleNmEn": "Jesse Eisenberg",
-					"cast": "",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2F21%2F201911121712347491.jpg&type=u111_139&quality=95"
-				},
-				{
-					"peopleNm": "아비게일 브레스린",
-					"peopleNmEn": "Abigail Breslin",
-					"cast": "",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2F175%2F201710201420433171.jpg&type=u111_139&quality=95"
-				},
-				{
-					"peopleNm": "엠마 스톤",
-					"peopleNmEn": "Emma Stone",
-					"cast": "",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2F92%2F20191112173026451.jpg&type=u111_139&quality=95"
-				}
+				49,
+				50,
+				51,
+				52
 			]
 		}
 	},
@@ -726,34 +346,11 @@
 			"genre": [
 				9
 			],
-			"director": [
-				{
-					"peopleNm": "마이크 플래너건",
-					"peopleNmEn": "Mike Flanagan"
-				}
-			],
+			"director": "마이크 플래너건",
 			"actor": [
-				{
-					"peopleNm": "이완 맥그리거",
-					"peopleNmEn": "Ewan McGregor",
-					"cast": "",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2F141%2F201403251216227461.jpg&type=u111_139&quality=95"
-				},
-				{
-					"peopleNm": "레베카 퍼거슨",
-					"peopleNmEn": "Rebecca Ferguson",
-					"cast": "",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2F87%2F201910301423322571.jpg&type=u111_139&quality=95"
-				},
-				{
-					"peopleNm": "카일리 커란",
-					"peopleNmEn": "Kyliegh Curran",
-					"cast": "",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=http%3A%2F%2Fimgmovie.naver.net%2Fmdi%2Fpi%2F000004325%2FPM432501_173049_000.jpg&type=u111_139&quality=95"
-				}
+				53,
+				54,
+				55
 			]
 		}
 	},
@@ -776,27 +373,10 @@
 				1,
 				14
 			],
-			"director": [
-				{
-					"peopleNm": "요아킴 뢰닝",
-					"peopleNmEn": "Joachim Ronning"
-				}
-			],
+			"director": "요아킴 뢰닝",
 			"actor": [
-				{
-					"peopleNm": "안젤리나 졸리",
-					"peopleNmEn": "Angelina Jolie",
-					"cast": "",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2F194%2F201405201551252851.jpg&type=u111_139&quality=95"
-				},
-				{
-					"peopleNm": "엘르 패닝",
-					"peopleNmEn": "Elle Fanning",
-					"cast": "",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2F107%2F201704101441437641.jpg&type=u111_139&quality=95"
-				}
+				56,
+				57
 			]
 		}
 	},
@@ -819,41 +399,12 @@
 				4,
 				9
 			],
-			"director": [
-				{
-					"peopleNm": "토드 필립스",
-					"peopleNmEn": "Todd Phillips"
-				}
-			],
+			"director": "토드 필립스",
 			"actor": [
-				{
-					"peopleNm": "호아킨 피닉스",
-					"peopleNmEn": "Joaquin Phoenix",
-					"cast": "",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2F195%2F201807031748145311.jpg&type=u111_139&quality=95"
-				},
-				{
-					"peopleNm": "재지 비츠",
-					"peopleNmEn": "Zazie Beetz",
-					"cast": "",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2F112%2F201806041814247481.jpg&type=u111_139&quality=95"
-				},
-				{
-					"peopleNm": "로버트 드 니로",
-					"peopleNmEn": "Robert DeNiro",
-					"cast": "",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2F82%2F201909241213414821.jpg&type=u111_139&quality=95"
-				},
-				{
-					"peopleNm": "프란시스 콘로이",
-					"peopleNmEn": "Frances Conroy",
-					"cast": "",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=http%3A%2F%2Fimgmovie.naver.net%2Fmdi%2Fpi%2F000000082%2FPM8256_155431_000.jpg&type=u111_139&quality=95"
-				}
+				58,
+				59,
+				60,
+				61
 			]
 		}
 	},
@@ -875,48 +426,13 @@
 				5,
 				13
 			],
-			"director": [
-				{
-					"peopleNm": "김한결",
-					"peopleNmEn": "KIM Han-gyeol"
-				}
-			],
+			"director": "김한결",
 			"actor": [
-				{
-					"peopleNm": "김래원",
-					"peopleNmEn": "KIM Rae-won",
-					"cast": "재훈",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2Fportrait%2F201701%2F20170112145759747-9836275.jpg&type=u111_139&quality=95"
-				},
-				{
-					"peopleNm": "공효진",
-					"peopleNmEn": "KONG Hyo-jin",
-					"cast": "선영",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2F80%2F201807101753055661.jpg&type=u111_139&quality=95"
-				},
-				{
-					"peopleNm": "강기영",
-					"peopleNmEn": "KANG Ki-young",
-					"cast": "병철",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2Fportrait%2F201904%2F20190401190718660.jpg&type=u111_139&quality=95"
-				},
-				{
-					"peopleNm": "정웅인",
-					"peopleNmEn": "JUNG Woong-in",
-					"cast": "관수",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2F123%2F201801031124419501.jpg&type=u111_139&quality=95"
-				},
-				{
-					"peopleNm": "장소연",
-					"peopleNmEn": "JANG So-yeon",
-					"cast": "미영",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2F58%2F201805291024303931.jpg&type=u111_139&quality=95"
-				}
+				62,
+				63,
+				64,
+				65,
+				66
 			]
 		}
 	},
@@ -939,34 +455,11 @@
 				4,
 				15
 			],
-			"director": [
-				{
-					"peopleNm": "이안",
-					"peopleNmEn": "Ang Lee"
-				}
-			],
+			"director": "이안",
 			"actor": [
-				{
-					"peopleNm": "윌 스미스",
-					"peopleNmEn": "Will Smith",
-					"cast": "",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2F44%2F201502161824151601.jpg&type=u111_139&quality=95"
-				},
-				{
-					"peopleNm": "메리 엘리자베스 윈스티드",
-					"peopleNmEn": "Mary Elizabeth Winstead",
-					"cast": "",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2F175%2F201402101500198681.jpg&type=u111_139&quality=95"
-				},
-				{
-					"peopleNm": "클라이브 오웬",
-					"peopleNmEn": "Clive Owen",
-					"cast": "",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2F119%2F201804261724044391.jpg&type=u111_139&quality=95"
-				}
+				67,
+				68,
+				69
 			]
 		}
 	},
@@ -988,34 +481,11 @@
 				12,
 				11
 			],
-			"director": [
-				{
-					"peopleNm": "크리스 버틀러",
-					"peopleNmEn": "Chris Butler"
-				}
-			],
+			"director": "크리스 버틀러",
 			"actor": [
-				{
-					"peopleNm": "휴 잭맨",
-					"peopleNmEn": "Hugh Jackman",
-					"cast": "",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2F139%2F201405131010502971.jpg&type=u111_139&quality=95"
-				},
-				{
-					"peopleNm": "조 샐다나",
-					"peopleNmEn": "Zoe Saldana",
-					"cast": "",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2F147%2F201910021416188201.jpg&type=u111_139&quality=95"
-				},
-				{
-					"peopleNm": "엠마 톰슨",
-					"peopleNmEn": "Emma Thompson",
-					"cast": "",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2F197%2F201701091536146581.jpg&type=u111_139&quality=95"
-				}
+				70,
+				71,
+				72
 			]
 		}
 	},
@@ -1037,48 +507,13 @@
 				4,
 				13
 			],
-			"director": [
-				{
-					"peopleNm": "쿠엔틴 타란티노",
-					"peopleNmEn": "Quentin Tarantino"
-				}
-			],
+			"director": "쿠엔틴 타란티노",
 			"actor": [
-				{
-					"peopleNm": "레오나르도 디카프리오",
-					"peopleNmEn": "Leonardo Dicaprio",
-					"cast": "",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2F102%2F20140325145853401.jpg&type=u111_139&quality=95"
-				},
-				{
-					"peopleNm": "브래드 피트",
-					"peopleNmEn": "Brad Pitt",
-					"cast": "",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2F47%2F201411131528147031.jpg&type=u111_139&quality=95"
-				},
-				{
-					"peopleNm": "마고 로비",
-					"peopleNmEn": "Margot Robbie",
-					"cast": "",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2F30%2F201312261648585701.jpg&type=u111_139&quality=95"
-				},
-				{
-					"peopleNm": "에밀 허쉬",
-					"peopleNmEn": "Emile Hirsch",
-					"cast": "",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=http%3A%2F%2Fimgmovie.naver.net%2Fmdi%2Fpi%2F000000121%2FPM12129_152400_000.jpg&type=u111_139&quality=95"
-				},
-				{
-					"peopleNm": "마가렛 퀄리",
-					"peopleNmEn": "Margaret Qualley",
-					"cast": "",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=http%3A%2F%2Fimgmovie.naver.net%2Fmdi%2Fpi%2F000003574%2FPM357446_155639_000.jpg&type=u111_139&quality=95"
-				}
+				73,
+				74,
+				75,
+				76,
+				77
 			]
 		}
 	},
@@ -1099,48 +534,13 @@
 			"genre": [
 				7
 			],
-			"director": [
-				{
-					"peopleNm": "이성태",
-					"peopleNmEn": "LEE Seong-tae"
-				}
-			],
+			"director": "이성태",
 			"actor": [
-				{
-					"peopleNm": "박해수",
-					"peopleNmEn": "PARK Hae-soo",
-					"cast": "이찬우",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2Fportrait%2F201909%2F20190918175635965.gif&type=u111_139&quality=95"
-				},
-				{
-					"peopleNm": "서예지",
-					"peopleNmEn": "SEO Yea-ji",
-					"cast": "성은영",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2Fportrait%2F201807%2F20180723165020801.jpg&type=u111_139&quality=95"
-				},
-				{
-					"peopleNm": "김상호",
-					"peopleNmEn": "KIM Sang-ho",
-					"cast": "박기헌",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2Fportrait%2F201903%2F20190312093428670.jpg&type=u111_139&quality=95"
-				},
-				{
-					"peopleNm": "김응수",
-					"peopleNmEn": "KIM Eung-soo",
-					"cast": "정갑택",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2F49%2F200802131144125281.jpg&type=u111_139&quality=95"
-				},
-				{
-					"peopleNm": "변희봉",
-					"peopleNmEn": "BYUN Hee-bong",
-					"cast": "백영감",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2Fportrait%2F201505%2F2015051411155288.jpg&type=u111_139&quality=95"
-				}
+				78,
+				79,
+				80,
+				81,
+				82
 			]
 		}
 	},
@@ -1162,41 +562,12 @@
 				7,
 				10
 			],
-			"director": [
-				{
-					"peopleNm": "손용호",
-					"peopleNmEn": "SON Yong-ho"
-				}
-			],
+			"director": "손용호",
 			"actor": [
-				{
-					"peopleNm": "마동석",
-					"peopleNmEn": "Don LEE",
-					"cast": "박웅철",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2Fportrait%2F201710%2F2017102414073587.jpg&type=u111_139&quality=95"
-				},
-				{
-					"peopleNm": "김상중",
-					"peopleNmEn": "KIM Sang-joong",
-					"cast": "오구탁",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2F30%2F201702091509582231.jpg&type=u111_139&quality=95"
-				},
-				{
-					"peopleNm": "김아중",
-					"peopleNmEn": "KIM A-joong",
-					"cast": "곽노순",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2Fportrait%2F201902%2F20190215112043145.jpg&type=u111_139&quality=95"
-				},
-				{
-					"peopleNm": "장기용",
-					"peopleNmEn": "JANG Ki-yong",
-					"cast": "고유성",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2Fportrait%2F201711%2F2017110315555876.jpg&type=u111_139&quality=95"
-				}
+				83,
+				84,
+				85,
+				86
 			]
 		}
 	},
@@ -1218,41 +589,12 @@
 				2,
 				9
 			],
-			"director": [
-				{
-					"peopleNm": "요하네스 로버츠",
-					"peopleNmEn": "Johannes Roberts"
-				}
-			],
+			"director": "요하네스 로버츠",
 			"actor": [
-				{
-					"peopleNm": "소피 넬리스",
-					"peopleNmEn": "Sophie Nelisse",
-					"cast": "미아",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2F115%2F201908161834336391.jpg&type=u111_139&quality=95"
-				},
-				{
-					"peopleNm": "코린 폭스",
-					"peopleNmEn": "Corinne Foxx",
-					"cast": "샤샤",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2F154%2F201908211532165031.png&type=u111_139&quality=95"
-				},
-				{
-					"peopleNm": "브리안느 쥬",
-					"peopleNmEn": "Brianne Tju",
-					"cast": "알렉사",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2F152%2F201908211519499991.png&type=u111_139&quality=95"
-				},
-				{
-					"peopleNm": "시스틴 로즈 스탤론",
-					"peopleNmEn": "Sistine Rose Stallone",
-					"cast": "니콜",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2F171%2F201908161842367491.jpg&type=u111_139&quality=95"
-				}
+				87,
+				88,
+				89,
+				90
 			]
 		}
 	},
@@ -1274,48 +616,13 @@
 				7,
 				4
 			],
-			"director": [
-				{
-					"peopleNm": "권오광",
-					"peopleNmEn": "KWON Oh-kwang"
-				}
-			],
+			"director": "권오광",
 			"actor": [
-				{
-					"peopleNm": "박정민",
-					"peopleNmEn": "PARK Jung-min",
-					"cast": "도일출",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2Fportrait%2F201806%2F2018062211520043-5100457.jpg&type=u111_139&quality=95"
-				},
-				{
-					"peopleNm": "류승범",
-					"peopleNmEn": "RYOO Seung-bum",
-					"cast": "애꾸",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2F122%2F201011091145128401.jpg&type=u111_139&quality=95"
-				},
-				{
-					"peopleNm": "최유화",
-					"peopleNmEn": "CHOI Yu-hwa",
-					"cast": "마돈나",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2Fportrait%2F201907%2F20190730102615540.jpg&type=u111_139&quality=95"
-				},
-				{
-					"peopleNm": "우현",
-					"peopleNmEn": "WOO Hyun",
-					"cast": "물영감",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2Fportrait%2F201202%2F20120227141149996-4030007.jpg&type=u111_139&quality=95"
-				},
-				{
-					"peopleNm": "윤제문",
-					"peopleNmEn": "YOON Je-moon",
-					"cast": "이상무",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2Fportrait%2F201304%2F20130424112518871.jpg&type=u111_139&quality=95"
-				}
+				91,
+				92,
+				93,
+				94,
+				95
 			]
 		}
 	},
@@ -1336,52 +643,13 @@
 			"genre": [
 				12
 			],
-			"director": [
-				{
-					"peopleNm": "최신규",
-					"peopleNmEn": "CHOI Shin-gyu"
-				},
-				{
-					"peopleNm": "김진철",
-					"peopleNmEn": "KIM Jin-cheol"
-				}
-			],
+			"director": "최신규",
 			"actor": [
-				{
-					"peopleNm": "이지현",
-					"peopleNmEn": "LEE Ji-hyun",
-					"cast": "차탄 / 모나 한국어 목소리",
-					"castEn": "",
-					"img_url": "https://ssl.pstatic.net/static/movie/2012/06/dft_img111x139.png"
-				},
-				{
-					"peopleNm": "김용준",
-					"peopleNmEn": "KIM Yong-jun",
-					"cast": "아빠 한국어 목소리",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=http%3A%2F%2Fimgmovie.naver.net%2Fmdi%2Fpi%2F000000488%2FPM48885_114738_000.jpg&type=u111_139&quality=95"
-				},
-				{
-					"peopleNm": "양정화",
-					"peopleNmEn": "YANG Jeong-hwa",
-					"cast": "엄마 / 장군 한국어 목소리",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2Fportrait%2F201604%2F20160420152205985-2302412.jpg&type=u111_139&quality=95"
-				},
-				{
-					"peopleNm": "조경이",
-					"peopleNmEn": "",
-					"cast": "달려라 바니 / 엉토킹 한국어 목소리",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2Fportrait%2F201308%2F20130815233636986.jpg&type=u111_139&quality=95"
-				},
-				{
-					"peopleNm": "사문영",
-					"peopleNmEn": "SA Mun-yeong",
-					"cast": "수지 한국어 목소리",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2Fportrait%2F201406%2F20140619182536274.jpg&type=u111_139&quality=95"
-				}
+				96,
+				97,
+				98,
+				99,
+				100
 			]
 		}
 	},
@@ -1403,48 +671,13 @@
 				13,
 				10
 			],
-			"director": [
-				{
-					"peopleNm": "이상근",
-					"peopleNmEn": "LEE Sang-geun"
-				}
-			],
+			"director": "이상근",
 			"actor": [
-				{
-					"peopleNm": "조정석",
-					"peopleNmEn": "JO Jung-suk",
-					"cast": "",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2F53%2F201903261620517331.jpg&type=u111_139&quality=95"
-				},
-				{
-					"peopleNm": "윤아",
-					"peopleNmEn": "Yoon-a",
-					"cast": "",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2F194%2F201907231415037441.jpg&type=u111_139&quality=95"
-				},
-				{
-					"peopleNm": "고두심",
-					"peopleNmEn": "KO Doo-shim",
-					"cast": "",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2F0%2F201404041105394501.jpg&type=u111_139&quality=95"
-				},
-				{
-					"peopleNm": "박인환",
-					"peopleNmEn": "PARK In-hwan",
-					"cast": "",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2Fportrait%2F201806%2F20180607181136384.jpg&type=u111_139&quality=95"
-				},
-				{
-					"peopleNm": "김지영",
-					"peopleNmEn": "KIM Ji-young",
-					"cast": "정현",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2Fportrait%2F201510%2F20151006181504684-3716386.jpg&type=u111_139&quality=95"
-				}
+				101,
+				102,
+				103,
+				104,
+				105
 			]
 		}
 	},
@@ -1465,48 +698,12 @@
 			"genre": [
 				9
 			],
-			"director": [
-				{
-					"peopleNm": "안드레스 무시에티",
-					"peopleNmEn": "Andres Muschietti"
-				}
-			],
+			"director": "안드레스 무시에티",
 			"actor": [
-				{
-					"peopleNm": "제임스 맥어보이",
-					"peopleNmEn": "James McAvoy",
-					"cast": "",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2F176%2F201411251443138421.jpg&type=u111_139&quality=95"
-				},
-				{
-					"peopleNm": "제시카 차스테인",
-					"peopleNmEn": "Jessica Chastain",
-					"cast": "",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2F120%2F201411251505503801.jpg&type=u111_139&quality=95"
-				},
-				{
-					"peopleNm": "빌 헤이더",
-					"peopleNmEn": "Bill Hader",
-					"cast": "",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=http%3A%2F%2Fimgmovie.naver.net%2Fmdi%2Fpi%2F000000911%2FPM91167_114001_000.jpg&type=u111_139&quality=95"
-				},
-				{
-					"peopleNm": "제임스 랜슨",
-					"peopleNmEn": "James Ransone",
-					"cast": "",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=http%3A%2F%2Fimgmovie.naver.net%2Fmdi%2Fpi%2F000000388%2FPM38803_172419_000.jpg&type=u111_139&quality=95"
-				},
-				{
-					"peopleNm": "앤디 빈",
-					"peopleNmEn": "Andy Bean",
-					"cast": "",
-					"castEn": "",
-					"img_url": "https://ssl.pstatic.net/static/movie/2012/06/dft_img38x38.png"
-				}
+				106,
+				107,
+				108,
+				109
 			]
 		}
 	},
@@ -1527,48 +724,12 @@
 			"genre": [
 				12
 			],
-			"director": [
-				{
-					"peopleNm": "한승우",
-					"peopleNmEn": ""
-				}
-			],
+			"director": "한승우",
 			"actor": [
-				{
-					"peopleNm": "방연지",
-					"peopleNmEn": "",
-					"cast": "금반지 목소리",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2F177%2F201602042048281941.jpg&type=u111_139&quality=95"
-				},
-				{
-					"peopleNm": "김선혜",
-					"peopleNmEn": "KIM Sun-hye",
-					"cast": "변응심 목소리",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2F42%2F201305301442341071.jpg&type=u111_139&quality=95"
-				},
-				{
-					"peopleNm": "조경이",
-					"peopleNmEn": "",
-					"cast": "진냠냠 목소리",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2Fportrait%2F201308%2F20130815233636986.jpg&type=u111_139&quality=95"
-				},
-				{
-					"peopleNm": "채민지",
-					"peopleNmEn": "",
-					"cast": "손호용 목소리",
-					"castEn": "",
-					"img_url": "https://ssl.pstatic.net/static/movie/2012/06/dft_img111x139.png"
-				},
-				{
-					"peopleNm": "조진숙",
-					"peopleNmEn": " ",
-					"cast": "칸다 목소리",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2F89%2F201708291400275021.jpg&type=u111_139&quality=95"
-				}
+				110,
+				111,
+				112,
+				113
 			]
 		}
 	},
@@ -1590,48 +751,12 @@
 				5,
 				4
 			],
-			"director": [
-				{
-					"peopleNm": "정지우",
-					"peopleNmEn": "JUNG Ji-woo"
-				}
-			],
+			"director": "정지우",
 			"actor": [
-				{
-					"peopleNm": "김고은",
-					"peopleNmEn": "KIM Go-eun",
-					"cast": "미수",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2Fportrait%2F201801%2F20180118105906522.jpg&type=u111_139&quality=95"
-				},
-				{
-					"peopleNm": "정해인",
-					"peopleNmEn": "JUNG Hae-in",
-					"cast": "현우",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2Fportrait%2F201803%2F20180320170216840.jpg&type=u111_139&quality=95"
-				},
-				{
-					"peopleNm": "박해준",
-					"peopleNmEn": "PARK Hae-joon",
-					"cast": "종우",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2Fportrait%2F201909%2F20190917223233858-2852920.png&type=u111_139&quality=95"
-				},
-				{
-					"peopleNm": "김국희",
-					"peopleNmEn": "KIM Guk-hee",
-					"cast": "은자",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2F99%2F201803151513268461.jpg&type=u111_139&quality=95"
-				},
-				{
-					"peopleNm": "정유진",
-					"peopleNmEn": "",
-					"cast": "현주",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2Fportrait%2F201803%2F20180328122041169.jpg&type=u111_139&quality=95"
-				}
+				114,
+				115,
+				116,
+				117
 			]
 		}
 	},
@@ -1652,48 +777,12 @@
 			"genre": [
 				4
 			],
-			"director": [
-				{
-					"peopleNm": "대니 보일",
-					"peopleNmEn": "Danny Boyle"
-				}
-			],
+			"director": "대니 보일",
 			"actor": [
-				{
-					"peopleNm": "히메쉬 파텔",
-					"peopleNmEn": "Himesh Patel",
-					"cast": "잭 말릭",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=http%3A%2F%2Fimgmovie.naver.net%2Fmdi%2Fpi%2F000004302%2FPM430244_135906_000.jpg&type=u111_139&quality=95"
-				},
-				{
-					"peopleNm": "릴리 제임스",
-					"peopleNmEn": "Lily James",
-					"cast": "엘리 에플턴",
-					"castEn": "Ellie Appleton",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2F131%2F201805091814064941.jpg&type=u111_139&quality=95"
-				},
-				{
-					"peopleNm": "케이트 맥키넌",
-					"peopleNmEn": "Kate McKinnon",
-					"cast": "데브라 해머",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2F119%2F20171207165220231.jpg&type=u111_139&quality=95"
-				},
-				{
-					"peopleNm": "에드 시런",
-					"peopleNmEn": "Ed Sheeran",
-					"cast": "에드 시런",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2F137%2F201905131452058141.jpg&type=u111_139&quality=95"
-				},
-				{
-					"peopleNm": "제임스 코든",
-					"peopleNmEn": "James Corden",
-					"cast": "제임스 코든",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2F38%2F201407241847182851.jpg&type=u111_139&quality=95"
-				}
+				118,
+				119,
+				120,
+				121
 			]
 		}
 	},
@@ -1714,41 +803,12 @@
 			"genre": [
 				10
 			],
-			"director": [
-				{
-					"peopleNm": "데이빗 레이치",
-					"peopleNmEn": "David Leitch"
-				}
-			],
+			"director": "데이빗 레이치",
 			"actor": [
-				{
-					"peopleNm": "드웨인 존슨",
-					"peopleNmEn": "Dwayne Johnson",
-					"cast": "",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2F92%2F201404301346361341.jpg&type=u111_139&quality=95"
-				},
-				{
-					"peopleNm": "제이슨 스타뎀",
-					"peopleNmEn": "Jason Statham",
-					"cast": "",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2F74%2F201703291104467471.jpg&type=u111_139&quality=95"
-				},
-				{
-					"peopleNm": "이드리스 엘바",
-					"peopleNmEn": "Idris Elba",
-					"cast": "",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2F43%2F201910171645578271.jpg&type=u111_139&quality=95"
-				},
-				{
-					"peopleNm": "바네사 커비",
-					"peopleNmEn": "Vanessa Kirby",
-					"cast": "",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2F68%2F201610261415318451.jpg&type=u111_139&quality=95"
-				}
+				122,
+				123,
+				124,
+				125
 			]
 		}
 	},
@@ -1769,48 +829,12 @@
 			"genre": [
 				1
 			],
-			"director": [
-				{
-					"peopleNm": "게일 맨쿠소",
-					"peopleNmEn": "Gail Mancuso"
-				}
-			],
+			"director": "게일 맨쿠소",
 			"actor": [
-				{
-					"peopleNm": "조시 게드",
-					"peopleNmEn": "Josh Gad",
-					"cast": "",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2F108%2F201712011659103281.jpg&type=u111_139&quality=95"
-				},
-				{
-					"peopleNm": "데니스 퀘이드",
-					"peopleNmEn": "Dennis Quaid",
-					"cast": "",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2F188%2F201701101710464751.jpg&type=u111_139&quality=95"
-				},
-				{
-					"peopleNm": "캐서린 프레스콧",
-					"peopleNmEn": "Kathryn Prescott",
-					"cast": "",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=http%3A%2F%2Fimgmovie.naver.net%2Fmdi%2Fpi%2F000003188%2FPM318808_155100_000.jpg&type=u111_139&quality=95"
-				},
-				{
-					"peopleNm": "마그 헬젠버거",
-					"peopleNmEn": "Marg Helgenberger",
-					"cast": "",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2F145%2F201212041850114181.jpg&type=u111_139&quality=95"
-				},
-				{
-					"peopleNm": "헨리",
-					"peopleNmEn": "Henry",
-					"cast": "",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2F137%2F201811271045288961.jpg&type=n38_38&quality=95"
-				}
+				126,
+				127,
+				128,
+				129
 			]
 		}
 	},
@@ -1833,48 +857,12 @@
 				10,
 				4
 			],
-			"director": [
-				{
-					"peopleNm": "원신연",
-					"peopleNmEn": "WON Shin-yun"
-				}
-			],
+			"director": "원신연",
 			"actor": [
-				{
-					"peopleNm": "유해진",
-					"peopleNmEn": "YOO Hae-jin",
-					"cast": "황해철",
-					"castEn": "HWANG Hae-chul",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2Fportrait%2F201408%2F20140812112910975-2478051.jpg&type=u111_139&quality=95"
-				},
-				{
-					"peopleNm": "류준열",
-					"peopleNmEn": "RYU Jun-yeol",
-					"cast": "이장하",
-					"castEn": "LEE Jang-ha",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2Fportrait%2F201905%2F20190528142316857-8531317.jpg&type=u111_139&quality=95"
-				},
-				{
-					"peopleNm": "조우진",
-					"peopleNmEn": "JO Woo-jin",
-					"cast": "마병구",
-					"castEn": "MA Byeong-gu",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2Fportrait%2F201904%2F20190401191052627.jpg&type=u111_139&quality=95"
-				},
-				{
-					"peopleNm": "키타무라 카즈키",
-					"peopleNmEn": "Kazuki Kitamura",
-					"cast": "야스카와 지로",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=http%3A%2F%2Fimgmovie.naver.net%2Fmdi%2Fpi%2F000000032%2FPM3205_170839_000.jpg&type=u111_139&quality=95"
-				},
-				{
-					"peopleNm": "이케우치 히로유키",
-					"peopleNmEn": "Hiroyuki Ikeuchi",
-					"cast": "쿠사나기",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=http%3A%2F%2Fimgmovie.naver.net%2Fmdi%2Fpi%2F000000037%2F00000003748-t.jpg&type=u111_139&quality=95"
-				}
+				130,
+				131,
+				132,
+				133
 			]
 		}
 	},
@@ -1897,48 +885,12 @@
 				11,
 				13
 			],
-			"director": [
-				{
-					"peopleNm": "크리스 리노드",
-					"peopleNmEn": "Chris Renaud"
-				}
-			],
+			"director": "크리스 리노드",
 			"actor": [
-				{
-					"peopleNm": "패튼 오스왈트",
-					"peopleNmEn": "Patton Oswalt",
-					"cast": "맥스 목소리",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2F10%2F2018051616514971.jpg&type=u111_139&quality=95"
-				},
-				{
-					"peopleNm": "케빈 하트",
-					"peopleNmEn": "Kevin Hart",
-					"cast": "스노우볼 목소리",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2F99%2F201801121520387991.jpg&type=u111_139&quality=95"
-				},
-				{
-					"peopleNm": "에릭 스톤스트릿",
-					"peopleNmEn": "Eric Stonestreet",
-					"cast": "듀크 목소리",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2F42%2F201704041407275651.jpg&type=u111_139&quality=95"
-				},
-				{
-					"peopleNm": "제니 슬레이트",
-					"peopleNmEn": "Jenny Slate",
-					"cast": "기젯 목소리",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2F83%2F20190723144013941.jpg&type=u111_139&quality=95"
-				},
-				{
-					"peopleNm": "티파니 해디쉬",
-					"peopleNmEn": "Tiffany Haddish",
-					"cast": "데이지 목소리",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2F109%2F201907231500445751.jpg&type=u111_139&quality=95"
-				}
+				134,
+				135,
+				136,
+				137
 			]
 		}
 	},
@@ -1961,34 +913,11 @@
 				1,
 				14
 			],
-			"director": [
-				{
-					"peopleNm": "가이 리치",
-					"peopleNmEn": "Guy Ritchie"
-				}
-			],
+			"director": "가이 리치",
 			"actor": [
-				{
-					"peopleNm": "메나 마수드",
-					"peopleNmEn": "Mena Massoud",
-					"cast": "",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2F71%2F201906171755135561.png&type=u111_139&quality=95"
-				},
-				{
-					"peopleNm": "윌 스미스",
-					"peopleNmEn": "Will Smith",
-					"cast": "",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2F44%2F201502161824151601.jpg&type=u111_139&quality=95"
-				},
-				{
-					"peopleNm": "나오미 스콧",
-					"peopleNmEn": "Naomi Scott",
-					"cast": "",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2F185%2F201906171722434361.png&type=u111_139&quality=95"
-				}
+				138,
+				139,
+				140
 			]
 		}
 	},
@@ -2010,48 +939,12 @@
 				12,
 				10
 			],
-			"director": [
-				{
-					"peopleNm": "서럽 밴 오먼",
-					"peopleNmEn": "Thurop Van Orman"
-				}
-			],
+			"director": "서럽 밴 오먼",
 			"actor": [
-				{
-					"peopleNm": "제이슨 서디키스",
-					"peopleNmEn": "Jason Sudeikis",
-					"cast": "",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2F56%2F201803071501344161.jpg&type=u111_139&quality=95"
-				},
-				{
-					"peopleNm": "조시 게드",
-					"peopleNmEn": "Josh Gad",
-					"cast": "",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2F108%2F201712011659103281.jpg&type=u111_139&quality=95"
-				},
-				{
-					"peopleNm": "대니 맥브라이드",
-					"peopleNmEn": "Danny McBride",
-					"cast": "",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2F6%2F201705081011432931.jpg&type=u111_139&quality=95"
-				},
-				{
-					"peopleNm": "피터 딘클리지",
-					"peopleNmEn": "Peter Dinklage",
-					"cast": "",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2F18%2F201703151108519251.jpg&type=u111_139&quality=95"
-				},
-				{
-					"peopleNm": "아콰피나",
-					"peopleNmEn": "Awkwafina",
-					"cast": "",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2F112%2F201806151733595971.jpg&type=u111_139&quality=95"
-				}
+				141,
+				142,
+				143,
+				144
 			]
 		}
 	},
@@ -2074,41 +967,12 @@
 				4,
 				1
 			],
-			"director": [
-				{
-					"peopleNm": "존 파브로",
-					"peopleNmEn": "Jon Favreau"
-				}
-			],
+			"director": "존 파브로",
 			"actor": [
-				{
-					"peopleNm": "도날드 글로버",
-					"peopleNmEn": "Donald Glover",
-					"cast": "",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2F179%2F201703281513214371.jpg&type=u111_139&quality=95"
-				},
-				{
-					"peopleNm": "제임스 얼 존스",
-					"peopleNmEn": "James Earl Jones",
-					"cast": "",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=http%3A%2F%2Fimgmovie.naver.net%2Fmdi%2Fpi%2F000000057%2FPM5730_160353_000.jpg&type=u111_139&quality=95"
-				},
-				{
-					"peopleNm": "치웨텔 에지오포",
-					"peopleNmEn": "Chiwetel Ejiofor",
-					"cast": "",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2F126%2F201910071725564171.jpg&type=u111_139&quality=95"
-				},
-				{
-					"peopleNm": "세스 로건",
-					"peopleNmEn": "Seth Rogen",
-					"cast": "",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2F7%2F201406161110211321.jpg&type=u111_139&quality=95"
-				}
+				145,
+				146,
+				147,
+				148
 			]
 		}
 	},
@@ -2133,48 +997,12 @@
 				11,
 				5
 			],
-			"director": [
-				{
-					"peopleNm": "홍성호",
-					"peopleNmEn": "HONG Sung-ho"
-				}
-			],
+			"director": "홍성호",
 			"actor": [
-				{
-					"peopleNm": "클로이 모레츠",
-					"peopleNmEn": "Chloe Moretz",
-					"cast": "Snow White",
-					"castEn": "Snow White",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2F76%2F201907171517063141.jpg&type=u111_139&quality=95"
-				},
-				{
-					"peopleNm": "샘 클라플린",
-					"peopleNmEn": "Sam Claflin",
-					"cast": "Merlin",
-					"castEn": "Merlin",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2F171%2F201411101708055391.jpg&type=u111_139&quality=95"
-				},
-				{
-					"peopleNm": "지나 거손",
-					"peopleNmEn": "Gina Gershon",
-					"cast": "Regina",
-					"castEn": "Regina",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2F192%2F201302251636388221.jpg&type=u111_139&quality=95"
-				},
-				{
-					"peopleNm": "패트릭 워버튼",
-					"peopleNmEn": "Patrick Warburton",
-					"cast": "Magic Mirror",
-					"castEn": "Magic Mirror",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2F35%2F201612131437368651.jpg&type=u111_139&quality=95"
-				},
-				{
-					"peopleNm": "짐 래쉬",
-					"peopleNmEn": "Jim Rash",
-					"cast": "Prince Average",
-					"castEn": "Prince Average",
-					"img_url": "https://ssl.pstatic.net/static/movie/2012/06/dft_img111x139.png"
-				}
+				149,
+				150,
+				151,
+				152
 			]
 		}
 	},
@@ -2195,27 +1023,10 @@
 			"genre": [
 				3
 			],
-			"director": [
-				{
-					"peopleNm": "송원근",
-					"peopleNmEn": "SONG Won-geun"
-				}
-			],
+			"director": "송원근",
 			"actor": [
-				{
-					"peopleNm": "김복동",
-					"peopleNmEn": "KIM Bok-dong",
-					"cast": "",
-					"castEn": "",
-					"img_url": "https://movie-phinf.pstatic.net/20190717_63/1563342156136uRGBR_JPEG/movie_image.jpg?type=m77_110_2"
-				},
-				{
-					"peopleNm": "한지민",
-					"peopleNmEn": "HAN Ji-min",
-					"cast": "내레이션",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2Fportrait%2F201606%2F20160623184934118.jpg&type=u111_139&quality=95"
-				}
+				153,
+				154
 			]
 		}
 	},
@@ -2239,48 +1050,12 @@
 				13,
 				15
 			],
-			"director": [
-				{
-					"peopleNm": "존 왓츠",
-					"peopleNmEn": "Jon Watts"
-				}
-			],
+			"director": "존 왓츠",
 			"actor": [
-				{
-					"peopleNm": "톰 홀랜드",
-					"peopleNmEn": "Tom Holland",
-					"cast": "",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2F56%2F201707111351018231.jpg&type=u111_139&quality=95"
-				},
-				{
-					"peopleNm": "사무엘 L. 잭슨",
-					"peopleNmEn": "Samuel L. Jackson",
-					"cast": "",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2F179%2F201404141834335891.jpg&type=u111_139&quality=95"
-				},
-				{
-					"peopleNm": "젠다야 콜맨",
-					"peopleNmEn": "Zendaya Coleman",
-					"cast": "",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2F192%2F20180205185048791.jpg&type=u111_139&quality=95"
-				},
-				{
-					"peopleNm": "코비 스멀더스",
-					"peopleNmEn": "Cobie Smulders",
-					"cast": "",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2F55%2F201803081921153771.jpg&type=u111_139&quality=95"
-				},
-				{
-					"peopleNm": "존 파브로",
-					"peopleNmEn": "Jon Favreau",
-					"cast": "",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2F62%2F201412291803423541.jpg&type=u111_139&quality=95"
-				}
+				155,
+				156,
+				157,
+				158
 			]
 		}
 	},
@@ -2301,48 +1076,12 @@
 			"genre": [
 				8
 			],
-			"director": [
-				{
-					"peopleNm": "조철현",
-					"peopleNmEn": "CHO Chul-hyun"
-				}
-			],
+			"director": "조철현",
 			"actor": [
-				{
-					"peopleNm": "송강호",
-					"peopleNmEn": "SONG Kang-ho",
-					"cast": "세종대왕",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2Fportrait%2F201909%2F20190904174245468-9122500.jpg&type=u111_139&quality=95"
-				},
-				{
-					"peopleNm": "박해일",
-					"peopleNmEn": "PARK Hae-il",
-					"cast": "신미 스님",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2Fportrait%2F201506%2F20150613010719340-7239341.jpg&type=u111_139&quality=95"
-				},
-				{
-					"peopleNm": "전미선",
-					"peopleNmEn": "JEON Mi-sun",
-					"cast": "소헌왕후",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2Fportrait%2F201507%2F20150706132048900.jpeg&type=u111_139&quality=95"
-				},
-				{
-					"peopleNm": "김준한",
-					"peopleNmEn": "KIM Jun-han",
-					"cast": "문종",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2Fportrait%2F201902%2F20190220140832799-6695919.jpg&type=u111_139&quality=95"
-				},
-				{
-					"peopleNm": "차래형",
-					"peopleNmEn": "CHA Lae-hyung",
-					"cast": "수양",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2Fportrait%2F201703%2F20170309172522636.jpg&type=u111_139&quality=95"
-				}
+				159,
+				160,
+				161,
+				162
 			]
 		}
 	},
@@ -2363,48 +1102,12 @@
 			"genre": [
 				4
 			],
-			"director": [
-				{
-					"peopleNm": "봉준호",
-					"peopleNmEn": "BONG Joon-ho"
-				}
-			],
+			"director": "봉준호",
 			"actor": [
-				{
-					"peopleNm": "송강호",
-					"peopleNmEn": "SONG Kang-ho",
-					"cast": "기택",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2Fportrait%2F201909%2F20190904174245468-9122500.jpg&type=u111_139&quality=95"
-				},
-				{
-					"peopleNm": "이선균",
-					"peopleNmEn": "LEE Sun-kyun",
-					"cast": "박사장",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2Fportrait%2F201705%2F20170510003420102-7278827.jpg&type=u111_139&quality=95"
-				},
-				{
-					"peopleNm": "조여정",
-					"peopleNmEn": "JO Yeo-jeong",
-					"cast": "연교",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2Fportrait%2F201408%2F2014081216530934-7249138.jpg&type=u111_139&quality=95"
-				},
-				{
-					"peopleNm": "최우식",
-					"peopleNmEn": "CHOI Woo-shik",
-					"cast": "기우",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2Fportrait%2F201911%2F20191111162806970-8759926.jpg&type=u111_139&quality=95"
-				},
-				{
-					"peopleNm": "박소담",
-					"peopleNmEn": "PARK So-dam",
-					"cast": "기정",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2Fportrait%2F201604%2F20160425144123480-883531.jpg&type=u111_139&quality=95"
-				}
+				163,
+				164,
+				165,
+				166
 			]
 		}
 	},
@@ -2425,41 +1128,12 @@
 			"genre": [
 				12
 			],
-			"director": [
-				{
-					"peopleNm": "나가오카 치카",
-					"peopleNmEn": "Chika Nagaoka"
-				}
-			],
+			"director": "나가오카 치카",
 			"actor": [
-				{
-					"peopleNm": "타카야마 미나미",
-					"peopleNmEn": "Minami Takayama",
-					"cast": "",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=http%3A%2F%2Fimgmovie.naver.net%2Fmdi%2Fpi%2F000000653%2FPM65307_111554_000.jpg&type=u111_139&quality=95"
-				},
-				{
-					"peopleNm": "야마자키 와카나",
-					"peopleNmEn": "Wakana Yamazaki",
-					"cast": "",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=http%3A%2F%2Fimgmovie.naver.net%2Fmdi%2Fpi%2F000000653%2FPM65308_162824_000.jpg&type=u111_139&quality=95"
-				},
-				{
-					"peopleNm": "코야마 리키야",
-					"peopleNmEn": "Rikiya Koyama",
-					"cast": "",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=http%3A%2F%2Fimgmovie.naver.net%2Fmdi%2Fpi%2F000001167%2FPM116784_164618_000.jpg&type=u111_139&quality=95"
-				},
-				{
-					"peopleNm": "야마구치 캇페이",
-					"peopleNmEn": "Kappei Yamaguchi",
-					"cast": "",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=http%3A%2F%2Fimgmovie.naver.net%2Fmdi%2Fpi%2F000000620%2F00000062051-t.jpg&type=u111_139&quality=95"
-				}
+				167,
+				168,
+				169,
+				170
 			]
 		}
 	},
@@ -2482,34 +1156,11 @@
 				11,
 				13
 			],
-			"director": [
-				{
-					"peopleNm": "조시 쿨리",
-					"peopleNmEn": "Josh Cooley"
-				}
-			],
+			"director": "조시 쿨리",
 			"actor": [
-				{
-					"peopleNm": "톰 행크스",
-					"peopleNmEn": "Tom Hanks",
-					"cast": "",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2F62%2F201807051544102161.jpg&type=u111_139&quality=95"
-				},
-				{
-					"peopleNm": "팀 알렌",
-					"peopleNmEn": "Tim Allen",
-					"cast": "",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2F47%2F201906271547331021.jpg&type=u111_139&quality=95"
-				},
-				{
-					"peopleNm": "토니 헤일",
-					"peopleNmEn": "Tony Hale",
-					"cast": "",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2F4%2F201711061110575921.png&type=u111_139&quality=95"
-				}
+				171,
+				172,
+				173
 			]
 		}
 	},
@@ -2531,41 +1182,12 @@
 				13,
 				8
 			],
-			"director": [
-				{
-					"peopleNm": "남대중",
-					"peopleNmEn": "NAM Dae-joong"
-				}
-			],
+			"director": "남대중",
 			"actor": [
-				{
-					"peopleNm": "정소민",
-					"peopleNmEn": "JEONG So-min",
-					"cast": "",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2Fportrait%2F201910%2F20191002131223116.jpg&type=u111_139&quality=95"
-				},
-				{
-					"peopleNm": "최귀화",
-					"peopleNmEn": "CHOI Gwi-hwa",
-					"cast": "",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2Fportrait%2F201907%2F20190704112907168.jpg&type=u111_139&quality=95"
-				},
-				{
-					"peopleNm": "예지원",
-					"peopleNmEn": "YEA Ji-won",
-					"cast": "",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2Fportrait%2F201609%2F20160908171635909-7190644.jpg&type=u111_139&quality=95"
-				},
-				{
-					"peopleNm": "공명",
-					"peopleNmEn": "GONG Myung",
-					"cast": "유상",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2Fportrait%2F201904%2F2019042216233483.jpg&type=u111_139&quality=95"
-				}
+				174,
+				175,
+				176,
+				177
 			]
 		}
 	},
@@ -2586,48 +1208,12 @@
 			"genre": [
 				12
 			],
-			"director": [
-				{
-					"peopleNm": "히라야마 미호",
-					"peopleNmEn": "Miho Hirayama"
-				}
-			],
+			"director": "히라야마 미호",
 			"actor": [
-				{
-					"peopleNm": "김은아",
-					"peopleNmEn": "",
-					"cast": "엉덩이탐정 목소리",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=http%3A%2F%2Fimgmovie.naver.net%2Fmdi%2Fpi%2F000000542%2FPM54261_163157_000.jpg&type=u111_139&quality=95"
-				},
-				{
-					"peopleNm": "소연",
-					"peopleNmEn": "",
-					"cast": "브라운 목소리",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2F24%2F201911181146434471.jpg&type=u111_139&quality=95"
-				},
-				{
-					"peopleNm": "홍진욱",
-					"peopleNmEn": "HONG Jin-wook",
-					"cast": "말티즈 서장 목소리",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=http%3A%2F%2Fimgmovie.naver.net%2Fmdi%2Fpi%2F000001197%2FPM119747_163305_000.jpg&type=u111_139&quality=95"
-				},
-				{
-					"peopleNm": "남도형",
-					"peopleNmEn": "NAM Do-hyung",
-					"cast": "괴도 유 목소리",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2Fportrait%2F201901%2F2019011102304564-8541688.jpg&type=u111_139&quality=95"
-				},
-				{
-					"peopleNm": "이장원",
-					"peopleNmEn": "LEE Jang-won",
-					"cast": "찻집주인(마스터) 목소리",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=http%3A%2F%2Fimgmovie.naver.net%2Fmdi%2Fpi%2F000000043%2F00000004346-t.jpg&type=u111_139&quality=95"
-				}
+				178,
+				179,
+				180,
+				181
 			]
 		}
 	},
@@ -2648,41 +1234,12 @@
 			"genre": [
 				2
 			],
-			"director": [
-				{
-					"peopleNm": "아리 애스터",
-					"peopleNmEn": "Ari Aster"
-				}
-			],
+			"director": "아리 애스터",
 			"actor": [
-				{
-					"peopleNm": "플로렌스 퓨",
-					"peopleNmEn": "Florence Pugh",
-					"cast": "",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=http%3A%2F%2Fimgmovie.naver.net%2Fmdi%2Fpi%2F000003681%2FPM368146_133903_000.JPG&type=u111_139&quality=95"
-				},
-				{
-					"peopleNm": "잭 레이너",
-					"peopleNmEn": "Jack Reynor",
-					"cast": "",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=http%3A%2F%2Fimgmovie.naver.net%2Fmdi%2Fpi%2F000003025%2FPM302536_154158_000.jpg&type=u111_139&quality=95"
-				},
-				{
-					"peopleNm": "윌 폴터",
-					"peopleNmEn": "Will Poulter",
-					"cast": "",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2F137%2F201408281447194901.jpg&type=u111_139&quality=95"
-				},
-				{
-					"peopleNm": "윌리엄 잭슨 하퍼",
-					"peopleNmEn": "William Jackson Harper",
-					"cast": "",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2F114%2F201909261617401891.jpg&type=u111_139&quality=95"
-				}
+				182,
+				183,
+				184,
+				185
 			]
 		}
 	},
@@ -2705,41 +1262,12 @@
 				6,
 				9
 			],
-			"director": [
-				{
-					"peopleNm": "게리 도버먼",
-					"peopleNmEn": "Gary Dauberman"
-				}
-			],
+			"director": "게리 도버먼",
 			"actor": [
-				{
-					"peopleNm": "패트릭 윌슨",
-					"peopleNmEn": "Patrick Wilson",
-					"cast": "",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2F23%2F201712151537277651.jpg&type=u111_139&quality=95"
-				},
-				{
-					"peopleNm": "베라 파미가",
-					"peopleNmEn": "Vera Farmiga",
-					"cast": "",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2F94%2F201712111721338141.jpg&type=u111_139&quality=95"
-				},
-				{
-					"peopleNm": "맥케나 그레이스",
-					"peopleNmEn": "Mckenna Grace",
-					"cast": "",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=http%3A%2F%2Fimgmovie.naver.net%2Fmdi%2Fpi%2F000003388%2FPM338804_170921_000.jpg&type=u111_139&quality=95"
-				},
-				{
-					"peopleNm": "매디슨 아이스먼",
-					"peopleNmEn": "Madison Iseman",
-					"cast": "",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=http%3A%2F%2Fimgmovie.naver.net%2Fmdi%2Fpi%2F000003914%2FPM391490_173744_000.jpg&type=u111_139&quality=95"
-				}
+				186,
+				187,
+				188,
+				189
 			]
 		}
 	},
@@ -2762,34 +1290,11 @@
 				7,
 				9
 			],
-			"director": [
-				{
-					"peopleNm": "채드 스타헬스키",
-					"peopleNmEn": "Chad Stahelski"
-				}
-			],
+			"director": "채드 스타헬스키",
 			"actor": [
-				{
-					"peopleNm": "키아누 리브스",
-					"peopleNmEn": "Keanu Reeves",
-					"cast": "",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2F195%2F20150108142203841.jpg&type=u111_139&quality=95"
-				},
-				{
-					"peopleNm": "할리 베리",
-					"peopleNmEn": "Halle Berry",
-					"cast": "",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2F98%2F201405201058187131.jpg&type=u111_139&quality=95"
-				},
-				{
-					"peopleNm": "이안 맥쉐인",
-					"peopleNmEn": "Ian McShane",
-					"cast": "",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=http%3A%2F%2Fimgmovie.naver.net%2Fmdi%2Fpi%2F000000127%2FPM12765_150819_000.jpg&type=u111_139&quality=95"
-				}
+				190,
+				191,
+				192
 			]
 		}
 	},
@@ -2811,48 +1316,12 @@
 				10,
 				4
 			],
-			"director": [
-				{
-					"peopleNm": "강윤성",
-					"peopleNmEn": "KANG Yun-sung"
-				}
-			],
+			"director": "강윤성",
 			"actor": [
-				{
-					"peopleNm": "김래원",
-					"peopleNmEn": "KIM Rae-won",
-					"cast": "장세출",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2Fportrait%2F201701%2F20170112145759747-9836275.jpg&type=u111_139&quality=95"
-				},
-				{
-					"peopleNm": "원진아",
-					"peopleNmEn": "WON Jin-ah",
-					"cast": "강소현",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2Fportrait%2F201904%2F20190401190848755-4278404.jpg&type=u111_139&quality=95"
-				},
-				{
-					"peopleNm": "진선규",
-					"peopleNmEn": "JIN Seon-kyu",
-					"cast": "조광춘",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2F159%2F201901211445306131.jpg&type=u111_139&quality=95"
-				},
-				{
-					"peopleNm": "최귀화",
-					"peopleNmEn": "CHOI Gwi-hwa",
-					"cast": "최만수",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2Fportrait%2F201907%2F20190704112907168.jpg&type=u111_139&quality=95"
-				},
-				{
-					"peopleNm": "최무성",
-					"peopleNmEn": "CHOI Moo-sung",
-					"cast": "황보윤",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2Fportrait%2F201803%2F20180312114017531.jpg&type=u111_139&quality=95"
-				}
+				193,
+				194,
+				195,
+				196
 			]
 		}
 	},
@@ -2874,48 +1343,12 @@
 				12,
 				14
 			],
-			"director": [
-				{
-					"peopleNm": "원종식",
-					"peopleNmEn": "WON Jong-shik"
-				}
-			],
+			"director": "원종식",
 			"actor": [
-				{
-					"peopleNm": "김연우",
-					"peopleNmEn": "",
-					"cast": "수하 목소리",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2F162%2F201804051125028671.jpg&type=u111_139&quality=95"
-				},
-				{
-					"peopleNm": "신용우",
-					"peopleNmEn": "SHIN Yong-woo",
-					"cast": "플루토 목소리",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2Fportrait%2F201904%2F20190408232435567-6670697.jpg&type=u111_139&quality=95"
-				},
-				{
-					"peopleNm": "전태열",
-					"peopleNmEn": "",
-					"cast": "오무 목소리",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=http%3A%2F%2Fimgmovie.naver.net%2Fmdi%2Fpi%2F000001306%2FPM130619_163056_000.jpg&type=u111_139&quality=95"
-				},
-				{
-					"peopleNm": "배수빈",
-					"peopleNmEn": "BAE Soo-bin",
-					"cast": "수하 아빠 목소리",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2Fportrait%2F201801%2F20180119153255261.jpg&type=u111_139&quality=95"
-				},
-				{
-					"peopleNm": "김새해",
-					"peopleNmEn": "",
-					"cast": "반디/수하 엄마 목소리",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=http%3A%2F%2Fimgmovie.naver.net%2Fmdi%2Fpi%2F000003287%2FPM328775_182504_000.jpg&type=u111_139&quality=95"
-				}
+				197,
+				198,
+				199,
+				200
 			]
 		}
 	},
@@ -2938,48 +1371,12 @@
 				11,
 				15
 			],
-			"director": [
-				{
-					"peopleNm": "사이먼 킨버그",
-					"peopleNmEn": "Simon Kinberg"
-				}
-			],
+			"director": "사이먼 킨버그",
 			"actor": [
-				{
-					"peopleNm": "제임스 맥어보이",
-					"peopleNmEn": "James McAvoy",
-					"cast": "",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2F176%2F201411251443138421.jpg&type=u111_139&quality=95"
-				},
-				{
-					"peopleNm": "마이클 패스벤더",
-					"peopleNmEn": "Michael Fassbender",
-					"cast": "",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2F143%2F201704201034424571.jpg&type=u111_139&quality=95"
-				},
-				{
-					"peopleNm": "제니퍼 로렌스",
-					"peopleNmEn": "Jennifer Lawrence",
-					"cast": "",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2F103%2F201403171211366841.jpg&type=u111_139&quality=95"
-				},
-				{
-					"peopleNm": "니콜라스 홀트",
-					"peopleNmEn": "Nicholas Hoult",
-					"cast": "",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2F14%2F201803081623059101.jpg&type=u111_139&quality=95"
-				},
-				{
-					"peopleNm": "소피 터너",
-					"peopleNmEn": "Sophie Turner",
-					"cast": "",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2F67%2F201805091554234051.jpg&type=u111_139&quality=95"
-				}
+				201,
+				202,
+				203,
+				204
 			]
 		}
 	},
@@ -3001,34 +1398,11 @@
 				4,
 				14
 			],
-			"director": [
-				{
-					"peopleNm": "덱스터 플레처",
-					"peopleNmEn": "Dexter Fletcher"
-				}
-			],
+			"director": "덱스터 플레처",
 			"actor": [
-				{
-					"peopleNm": "태런 에저튼",
-					"peopleNmEn": "Taron Egerton",
-					"cast": "",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2F16%2F201510291128438871.jpg&type=u111_139&quality=95"
-				},
-				{
-					"peopleNm": "브라이스 달라스 하워드",
-					"peopleNmEn": "Bryce Dallas Howard",
-					"cast": "",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2F37%2F20161103153341551.png&type=u111_139&quality=95"
-				},
-				{
-					"peopleNm": "제이미 벨",
-					"peopleNmEn": "Jamie Bell",
-					"cast": "",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2F9%2F201806261056587041.jpg&type=u111_139&quality=95"
-				}
+				205,
+				206,
+				207
 			]
 		}
 	},
@@ -3050,34 +1424,11 @@
 				7,
 				10
 			],
-			"director": [
-				{
-					"peopleNm": "이원태",
-					"peopleNmEn": "LEE Won-tae"
-				}
-			],
+			"director": "이원태",
 			"actor": [
-				{
-					"peopleNm": "마동석",
-					"peopleNmEn": "Don LEE",
-					"cast": "동수",
-					"castEn": "Dong-soo",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2Fportrait%2F201710%2F2017102414073587.jpg&type=u111_139&quality=95"
-				},
-				{
-					"peopleNm": "김무열",
-					"peopleNmEn": "GIM Mu-yeol",
-					"cast": "태석",
-					"castEn": "Tae-suk",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2Fportrait%2F201206%2F2012061311455478-3465371.jpg&type=u111_139&quality=95"
-				},
-				{
-					"peopleNm": "김성규",
-					"peopleNmEn": "KIM Sung-kyu",
-					"cast": "강경호",
-					"castEn": "Kyung-ho",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2Fportrait%2F201905%2F20190521103234187.jpg&type=u111_139&quality=95"
-				}
+				208,
+				209,
+				210
 			]
 		}
 	},
@@ -3100,48 +1451,12 @@
 				11,
 				15
 			],
-			"director": [
-				{
-					"peopleNm": "마이클 도허티",
-					"peopleNmEn": "Michael Dougherty"
-				}
-			],
+			"director": "마이클 도허티",
 			"actor": [
-				{
-					"peopleNm": "밀리 바비 브라운",
-					"peopleNmEn": "Millie Bobby Brown",
-					"cast": "",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2F12%2F201611251542219971.png&type=u111_139&quality=95"
-				},
-				{
-					"peopleNm": "베라 파미가",
-					"peopleNmEn": "Vera Farmiga",
-					"cast": "",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2F94%2F201712111721338141.jpg&type=u111_139&quality=95"
-				},
-				{
-					"peopleNm": "카일 챈들러",
-					"peopleNmEn": "Kyle Chandler",
-					"cast": "",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2F195%2F201703101352152011.jpg&type=u111_139&quality=95"
-				},
-				{
-					"peopleNm": "샐리 호킨스",
-					"peopleNmEn": "Sally Hawkins",
-					"cast": "",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2F109%2F201802131355131201.jpg&type=u111_139&quality=95"
-				},
-				{
-					"peopleNm": "와타나베 켄",
-					"peopleNmEn": "Ken Watanabe",
-					"cast": "",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2F60%2F2014050713493841.jpg&type=n38_38&quality=95"
-				}
+				211,
+				212,
+				213,
+				214
 			]
 		}
 	},
@@ -3163,52 +1478,12 @@
 				10,
 				15
 			],
-			"director": [
-				{
-					"peopleNm": "안소니 루소",
-					"peopleNmEn": "Anthony Russo"
-				},
-				{
-					"peopleNm": "조 루소",
-					"peopleNmEn": "Joe Russo"
-				}
-			],
+			"director": "안소니 루소",
 			"actor": [
-				{
-					"peopleNm": "로버트 다우니 주니어",
-					"peopleNmEn": "Robert Downey Jr.",
-					"cast": "",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2F37%2F201504171519202401.jpg&type=u111_139&quality=95"
-				},
-				{
-					"peopleNm": "크리스 에반스",
-					"peopleNmEn": "Chris Evans",
-					"cast": "",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2F110%2F201806211509351671.jpg&type=u111_139&quality=95"
-				},
-				{
-					"peopleNm": "마크 러팔로",
-					"peopleNmEn": "Mark Ruffalo",
-					"cast": "",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2F149%2F201407241837584341.jpg&type=u111_139&quality=95"
-				},
-				{
-					"peopleNm": "크리스 헴스워스",
-					"peopleNmEn": "Chris Hemsworth",
-					"cast": "",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2F137%2F201801181126507081.jpg&type=u111_139&quality=95"
-				},
-				{
-					"peopleNm": "스칼렛 요한슨",
-					"peopleNmEn": "Scarlett Johansson",
-					"cast": "",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2F197%2F201403041029481811.jpg&type=u111_139&quality=95"
-				}
+				215,
+				216,
+				217,
+				218
 			]
 		}
 	},
@@ -3229,34 +1504,11 @@
 			"genre": [
 				3
 			],
-			"director": [
-				{
-					"peopleNm": "이호경",
-					"peopleNmEn": ""
-				}
-			],
+			"director": "이호경",
 			"actor": [
-				{
-					"peopleNm": "이관희",
-					"peopleNmEn": "LEE Kwan-hee",
-					"cast": "",
-					"castEn": "",
-					"img_url": "https://ssl.pstatic.net/static/movie/2012/06/dft_img111x139.png"
-				},
-				{
-					"peopleNm": "오은주",
-					"peopleNmEn": "",
-					"cast": "",
-					"castEn": "",
-					"img_url": "https://ssl.pstatic.net/static/movie/2012/06/dft_img111x139.png"
-				},
-				{
-					"peopleNm": "이소연",
-					"peopleNmEn": "",
-					"cast": "",
-					"castEn": "",
-					"img_url": "https://ssl.pstatic.net/static/movie/2012/06/dft_img111x139.png"
-				}
+				219,
+				220,
+				221
 			]
 		}
 	},
@@ -3278,48 +1530,12 @@
 				4,
 				1
 			],
-			"director": [
-				{
-					"peopleNm": "장규성",
-					"peopleNmEn": "JANG Kyu-sung"
-				}
-			],
+			"director": "장규성",
 			"actor": [
-				{
-					"peopleNm": "이동휘",
-					"peopleNmEn": "LEE Dong-hwi",
-					"cast": "정엽",
-					"castEn": "Jeong-yeop",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2Fportrait%2F201909%2F2019092308593419.jpg&type=u111_139&quality=95"
-				},
-				{
-					"peopleNm": "유선",
-					"peopleNmEn": "YOO Sun",
-					"cast": "지숙",
-					"castEn": "Ji-sook",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2Fportrait%2F201904%2F20190417160721448-9200217.jpg&type=u111_139&quality=95"
-				},
-				{
-					"peopleNm": "최명빈",
-					"peopleNmEn": "CHOI Myeong-bin",
-					"cast": "다빈",
-					"castEn": "Da-bin",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2Fportrait%2F201908%2F20190816181735873.jpg&type=u111_139&quality=95"
-				},
-				{
-					"peopleNm": "이주원",
-					"peopleNmEn": "",
-					"cast": "민준",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2F2%2F201906131518333141.jpg&type=u111_139&quality=95"
-				},
-				{
-					"peopleNm": "고수희",
-					"peopleNmEn": "KOH Sui-hee",
-					"cast": "미애",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2Fportrait%2F201601%2F20160114143253403-7049958.jpg&type=u111_139&quality=95"
-				}
+				222,
+				223,
+				224,
+				225
 			]
 		}
 	},
@@ -3342,48 +1558,12 @@
 				11,
 				13
 			],
-			"director": [
-				{
-					"peopleNm": "롭 레터맨",
-					"peopleNmEn": "Rob Letterman"
-				}
-			],
+			"director": "롭 레터맨",
 			"actor": [
-				{
-					"peopleNm": "라이언 레이놀즈",
-					"peopleNmEn": "Ryan Reynolds",
-					"cast": "",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2F131%2F201404301145211201.jpg&type=u111_139&quality=95"
-				},
-				{
-					"peopleNm": "저스티스 스미스",
-					"peopleNmEn": "Justice Smith",
-					"cast": "",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2F92%2F201808281537153801.jpg&type=u111_139&quality=95"
-				},
-				{
-					"peopleNm": "캐서린 뉴튼",
-					"peopleNmEn": "Kathryn Newton",
-					"cast": "",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2F38%2F201210170937569381.jpg&type=u111_139&quality=95"
-				},
-				{
-					"peopleNm": "빌 나이",
-					"peopleNmEn": "Bill Nighy",
-					"cast": "",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2F36%2F201311271626029971.jpg&type=u111_139&quality=95"
-				},
-				{
-					"peopleNm": "와타나베 켄",
-					"peopleNmEn": "Ken Watanabe",
-					"cast": "",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2F60%2F2014050713493841.jpg&type=u111_139&quality=95"
-				}
+				226,
+				227,
+				228,
+				229
 			]
 		}
 	},
@@ -3405,52 +1585,12 @@
 				12,
 				1
 			],
-			"director": [
-				{
-					"peopleNm": "김현호",
-					"peopleNmEn": "KIM Hyun-ho"
-				},
-				{
-					"peopleNm": "윤창섭",
-					"peopleNmEn": "Chang Sub Yoon"
-				}
-			],
+			"director": "김현호",
 			"actor": [
-				{
-					"peopleNm": "이선",
-					"peopleNmEn": "LEE Sun",
-					"cast": "뽀로로 목소리",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2F161%2F201807121411334321.jpg&type=u111_139&quality=95"
-				},
-				{
-					"peopleNm": "이미자",
-					"peopleNmEn": "LEE Mi-ja",
-					"cast": "크롱 목소리",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=http%3A%2F%2Fimgmovie.naver.net%2Fmdi%2Fpi%2F000000415%2FPM41506_150803_000.jpg&type=u111_139&quality=95"
-				},
-				{
-					"peopleNm": "김현지",
-					"peopleNmEn": "KIM Hyun-ji",
-					"cast": "에디 목소리",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2F197%2F201904221758534401.jpg&type=u111_139&quality=95"
-				},
-				{
-					"peopleNm": "홍소영",
-					"peopleNmEn": "HONG So-yeong",
-					"cast": "루피 목소리",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2F0%2F201510271521088931.jpg&type=u111_139&quality=95"
-				},
-				{
-					"peopleNm": "정미숙",
-					"peopleNmEn": "JUNG Mi-suk",
-					"cast": "패티 목소리",
-					"castEn": "",
-					"img_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2Fportrait%2F201507%2F20150727025427885-1679309.jpg&type=u111_139&quality=95"
-				}
+				230,
+				231,
+				232,
+				233
 			]
 		}
 	}
