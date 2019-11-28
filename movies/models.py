@@ -3,17 +3,6 @@ from django.conf import settings
 from django.core.validators import MinValueValidator, MaxValueValidator
 from django.urls import reverse
 
-class Cast(models.Model):
-    peopleNm = models.CharField(max_length=50)
-    peopleNmEn = models.CharField(max_length=50)
-    cast = models.CharField(max_length=50)
-    castEn = models.CharField(max_length=50)
-    img_url = models.CharField(max_length=150, default="", blank=True)
-
-
-    def __str__(self):
-        return self.peopleNm
-
 
 class Genre(models.Model):
     name = models.CharField(max_length=150)
@@ -21,7 +10,7 @@ class Genre(models.Model):
     def __str__(self):
         return self.name
 
-
+        
 class Movie(models.Model):
     title = models.CharField(max_length=150)
     title_en = models.CharField(max_length=150, default="", blank=True)
@@ -36,7 +25,7 @@ class Movie(models.Model):
     like_users = models.ManyToManyField(settings.AUTH_USER_MODEL, related_name='like_movies', blank=True)
     genre = models.ManyToManyField(Genre, related_name='movie_genres', blank=True)
     director = models.CharField(max_length=150, default="", blank=True)
-    actor = models.ForeignKey(Cast, related_name='movie_casts', on_delete=models.CASCADE, blank=True)
+
 
     def __str__(self):
         return self.title
@@ -44,7 +33,8 @@ class Movie(models.Model):
 
     def get_absolute_url(self):
         return reverse("movies:detail", kwargs={"movie_pk": self.pk})
-    
+
+
 
 class Review(models.Model):
     movie = models.ForeignKey(Movie, on_delete=models.CASCADE)
@@ -58,3 +48,17 @@ class Review(models.Model):
 
     def __str__(self):
         return {self.score}, {self.review}
+
+
+class Cast(models.Model):
+    movie = models.ForeignKey(Movie, on_delete=models.CASCADE)
+    peopleNm = models.CharField(max_length=50)
+    peopleNmEn = models.CharField(max_length=50)
+    cast = models.CharField(max_length=50)
+    castEn = models.CharField(max_length=50)
+    img_url = models.CharField(max_length=150, default="", blank=True)
+
+
+    def __str__(self):
+        return self.peopleNm
+
