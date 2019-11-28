@@ -34,7 +34,6 @@ class Movie(models.Model):
     genre = models.ManyToManyField(Genre, related_name='movie_genres', blank=True)
     director = models.CharField(max_length=150, default="", blank=True)
     actor = models.CharField(max_length=150, default="", blank=True)
-    hashtags = models.ManyToManyField(Hashtag, blank=True)
 
     def __str__(self):
         return self.title
