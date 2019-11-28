@@ -3,6 +3,8 @@
 {% load make_link %}
 
 {% block content %}
+<div style="background-color: white;">
+
   <h2 style="font-family: 'Do Hyeon', sans-serif;">영화 자세히 보기</h2>
   <hr>
   <h3><b>{{ movie.title }}</b></h3>
@@ -94,6 +96,7 @@
   <a href="{% url 'movies:index' %}" class="btn btn-danger">BACK</a>
   <br>
   <br>
+  </div>
 
 <script>
   const likeButtons = document.querySelectorAll('.like-button')
